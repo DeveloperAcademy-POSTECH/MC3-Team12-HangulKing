@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Lottie
 
 struct Info {
     var indexCount: Int
@@ -16,6 +17,7 @@ class ConsonantEndViewController: UIViewController {
     let messageArray = ["You have learned\nthe vowels of Hangul!", "You have learned\nthe consonants of Hangul!", "You have learned\nthe batchim of Hangul!"]
     
     @IBOutlet weak var message: UILabel!
+    @IBOutlet var animationView: AnimationView!
     @IBOutlet weak var goToStudy: UIButton!
     @IBAction func goToMenu(_ sender: Any) {
         //네비게이션 스택 중 원하는 지점으로 보내줌
@@ -52,5 +54,9 @@ class ConsonantEndViewController: UIViewController {
         }else{
             goToStudy.setTitle("Go to Quiz", for: .normal)
         }
+        animationView.contentMode = .scaleAspectFit
+        animationView.loopMode = .loop
+        animationView.animationSpeed = 1
+        animationView.play()
     }
 }

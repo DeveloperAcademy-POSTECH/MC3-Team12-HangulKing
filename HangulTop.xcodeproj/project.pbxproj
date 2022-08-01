@@ -25,6 +25,7 @@
 		4D31A7542886C9C900589672 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31A7532886C9C900589672 /* CollectionViewCell.swift */; };
 		4D31D55B288D9DAA005E2F53 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31D55A288D9DAA005E2F53 /* Quiz.storyboard */; };
 		4D31D55D288D9DBC005E2F53 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31D55C288D9DBC005E2F53 /* QuizViewController.swift */; };
+		4D4927FB2897B01A00FD0175 /* consonant.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D4927FA2897B01A00FD0175 /* consonant.json */; };
 		4D89B9CF28891CEA00BD37F7 /* ConsonantEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89B9CE28891CEA00BD37F7 /* ConsonantEndViewController.swift */; };
 		4D89B9D128891E9B00BD37F7 /* BatchimEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89B9D028891E9B00BD37F7 /* BatchimEndViewController.swift */; };
 		6761C8AA288550F4001A0D2C /* BatchimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6761C8A9288550F4001A0D2C /* BatchimModel.swift */; };
@@ -75,6 +76,7 @@
 		4D31A7532886C9C900589672 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		4D31D55A288D9DAA005E2F53 /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
 		4D31D55C288D9DBC005E2F53 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		4D4927FA2897B01A00FD0175 /* consonant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = consonant.json; sourceTree = "<group>"; };
 		4D89B9CE28891CEA00BD37F7 /* ConsonantEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsonantEndViewController.swift; sourceTree = "<group>"; };
 		4D89B9D028891E9B00BD37F7 /* BatchimEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimEndViewController.swift; sourceTree = "<group>"; };
 		6761C8A9288550F4001A0D2C /* BatchimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimModel.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				D57C319F2896F81900DCBC68 /* finish.json */,
 				D57C319C2896F81800DCBC68 /* quiz.json */,
 				D57C319E2896F81800DCBC68 /* vowel.json */,
+				4D4927FA2897B01A00FD0175 /* consonant.json */,
 				D57C319A2896F60F00DCBC68 /* LottieManage.swift */,
 			);
 			path = LottieManage;
@@ -304,6 +307,7 @@
 				D5E9EE50289270F30068C47A /* HangulView.storyboard in Resources */,
 				D5CC9510287E9591005E8BF5 /* Main.storyboard in Resources */,
 				D57C31A12896F81900DCBC68 /* batchim.json in Resources */,
+				4D4927FB2897B01A00FD0175 /* consonant.json in Resources */,
 				4D31D55B288D9DAA005E2F53 /* Quiz.storyboard in Resources */,
 				D57C31A22896F81900DCBC68 /* vowel.json in Resources */,
 			);

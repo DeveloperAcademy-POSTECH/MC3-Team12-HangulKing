@@ -249,6 +249,7 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
             initRecord()
         }
         playButton.isHidden = true
+        explanationView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
     
     override func viewDidAppear(_ animated: Bool) {
