@@ -24,22 +24,27 @@ class ConsonantEndViewController: UIViewController {
         let controllers = self.navigationController?.viewControllers
         for vc in controllers! {
             if vc is StudyMenuViewController {
-                        _ = self.navigationController?.popToViewController(vc as! StudyMenuViewController, animated: true)
+                _ = self.navigationController?.popToViewController(vc as! StudyMenuViewController, animated: true)
             }
         }
     }
     
     @IBAction func goToStudy(_ sender: Any) {
         let appDelegate = UIApplication.shared.delegate as? AppDelegate
-        if(appDelegate?.infos.indexCount ?? 0 > 1){
+        if(appDelegate?.infos.indexCount ?? 0 > 1) {
             appDelegate?.infos.indexCount = 2
-        }else{
-            appDelegate?.infos.indexCount = (appDelegate?.infos.indexCount ?? 0) + 1
         }
+        appDelegate?.infos.indexCount = (appDelegate?.infos.indexCount ?? 0) + 1
         let controllers = self.navigationController?.viewControllers
-        for vc in controllers! {
-            if vc is SyllableStartViewController {
-                        _ = self.navigationController?.popToViewController(vc as! SyllableStartViewController, animated: true)
+        if appDelegate?.infos.indexCount == 3 {
+            let vc:UIViewController = UIStoryboard(name: "Quiz", bundle:nil).instantiateViewController(withIdentifier: "QuizViewController") as UIViewController
+            self.navigationController?.popToRootViewController(animated: true)
+            self.navigationController?.pushViewController(vc, animated: true)
+        } else {
+            for vc in controllers! {
+                if vc is SyllableStartViewController {
+                    _ = self.navigationController?.popToViewController(vc as! SyllableStartViewController, animated: true)
+                }
             }
         }
     }
