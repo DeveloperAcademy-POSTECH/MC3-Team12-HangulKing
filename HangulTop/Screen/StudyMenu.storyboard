@@ -30,7 +30,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Vowel">
-                                    <backgroundConfiguration key="background" image="vowelButton" imageContentMode="scaleAspectFit">
+                                    <backgroundConfiguration key="background" image="vowel-1" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
@@ -49,7 +49,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Consonant">
-                                    <backgroundConfiguration key="background" image="consonantButton" imageContentMode="scaleAspectFit">
+                                    <backgroundConfiguration key="background" image="consonant-1" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
@@ -108,7 +108,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Batchim">
-                                    <backgroundConfiguration key="background" image="batchimButton" imageContentMode="scaleAspectFit">
+                                    <backgroundConfiguration key="background" image="batchim-1" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
@@ -257,12 +257,12 @@
         <segue reference="qiB-Ta-mAN"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="batchimButton" width="300" height="390"/>
+        <image name="batchim-1" width="300" height="390"/>
         <image name="bird" width="471" height="450"/>
-        <image name="consonantButton" width="300" height="390"/>
+        <image name="consonant-1" width="300" height="390"/>
         <image name="jiphyeonjeon" width="684" height="415"/>
         <image name="king" width="471" height="450"/>
-        <image name="vowelButton" width="300" height="390"/>
+        <image name="vowel-1" width="300" height="390"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
