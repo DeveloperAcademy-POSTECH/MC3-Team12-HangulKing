@@ -62,11 +62,11 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if segue.identifier == "InfoModal" {
-                let destinationVC = segue.destination as! InformationModalViewController
-                destinationVC.pageCount = pageNum
-            }
+        if segue.identifier == "InfoModal" {
+            let destinationVC = segue.destination as! InformationModalViewController
+            destinationVC.pageCount = pageNum
         }
+    }
     
     func setInfo() {
         if(indexCount == 1){

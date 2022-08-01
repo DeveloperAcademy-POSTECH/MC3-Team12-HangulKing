@@ -86,7 +86,7 @@
                                     <constraint firstAttribute="width" secondItem="Pae-bh-4q7" secondAttribute="height" multiplier="113:30" id="puX-3W-Nit"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="arrow.forward" catalog="system" imagePlacement="trailing" title="Start">
+                                <buttonConfiguration key="configuration" style="filled" image="arrow.forward" catalog="system" imagePlacement="trailing" title="  Start">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
