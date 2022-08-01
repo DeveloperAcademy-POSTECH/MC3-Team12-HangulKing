@@ -29,10 +29,11 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Vowel">
-                                    <backgroundConfiguration key="background">
+                                    <backgroundConfiguration key="background" image="모음" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                    <directionalEdgeInsets key="contentInsets" top="80" leading="0.0" bottom="0.0" trailing="0.0"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -47,10 +48,11 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Consonant">
-                                    <backgroundConfiguration key="background">
+                                    <backgroundConfiguration key="background" image="자음" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                    <directionalEdgeInsets key="contentInsets" top="80" leading="0.0" bottom="0.0" trailing="0.0"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -65,10 +67,11 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Hangul">
-                                    <backgroundConfiguration key="background">
+                                    <backgroundConfiguration key="background" image="킹" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                    <directionalEdgeInsets key="contentInsets" top="80" leading="0.0" bottom="0.0" trailing="0.0"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
@@ -86,10 +89,11 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Quiz">
-                                    <backgroundConfiguration key="background">
+                                    <backgroundConfiguration key="background" image="새" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                    <directionalEdgeInsets key="contentInsets" top="80" leading="0.0" bottom="0.0" trailing="0.0"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
@@ -103,10 +107,11 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Batchim">
-                                    <backgroundConfiguration key="background">
+                                    <backgroundConfiguration key="background" image="받침" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
+                                    <directionalEdgeInsets key="contentInsets" top="80" leading="0.0" bottom="0.0" trailing="0.0"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -251,7 +256,12 @@
         <segue reference="qiB-Ta-mAN"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="모음" width="300" height="390"/>
+        <image name="받침" width="300" height="390"/>
+        <image name="새" width="471" height="450"/>
+        <image name="자음" width="300" height="390"/>
         <image name="집현전" width="684" height="415"/>
+        <image name="킹" width="471" height="450"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
