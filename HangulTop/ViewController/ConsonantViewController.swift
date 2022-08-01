@@ -10,6 +10,7 @@ import AVFoundation
 class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICollectionViewDelegate, AVAudioPlayerDelegate, AVAudioRecorderDelegate{
     //녹음 재생 관련 변수들
     @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var recordButton: UIButton!
     var audioPlayer : AVAudioPlayer!
     var audioFile : URL!
     var audioRecorder : AVAudioRecorder!
@@ -236,6 +237,7 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
         currentButtonSet[0].backgroundColor = UIColor(named: "study-button")
         setInfo()
         selectAudioFile()
+        setRecordButton()
         if indexCount == 0 {
             vowelCollection.isHidden = true
             explanationView.isHidden = false
@@ -378,21 +380,44 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
     // 녹음 버튼 클릭
     @IBAction func btnRecord(_ sender: UIButton) {
         if !isRecording { // 녹음 모드가 아닐 때, 즉 재생 모드일 때
+            playButton.isHidden = true
             isRecording = true
             selectAudioFile()
             initRecord()
         } else { // 녹음 모드일 때
             isRecording = false
         }
-        playButton.isHidden = false
+        
         if isRecording { // 'Recording'이 참일 때 녹음을 시작함
             audioRecorder.record()
-            
+            setRecordButton()
+            Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false) { [self] (timer) in
+                if(isRecording != false){
+                    self.playButton.isHidden = false
+                    self.audioRecorder.stop()
+                    self.initplay()
+                    self.audioPlayer.play()
+                    isRecording = false
+                    self.setRecordButton()
+                }
+                
+            }
         } else { // 'Recording'이 거짓일 때 녹음을 중지하고 녹음된 소리를 출력
+            setRecordButton()
             audioRecorder.stop()
             initplay()
             audioPlayer.play()
+            playButton.isHidden = false
         }
+    }
+    
+    func setRecordButton() {
+        let button = UIButton()
+        let font = UIFont.systemFont(ofSize: 30)
+        let config = UIImage.SymbolConfiguration(font: font)
+        let image = UIImage(systemName: isRecording ? "stop.fill" :"mic.fill", withConfiguration: config)
+        recordButton.setImage(image, for: .normal)
+
     }
 }
 
