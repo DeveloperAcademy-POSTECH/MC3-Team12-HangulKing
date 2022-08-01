@@ -13,14 +13,17 @@ class StudyMenuViewController: UIViewController {
     @IBOutlet weak var consonantButton: UIButton!
     @IBOutlet weak var batchimButton: UIButton!
     @IBOutlet weak var topRectangleView: UIView!
+    @IBOutlet weak var quizButton: UIButton!
+    @IBOutlet weak var hangulButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         vowelButton.setButtonStyle()
         consonantButton.setButtonStyle()
         batchimButton.setButtonStyle()
-//        quizButton.setButtonStyle()
-//        HangulButton.setButtonStyle()
+        quizButton.setButtonStyle()
+        hangulButton.setButtonStyle()
+        
     }
     
     override func viewDidLayoutSubviews() {
