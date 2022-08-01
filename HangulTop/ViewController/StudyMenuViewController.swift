@@ -12,42 +12,26 @@ class StudyMenuViewController: UIViewController {
     @IBOutlet weak var vowelButton: UIButton!
     @IBOutlet weak var consonantButton: UIButton!
     @IBOutlet weak var batchimButton: UIButton!
+    @IBOutlet weak var topRectangleView: UIView!
+    @IBOutlet weak var quizButton: UIButton!
+    @IBOutlet weak var hangulButton: UIButton!
+    @IBOutlet weak var appTitle: UILabel!
+    @IBOutlet weak var jiphyeonjeon: UIImageView!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         vowelButton.setButtonStyle()
         consonantButton.setButtonStyle()
         batchimButton.setButtonStyle()
-//        quizButton.setButtonStyle()
-//        HangulButton.setButtonStyle()
-    }
+        quizButton.setButtonStyle()
+        hangulButton.setButtonStyle()
+        self.appTitle.layer.zPosition = 1
+        self.jiphyeonjeon.layer.zPosition = 1
+}
     
-
-
-    
-    
-//배경용 사각형
-    private let topRectangleView : UIView = {
-        let view = UIView()
-        view.backgroundColor = .blue
-//        view.setGradient(color1: UIColor.white, color2:UIColor.black)
-        return view
-    }()
-    
-    override func viewDidAppear(_ animated: Bool){
-        super.viewDidAppear(animated)
-        setRectangleViewLayout()
-    }
-    
-//사각형 크기, 위치 지정하는 함수
-    func setRectangleViewLayout() {
-//        self.sendSubviewToBack(view: viewSentToBack) //IBOulet에 의해 연결된 뷰의 객체를 뒤로 보낼 수 있음?
-        self.view.addSubview(topRectangleView)
-        topRectangleView.translatesAutoresizingMaskIntoConstraints = false
-        topRectangleView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width).isActive = true
-        topRectangleView.heightAnchor.constraint(equalToConstant: 300).isActive = true
-        topRectangleView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        topRectangleView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        topRectangleView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+    override func viewDidLayoutSubviews() {
+        topRectangleView.setGradient(color1: UIColor(red: 143/255, green: 208/255, blue: 255/255, alpha: 0.16), color2: UIColor(red: 104/255, green: 178/255, blue: 255/255, alpha: 1.0))
     }
     
     
@@ -66,10 +50,6 @@ class StudyMenuViewController: UIViewController {
         appDelegate?.infos.indexCount = 2
     }
 }
-
-
-
-
 
 extension UIButton {
 //    self.layer.cornerRadius = 50
@@ -91,7 +71,7 @@ extension UIView{
         gradient.colors = [color1.cgColor,color2.cgColor]
         gradient.locations = [0.0 , 1.0]
         gradient.startPoint = CGPoint(x: 0.0, y: 1.0)
-        gradient.endPoint = CGPoint(x: 1.0, y: 1.0)
+        gradient.endPoint = CGPoint(x: 0.0, y: 0.0)
         gradient.frame = bounds
         layer.addSublayer(gradient)
     }
