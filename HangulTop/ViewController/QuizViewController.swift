@@ -6,6 +6,7 @@
 //
 import UIKit
 import AVFoundation
+import Lottie
 
 class QuizViewController: UIViewController {
     var quizs = [[String]]()
@@ -13,6 +14,8 @@ class QuizViewController: UIViewController {
     var selectedButton: UIButton?
     var pageNum = 0
     
+    
+    @IBOutlet weak var quizLottie: AnimationView!
     @IBOutlet weak var quizPage: UIView!
     @IBOutlet weak var lastPage: UIView!
     @IBOutlet var answerButtons: [UIButton]!
@@ -221,9 +224,11 @@ class QuizViewController: UIViewController {
         let synthesizer = AVSpeechSynthesizer()
         let utterance = AVSpeechUtterance(string: answers[pageNum])
         utterance.voice = AVSpeechSynthesisVoice(language: "ko-KR")
-        
-        utterance.rate = 0.6
+    
+        utterance.rate = 0.45
         synthesizer.speak(utterance)
+        
+        quizLottie.play()
     }
 }
 //MARK: - 익스텐션
