@@ -21,6 +21,9 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var progressBar: PlainHorizontalProgressBar!
     @IBOutlet var buttons: [UIButton]!
     @IBOutlet weak var checkbutton: UIButton!
+    @IBOutlet weak var quizCount: UILabel!
+    var count: Int = 0
+    //MARK: - 버튼액션
     @IBAction func buttonAction(_ sender: UIButton) {
         checkbutton.setTitleColor(.black, for: .normal)
         for button in buttons {
@@ -62,21 +65,27 @@ class QuizViewController: UIViewController {
     }
     
     @IBAction func finishButtonAction(_ sender: Any) {
-        var count: Int
-        if(UserDefaults.standard.value(forKey: "solCount") == nil){
-            count = 0
-        }else{
-            count = UserDefaults.standard.value(forKey: "solCount") as! Int
-        }
-        count = count + 1
-        UserDefaults.standard.set(count, forKey: "solCount")
         self.navigationController?.popViewController(animated: true)
     }
-    
+    //MARK: - 페이지 업데이트
     func quizUpdate() {
         if pageNum == 10 {
             quizPage.isHidden = true
             lastPage.isHidden = false
+            var count: Int
+            if(UserDefaults.standard.value(forKey: "solCount") == nil){
+                count = 0
+            }else{
+                count = UserDefaults.standard.value(forKey: "solCount") as! Int
+            }
+            count = count + 1
+            UserDefaults.standard.set(count, forKey: "solCount")
+            if(UserDefaults.standard.value(forKey: "solCount") == nil){
+                count = 0
+            }else{
+                count = UserDefaults.standard.value(forKey: "solCount") as! Int
+            }
+            quizCount.text = "지금까지 푼 문제는 \(count * 10)문제 입니다."
         } else {
             for i in 0..<4 {
                 buttons[i].setTitle(quizs[pageNum][i], for: .normal)
@@ -143,6 +152,12 @@ class QuizViewController: UIViewController {
             buttons[i].layer.shadowOffset = CGSize(width: 0, height: 2)
             buttons[i].layer.shadowOpacity = 0.3
         }
+        if(UserDefaults.standard.value(forKey: "solCount") == nil){
+            count = 0
+        }else{
+            count = UserDefaults.standard.value(forKey: "solCount") as! Int
+        }
+        quizCount.text = "지금까지 푼 문제는 \(count * 10)문제 입니다."
     }
     
     func quizGenerator(_ level: Int) -> [String] {
@@ -188,7 +203,7 @@ class QuizViewController: UIViewController {
         
         let resultUni = ((consonantIndex * 21) + vowelIndex) * 28 + 0xAC00
         let resultStr = String(UnicodeScalar(resultUni)!)
-
+        
         return resultStr
     }
     
@@ -199,7 +214,7 @@ class QuizViewController: UIViewController {
         
         let resultUni = ((consonantIndex * 21) + vowelIndex) * 28 + batchimIndex + 0xAC00
         let resultStr = String(UnicodeScalar(resultUni)!)
-
+        
         return resultStr
     }
     @IBAction func speakAnswer(_ sender: Any) {
@@ -211,7 +226,7 @@ class QuizViewController: UIViewController {
         synthesizer.speak(utterance)
     }
 }
-
+//MARK: - 익스텐션
 extension UIColor {
     convenience init(r: CGFloat, g: CGFloat, b: CGFloat) {
         self.init(red: r/255, green: g/255, blue: b/255, alpha: 1)
@@ -231,12 +246,12 @@ class PlainHorizontalProgressBar: UIView {
     var progress: CGFloat = 0.1 {
         didSet { setNeedsDisplay() }
     }
-
+    
     override func draw(_ rect: CGRect) {
         let progressRect = CGRect(origin: .zero, size: CGSize(width: rect.width*progress, height: rect.height))
         let progressLayer = CALayer()
         progressLayer.frame = progressRect
-
+        
         layer.addSublayer(progressLayer)
         progressLayer.backgroundColor = color?.cgColor
     }
