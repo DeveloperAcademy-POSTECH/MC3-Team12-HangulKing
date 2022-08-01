@@ -128,9 +128,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="otf-KB-38M">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqV-La-zGo">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="262"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한글킹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBI-2k-mQS">
                                 <rect key="frame" x="132.66666666666666" y="122" width="124.66666666666666" height="56"/>
@@ -149,28 +148,28 @@
                             <constraint firstItem="V3Y-WB-fQo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="Ef5-tW-QlF"/>
                             <constraint firstItem="GAo-4h-kBf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="Eny-Wr-qNc"/>
                             <constraint firstItem="JtG-Tx-ie9" firstAttribute="leading" secondItem="LOH-WO-KYp" secondAttribute="trailing" constant="30" id="Ijo-w8-hqp"/>
+                            <constraint firstItem="PPg-u7-SlT" firstAttribute="top" secondItem="dqV-La-zGo" secondAttribute="bottom" constant="60" id="Jxr-Tu-Gth"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="LOH-WO-KYp" secondAttribute="bottom" constant="100" id="KRE-xP-Bw1"/>
                             <constraint firstItem="LOH-WO-KYp" firstAttribute="top" secondItem="GAo-4h-kBf" secondAttribute="bottom" constant="12" id="KZu-Qa-WIQ"/>
+                            <constraint firstItem="dqV-La-zGo" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="LYh-GD-YIu"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="JtG-Tx-ie9" secondAttribute="bottom" constant="100" id="NBS-QP-xey"/>
                             <constraint firstItem="PBI-2k-mQS" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="78" id="QY5-3p-GJX"/>
+                            <constraint firstItem="dqV-La-zGo" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="RVz-U9-MUc"/>
                             <constraint firstItem="JtG-Tx-ie9" firstAttribute="top" secondItem="GAo-4h-kBf" secondAttribute="bottom" constant="12" id="RiF-h1-Zb2"/>
                             <constraint firstItem="oUU-R5-0ue" firstAttribute="leading" secondItem="V3Y-WB-fQo" secondAttribute="trailing" constant="15" id="UUa-VB-woB"/>
                             <constraint firstItem="LOH-WO-KYp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="YSE-Ga-5ma"/>
                             <constraint firstItem="fHQ-dK-aUX" firstAttribute="leading" secondItem="oUU-R5-0ue" secondAttribute="trailing" constant="15" id="ZZ0-mc-Bu0"/>
-                            <constraint firstItem="PPg-u7-SlT" firstAttribute="top" secondItem="otf-KB-38M" secondAttribute="bottom" constant="60" id="fvy-LP-ZRq"/>
                             <constraint firstItem="fHQ-dK-aUX" firstAttribute="top" secondItem="PPg-u7-SlT" secondAttribute="bottom" constant="12" id="hZG-cp-fJN"/>
-                            <constraint firstItem="otf-KB-38M" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="hkT-dK-HLe"/>
-                            <constraint firstItem="otf-KB-38M" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="i8I-RQ-Wwr"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="GAo-4h-kBf" secondAttribute="trailing" constant="30" id="iG8-gS-Jl9"/>
                             <constraint firstItem="V3Y-WB-fQo" firstAttribute="top" secondItem="PPg-u7-SlT" secondAttribute="bottom" constant="12" id="kiC-jA-86w"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="PPg-u7-SlT" secondAttribute="trailing" constant="30" id="oJn-Vb-kgs"/>
                             <constraint firstItem="PPg-u7-SlT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="qaO-7L-LVp"/>
+                            <constraint firstItem="dqV-La-zGo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="rIK-ug-9aL"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="GAo-4h-kBf" secondAttribute="trailing" constant="30" id="rsU-r3-Esi"/>
                             <constraint firstItem="GAo-4h-kBf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="uNM-dH-a80"/>
                             <constraint firstItem="oUU-R5-0ue" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="unJ-GN-6l4"/>
                             <constraint firstItem="JtG-Tx-ie9" firstAttribute="leading" secondItem="LOH-WO-KYp" secondAttribute="trailing" constant="30" id="v9Z-B1-5by"/>
                             <constraint firstItem="PBI-2k-mQS" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="yO6-hq-XQl"/>
-                            <constraint firstItem="otf-KB-38M" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="zZH-cx-dGP"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OCb-lt-xnW">
@@ -179,7 +178,7 @@
                     <connections>
                         <outlet property="batchimButton" destination="fHQ-dK-aUX" id="jnF-WT-HQp"/>
                         <outlet property="consonantButton" destination="oUU-R5-0ue" id="BI1-eZ-IhF"/>
-                        <outlet property="topRectangleView" destination="otf-KB-38M" id="ibN-kt-fkU"/>
+                        <outlet property="topRectangleView" destination="dqV-La-zGo" id="ZyD-q3-tqt"/>
                         <outlet property="vowelButton" destination="V3Y-WB-fQo" id="DDo-AN-r8a"/>
                     </connections>
                 </viewController>

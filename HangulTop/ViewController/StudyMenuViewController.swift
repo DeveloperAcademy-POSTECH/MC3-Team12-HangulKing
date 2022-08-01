@@ -13,6 +13,7 @@ class StudyMenuViewController: UIViewController {
     @IBOutlet weak var consonantButton: UIButton!
     @IBOutlet weak var batchimButton: UIButton!
     @IBOutlet weak var topRectangleView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         vowelButton.setButtonStyle()
@@ -20,6 +21,9 @@ class StudyMenuViewController: UIViewController {
         batchimButton.setButtonStyle()
 //        quizButton.setButtonStyle()
 //        HangulButton.setButtonStyle()
+    }
+    
+    override func viewDidLayoutSubviews() {
         topRectangleView.setGradient(color1: .white, color2: .blue)
     }
     
