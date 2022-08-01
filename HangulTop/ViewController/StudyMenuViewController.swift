@@ -12,6 +12,7 @@ class StudyMenuViewController: UIViewController {
     @IBOutlet weak var vowelButton: UIButton!
     @IBOutlet weak var consonantButton: UIButton!
     @IBOutlet weak var batchimButton: UIButton!
+    @IBOutlet weak var topRectangleView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         vowelButton.setButtonStyle()
@@ -19,35 +20,7 @@ class StudyMenuViewController: UIViewController {
         batchimButton.setButtonStyle()
 //        quizButton.setButtonStyle()
 //        HangulButton.setButtonStyle()
-    }
-    
-
-
-    
-    
-//배경용 사각형
-    private let topRectangleView : UIView = {
-        let view = UIView()
-        view.backgroundColor = .blue
-//        view.setGradient(color1: UIColor.white, color2:UIColor.black)
-        return view
-    }()
-    
-    override func viewDidAppear(_ animated: Bool){
-        super.viewDidAppear(animated)
-        setRectangleViewLayout()
-    }
-    
-//사각형 크기, 위치 지정하는 함수
-    func setRectangleViewLayout() {
-//        self.sendSubviewToBack(view: viewSentToBack) //IBOulet에 의해 연결된 뷰의 객체를 뒤로 보낼 수 있음?
-        self.view.addSubview(topRectangleView)
-        topRectangleView.translatesAutoresizingMaskIntoConstraints = false
-        topRectangleView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width).isActive = true
-        topRectangleView.heightAnchor.constraint(equalToConstant: 300).isActive = true
-        topRectangleView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        topRectangleView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        topRectangleView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        topRectangleView.setGradient(color1: .white, color2: .blue)
     }
     
     
@@ -66,10 +39,6 @@ class StudyMenuViewController: UIViewController {
         appDelegate?.infos.indexCount = 2
     }
 }
-
-
-
-
 
 extension UIButton {
 //    self.layer.cornerRadius = 50

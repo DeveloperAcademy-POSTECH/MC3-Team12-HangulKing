@@ -128,8 +128,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="otf-KB-38M">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="272"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한글킹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBI-2k-mQS">
-                                <rect key="frame" x="124.66666666666669" y="122" width="141" height="54"/>
+                                <rect key="frame" x="132.66666666666666" y="122" width="124.66666666666666" height="56"/>
                                 <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="48"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -171,6 +176,7 @@
                     <connections>
                         <outlet property="batchimButton" destination="fHQ-dK-aUX" id="jnF-WT-HQp"/>
                         <outlet property="consonantButton" destination="oUU-R5-0ue" id="BI1-eZ-IhF"/>
+                        <outlet property="topRectangleView" destination="otf-KB-38M" id="ibN-kt-fkU"/>
                         <outlet property="vowelButton" destination="V3Y-WB-fQo" id="DDo-AN-r8a"/>
                     </connections>
                 </viewController>
