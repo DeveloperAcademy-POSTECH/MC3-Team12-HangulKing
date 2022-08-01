@@ -30,7 +30,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Vowel">
-                                    <backgroundConfiguration key="background" image="모음" imageContentMode="scaleAspectFit">
+                                    <backgroundConfiguration key="background" image="vowelButton" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
@@ -49,7 +49,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Consonant">
-                                    <backgroundConfiguration key="background" image="자음" imageContentMode="scaleAspectFit">
+                                    <backgroundConfiguration key="background" image="consonantButton" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
@@ -68,7 +68,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Hangul">
-                                    <backgroundConfiguration key="background" image="킹" imageContentMode="scaleAspectFit">
+                                    <backgroundConfiguration key="background" image="king" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
@@ -90,7 +90,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Quiz">
-                                    <backgroundConfiguration key="background" image="새" imageContentMode="scaleAspectFit">
+                                    <backgroundConfiguration key="background" image="bird" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
@@ -108,7 +108,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Batchim">
-                                    <backgroundConfiguration key="background" image="받침" imageContentMode="scaleAspectFit">
+                                    <backgroundConfiguration key="background" image="batchimButton" imageContentMode="scaleAspectFit">
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
@@ -141,7 +141,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="집현전" translatesAutoresizingMaskIntoConstraints="NO" id="Fww-z5-Z6F">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiphyeonjeon" translatesAutoresizingMaskIntoConstraints="NO" id="Fww-z5-Z6F">
                                         <rect key="frame" x="112.66666666666667" y="192" width="164.66666666666663" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="jLI-Xl-onU"/>
@@ -257,12 +257,12 @@
         <segue reference="qiB-Ta-mAN"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="모음" width="300" height="390"/>
-        <image name="받침" width="300" height="390"/>
-        <image name="새" width="471" height="450"/>
-        <image name="자음" width="300" height="390"/>
-        <image name="집현전" width="684" height="415"/>
-        <image name="킹" width="471" height="450"/>
+        <image name="batchimButton" width="300" height="390"/>
+        <image name="bird" width="471" height="450"/>
+        <image name="consonantButton" width="300" height="390"/>
+        <image name="jiphyeonjeon" width="684" height="415"/>
+        <image name="king" width="471" height="450"/>
+        <image name="vowelButton" width="300" height="390"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
