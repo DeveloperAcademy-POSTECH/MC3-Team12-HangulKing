@@ -88,7 +88,7 @@ class QuizViewController: UIViewController {
             }else{
                 count = UserDefaults.standard.value(forKey: "solCount") as! Int
             }
-            quizCount.text = "지금까지 푼 문제는 \(count * 10)문제 입니다."
+            quizCount.text = "You have finished \(count * 10)questions so far."
         } else {
             for i in 0..<4 {
                 buttons[i].setTitle(quizs[pageNum][i], for: .normal)
@@ -160,7 +160,7 @@ class QuizViewController: UIViewController {
         }else{
             count = UserDefaults.standard.value(forKey: "solCount") as! Int
         }
-        quizCount.text = "지금까지 푼 문제는 \(count * 10)문제 입니다."
+        quizCount.text = "You have finished \(count * 10) questions so far."
     }
     
     func quizGenerator(_ level: Int) -> [String] {
