@@ -24,7 +24,7 @@ class StudyMenuViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        topRectangleView.setGradient(color1: .white, color2: .blue)
+        topRectangleView.setGradient(color1: UIColor(red: 143/255, green: 208/255, blue: 255/255, alpha: 0.16), color2: UIColor(red: 104/255, green: 178/255, blue: 255/255, alpha: 1.0))
     }
     
     
