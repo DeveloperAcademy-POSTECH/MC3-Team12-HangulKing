@@ -782,13 +782,10 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caH-XU-l8j">
                                         <rect key="frame" x="59.999999999999986" y="0.0" width="60" height="50"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="11"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal">
-                                            <imageReference key="image" image="mic.fill" catalog="system" symbolScale="large"/>
-                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25"/>
-                                        </state>
+                                        <state key="normal" title=" "/>
                                         <connections>
                                             <action selector="btnRecord:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="EKo-pl-yuG"/>
                                         </connections>
@@ -956,6 +953,7 @@
                         <outlet property="mainLetter" destination="MdL-uT-XHm" id="mu3-Fr-Iye"/>
                         <outlet property="playButton" destination="Yxa-bS-iaj" id="v64-BO-glV"/>
                         <outlet property="prevButton" destination="jvd-Sm-T7F" id="tRR-zO-0qr"/>
+                        <outlet property="recordButton" destination="caH-XU-l8j" id="Syw-Nv-Iyi"/>
                         <outlet property="vowelCollection" destination="aiU-Qw-OyN" id="lr8-KU-6q4"/>
                         <outletCollection property="pages" destination="rDk-Rj-lDF" collectionClass="NSMutableArray" id="srX-up-Uyf"/>
                         <outletCollection property="pages" destination="GOZ-O0-pXg" collectionClass="NSMutableArray" id="qBt-J2-4FA"/>
@@ -1107,7 +1105,6 @@
     <resources>
         <image name="arrow.forward" catalog="system" width="128" height="98"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
-        <image name="mic.fill" catalog="system" width="108" height="128"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="smiley.fill" catalog="system" width="128" height="121"/>
         <namedColor name="study-button">
