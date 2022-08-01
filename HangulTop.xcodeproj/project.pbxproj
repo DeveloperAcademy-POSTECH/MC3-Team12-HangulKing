@@ -15,7 +15,6 @@
 		11E03FE92893AE9F00240DCA /* InformationModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E03FE82893AE9F00240DCA /* InformationModal.storyboard */; };
 		11E03FEB2893AEDC00240DCA /* InformationModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E03FEA2893AEDC00240DCA /* InformationModalViewController.swift */; };
 		11E03FED2893B6F000240DCA /* InformationModalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E03FEC2893B6F000240DCA /* InformationModalModel.swift */; };
-		4D31A7242882AB1E00589672 /* StudyMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31A7232882AB1E00589672 /* StudyMenu.storyboard */; };
 		4D31A7262882AB2700589672 /* TopMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31A7252882AB2700589672 /* TopMenu.storyboard */; };
 		4D31A7282882AB3500589672 /* Vowel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31A7272882AB3500589672 /* Vowel.storyboard */; };
 		4D31A72A2882AB3E00589672 /* Consonant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31A7292882AB3E00589672 /* Consonant.storyboard */; };
@@ -26,6 +25,7 @@
 		4D31D55B288D9DAA005E2F53 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31D55A288D9DAA005E2F53 /* Quiz.storyboard */; };
 		4D31D55D288D9DBC005E2F53 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31D55C288D9DBC005E2F53 /* QuizViewController.swift */; };
 		4D4927FB2897B01A00FD0175 /* consonant.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D4927FA2897B01A00FD0175 /* consonant.json */; };
+		4D4928022898262E00FD0175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4928042898262E00FD0175 /* Main.storyboard */; };
 		4D89B9CF28891CEA00BD37F7 /* ConsonantEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89B9CE28891CEA00BD37F7 /* ConsonantEndViewController.swift */; };
 		4D89B9D128891E9B00BD37F7 /* BatchimEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D89B9D028891E9B00BD37F7 /* BatchimEndViewController.swift */; };
 		6761C8AA288550F4001A0D2C /* BatchimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6761C8A9288550F4001A0D2C /* BatchimModel.swift */; };
@@ -46,7 +46,6 @@
 		D5CC9509287E9591005E8BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC9508287E9591005E8BF5 /* AppDelegate.swift */; };
 		D5CC950B287E9591005E8BF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC950A287E9591005E8BF5 /* SceneDelegate.swift */; };
 		D5CC950D287E9591005E8BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC950C287E9591005E8BF5 /* ViewController.swift */; };
-		D5CC9510287E9591005E8BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CC950E287E9591005E8BF5 /* Main.storyboard */; };
 		D5CC9513287E9591005E8BF5 /* HangulTop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5CC9511287E9591005E8BF5 /* HangulTop.xcdatamodeld */; };
 		D5CC9515287E9593005E8BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CC9514287E9593005E8BF5 /* Assets.xcassets */; };
 		D5CC9518287E9593005E8BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CC9516287E9593005E8BF5 /* LaunchScreen.storyboard */; };
@@ -66,7 +65,6 @@
 		11E03FE82893AE9F00240DCA /* InformationModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InformationModal.storyboard; sourceTree = "<group>"; };
 		11E03FEA2893AEDC00240DCA /* InformationModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModalViewController.swift; sourceTree = "<group>"; };
 		11E03FEC2893B6F000240DCA /* InformationModalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModalModel.swift; sourceTree = "<group>"; };
-		4D31A7232882AB1E00589672 /* StudyMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudyMenu.storyboard; sourceTree = "<group>"; };
 		4D31A7252882AB2700589672 /* TopMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TopMenu.storyboard; sourceTree = "<group>"; };
 		4D31A7272882AB3500589672 /* Vowel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vowel.storyboard; sourceTree = "<group>"; };
 		4D31A7292882AB3E00589672 /* Consonant.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Consonant.storyboard; sourceTree = "<group>"; };
@@ -77,6 +75,7 @@
 		4D31D55A288D9DAA005E2F53 /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
 		4D31D55C288D9DBC005E2F53 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		4D4927FA2897B01A00FD0175 /* consonant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = consonant.json; sourceTree = "<group>"; };
+		4D4928032898262E00FD0175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D89B9CE28891CEA00BD37F7 /* ConsonantEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsonantEndViewController.swift; sourceTree = "<group>"; };
 		4D89B9D028891E9B00BD37F7 /* BatchimEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimEndViewController.swift; sourceTree = "<group>"; };
 		6761C8A9288550F4001A0D2C /* BatchimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimModel.swift; sourceTree = "<group>"; };
@@ -97,7 +96,6 @@
 		D5CC9508287E9591005E8BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5CC950A287E9591005E8BF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D5CC950C287E9591005E8BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5CC950F287E9591005E8BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5CC9512287E9591005E8BF5 /* HangulTop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HangulTop.xcdatamodel; sourceTree = "<group>"; };
 		D5CC9514287E9593005E8BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5CC9517287E9593005E8BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -151,8 +149,7 @@
 		4D31A7222882AAD900589672 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
-				D5CC950E287E9591005E8BF5 /* Main.storyboard */,
-				4D31A7232882AB1E00589672 /* StudyMenu.storyboard */,
+				4D4928042898262E00FD0175 /* Main.storyboard */,
 				4D31A7252882AB2700589672 /* TopMenu.storyboard */,
 				4D31A72D2882AE3200589672 /* Principle.storyboard */,
 				4D31A7272882AB3500589672 /* Vowel.storyboard */,
@@ -297,7 +294,7 @@
 				A0AFCE9128873AA300C51FEA /* LastVowel.storyboard in Resources */,
 				4D31A72A2882AB3E00589672 /* Consonant.storyboard in Resources */,
 				D5CC9518287E9593005E8BF5 /* LaunchScreen.storyboard in Resources */,
-				4D31A7242882AB1E00589672 /* StudyMenu.storyboard in Resources */,
+				4D4928022898262E00FD0175 /* Main.storyboard in Resources */,
 				A06C5ABD289301F2008CE8BF /* EBS훈민정음L.otf in Resources */,
 				D58FDEC0288D43EA00DBBE01 /* Sound.mp3 in Resources */,
 				4D31A72E2882AE3200589672 /* Principle.storyboard in Resources */,
@@ -305,7 +302,6 @@
 				D5CC9515287E9593005E8BF5 /* Assets.xcassets in Resources */,
 				D57C31A02896F81900DCBC68 /* quiz.json in Resources */,
 				D5E9EE50289270F30068C47A /* HangulView.storyboard in Resources */,
-				D5CC9510287E9591005E8BF5 /* Main.storyboard in Resources */,
 				D57C31A12896F81900DCBC68 /* batchim.json in Resources */,
 				4D4927FB2897B01A00FD0175 /* consonant.json in Resources */,
 				4D31D55B288D9DAA005E2F53 /* Quiz.storyboard in Resources */,
@@ -351,10 +347,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D5CC950E287E9591005E8BF5 /* Main.storyboard */ = {
+		4D4928042898262E00FD0175 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5CC950F287E9591005E8BF5 /* Base */,
+				4D4928032898262E00FD0175 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
