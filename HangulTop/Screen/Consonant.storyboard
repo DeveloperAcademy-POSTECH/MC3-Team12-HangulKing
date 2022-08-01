@@ -24,13 +24,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="45k-RD-KtK">
-                                <rect key="frame" x="30" y="94" width="315" height="315"/>
+                                <rect key="frame" x="50" y="94" width="275" height="275"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="45k-RD-KtK" secondAttribute="height" multiplier="1:1" id="nZN-Uz-RN7"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6zW-a1-xOB">
-                                <rect key="frame" x="30" y="636.66666666666663" width="315" height="75.333333333333371"/>
+                                <rect key="frame" x="30" y="606.66666666666663" width="315" height="75.333333333333371"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7jG-bs-4jv">
                                         <rect key="frame" x="10" y="0.0" width="295" height="75.333333333333329"/>
@@ -69,7 +69,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyM-6y-Sdz">
-                                <rect key="frame" x="30" y="419" width="315" height="160"/>
+                                <rect key="frame" x="30" y="379" width="315" height="160"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="Doo-VY-dHY"/>
                                 </constraints>
@@ -80,13 +80,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pae-bh-4q7">
-                                <rect key="frame" x="74.666666666666686" y="722" width="226" height="60"/>
+                                <rect key="frame" x="74.666666666666686" y="702" width="226" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="VHe-lC-UNJ"/>
                                     <constraint firstAttribute="width" secondItem="Pae-bh-4q7" secondAttribute="height" multiplier="113:30" id="puX-3W-Nit"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="arrow.forward" catalog="system" imagePlacement="trailing" title="Start">
+                                <buttonConfiguration key="configuration" style="filled" image="arrow.forward" catalog="system" imagePlacement="trailing" title="  Start">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -106,18 +106,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DyM-6y-Sdz" secondAttribute="trailing" constant="30" id="4gK-EE-qdo"/>
-                            <constraint firstItem="Pae-bh-4q7" firstAttribute="top" secondItem="6zW-a1-xOB" secondAttribute="bottom" constant="10" id="7yE-SA-Ydh"/>
+                            <constraint firstItem="Pae-bh-4q7" firstAttribute="top" secondItem="6zW-a1-xOB" secondAttribute="bottom" constant="20" id="7yE-SA-Ydh"/>
                             <constraint firstItem="DyM-6y-Sdz" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="FB0-Vc-adO"/>
-                            <constraint firstItem="45k-RD-KtK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="GJZ-Uw-Axd"/>
+                            <constraint firstItem="45k-RD-KtK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="GJZ-Uw-Axd"/>
                             <constraint firstItem="6zW-a1-xOB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="J9e-e1-C3G"/>
                             <constraint firstItem="6zW-a1-xOB" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="JQw-vT-et2"/>
                             <constraint firstItem="45k-RD-KtK" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="LV3-3N-Ev1"/>
                             <constraint firstItem="Pae-bh-4q7" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="STF-I5-tsO"/>
                             <constraint firstItem="DyM-6y-Sdz" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="UAc-ue-Zjl"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="45k-RD-KtK" secondAttribute="trailing" constant="30" id="US1-2R-Zur"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="45k-RD-KtK" secondAttribute="trailing" constant="50" id="US1-2R-Zur"/>
                             <constraint firstItem="DyM-6y-Sdz" firstAttribute="top" secondItem="45k-RD-KtK" secondAttribute="bottom" constant="10" id="VRO-rd-Yuc"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6zW-a1-xOB" secondAttribute="trailing" constant="30" id="jUH-0G-p7e"/>
-                            <constraint firstAttribute="bottom" secondItem="Pae-bh-4q7" secondAttribute="bottom" constant="30" id="ow5-1O-vxw"/>
+                            <constraint firstAttribute="bottom" secondItem="Pae-bh-4q7" secondAttribute="bottom" constant="50" id="ow5-1O-vxw"/>
                             <constraint firstItem="45k-RD-KtK" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="wDu-Lq-tAZ"/>
                         </constraints>
                     </view>
@@ -149,8 +149,86 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zdh-pY-fPL" userLabel="View1">
+                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="180.00000000000006"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMb-7S-9ZO">
+                                        <rect key="frame" x="120" y="45" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonSelected:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="4fO-11-0iQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="WQs-bG-ANU"/>
+                                    <constraint firstAttribute="width" constant="300" id="te0-ue-qa0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cab-QC-60h" userLabel="View2">
+                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="180.00000000000006"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8k-86-NxA">
+                                        <rect key="frame" x="67.999999999999972" y="45" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonSelected:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="djW-yL-uIy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa5-f3-rp0">
+                                        <rect key="frame" x="173.99999999999997" y="45" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="buttonSelected:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="Xpk-8u-oDT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="nLg-UX-aw8"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="CKJ-AT-uAe"/>
+                                    <constraint firstAttribute="width" constant="300" id="CNa-ys-Ec6"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wq7-wT-BEo" userLabel="View3">
-                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="150"/>
+                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="180.00000000000006"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unt-Mh-5bC">
                                         <rect key="frame" x="120" y="45" width="60" height="60"/>
@@ -213,90 +291,12 @@
                                 <viewLayoutGuide key="safeArea" id="a4M-uB-TeA"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="IqG-JY-Dbe"/>
+                                    <constraint firstAttribute="height" constant="180" id="IqG-JY-Dbe"/>
                                     <constraint firstAttribute="width" constant="300" id="axD-q4-Bo1"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cab-QC-60h" userLabel="View2">
-                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="150"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8k-86-NxA">
-                                        <rect key="frame" x="62" y="45" width="60" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal">
-                                            <color key="titleColor" systemColor="labelColor"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="buttonSelected:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="djW-yL-uIy"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa5-f3-rp0">
-                                        <rect key="frame" x="179" y="45" width="60" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal">
-                                            <color key="titleColor" systemColor="labelColor"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="buttonSelected:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="Xpk-8u-oDT"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <viewLayoutGuide key="safeArea" id="nLg-UX-aw8"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="CKJ-AT-uAe"/>
-                                    <constraint firstAttribute="width" constant="300" id="CNa-ys-Ec6"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zdh-pY-fPL" userLabel="View1">
-                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="150"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMb-7S-9ZO">
-                                        <rect key="frame" x="120" y="45" width="60" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal">
-                                            <color key="titleColor" systemColor="labelColor"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="NO"/>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="buttonSelected:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="4fO-11-0iQ"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="WQs-bG-ANU"/>
-                                    <constraint firstAttribute="width" constant="300" id="te0-ue-qa0"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QLV-gh-AtU" userLabel="View4">
-                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="150"/>
+                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="180.00000000000006"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lct-pA-Ao9">
                                         <rect key="frame" x="82.999999999999972" y="45" width="60" height="60"/>
@@ -337,7 +337,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvf-fX-nGJ">
-                                        <rect key="frame" x="11.999999999999972" y="45" width="60" height="60"/>
+                                        <rect key="frame" x="10.999999999999972" y="45" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -356,7 +356,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Cxl-Re-fh3">
-                                        <rect key="frame" x="227.99999999999997" y="45" width="60" height="60"/>
+                                        <rect key="frame" x="228.99999999999997" y="45" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -378,15 +378,15 @@
                                 <viewLayoutGuide key="safeArea" id="644-0p-Tnw"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="X25-D4-YPR"/>
+                                    <constraint firstAttribute="height" constant="180" id="X25-D4-YPR"/>
                                     <constraint firstAttribute="width" constant="300" id="Xil-i5-xDi"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZO6-Sr-Qkv" userLabel="View5">
-                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="150"/>
+                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="180.00000000000006"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Dq-fr-YG9">
-                                        <rect key="frame" x="46.999999999999972" y="79.000000000000057" width="60" height="60"/>
+                                        <rect key="frame" x="45.999999999999972" y="79.000000000000057" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -424,7 +424,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="G01-er-259">
-                                        <rect key="frame" x="192.99999999999997" y="79.000000000000057" width="60" height="60"/>
+                                        <rect key="frame" x="193.99999999999997" y="79.000000000000057" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -443,7 +443,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhA-eX-BcR">
-                                        <rect key="frame" x="80.999999999999972" y="11" width="60" height="60"/>
+                                        <rect key="frame" x="82.999999999999972" y="11" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -462,7 +462,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLa-7A-7iL">
-                                        <rect key="frame" x="158.99999999999997" y="11" width="60" height="60"/>
+                                        <rect key="frame" x="156.99999999999997" y="11" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -484,15 +484,15 @@
                                 <viewLayoutGuide key="safeArea" id="VeL-Q5-nnd"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="Xg9-8v-afT"/>
+                                    <constraint firstAttribute="height" constant="180" id="Xg9-8v-afT"/>
                                     <constraint firstAttribute="width" constant="300" id="tZW-Zs-dcf"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzg-1a-8mn" userLabel="View7">
-                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="150"/>
+                                <rect key="frame" x="37.666666666666657" y="342.66666666666669" width="300" height="180.00000000000006"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGv-21-Szv">
-                                        <rect key="frame" x="11.999999999999972" y="79.000000000000057" width="60" height="60"/>
+                                        <rect key="frame" x="10.999999999999972" y="79.000000000000057" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -549,7 +549,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="QvP-AX-agB">
-                                        <rect key="frame" x="227.99999999999997" y="79.000000000000057" width="60" height="60"/>
+                                        <rect key="frame" x="228.99999999999997" y="79.000000000000057" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -568,7 +568,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zD-Yz-Pfz">
-                                        <rect key="frame" x="48.999999999999972" y="11" width="60" height="60"/>
+                                        <rect key="frame" x="47.999999999999972" y="11" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -606,7 +606,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zf8-cg-NvC">
-                                        <rect key="frame" x="190.99999999999997" y="11" width="60" height="60"/>
+                                        <rect key="frame" x="191.99999999999997" y="11" width="60" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="30"/>
@@ -628,7 +628,7 @@
                                 <viewLayoutGuide key="safeArea" id="f0u-mV-YOo"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="3j8-Qo-X6Z"/>
+                                    <constraint firstAttribute="height" constant="180" id="3j8-Qo-X6Z"/>
                                     <constraint firstAttribute="width" constant="300" id="Hfd-dN-lhq"/>
                                 </constraints>
                             </view>
@@ -725,7 +725,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Prev">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
-                                    <color key="baseForegroundColor" red="0.43137254901960786" green="0.71372549019607845" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" name="study-button"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="prevPage:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="ete-Qf-KpT"/>
@@ -792,17 +792,15 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Next">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
-                                    <color key="baseForegroundColor" red="0.43137254901960786" green="0.71372549019607845" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseForegroundColor" name="study-button"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextPage:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="06a-nd-dzC"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yo3-nM-VrJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ㅡ always goes below the consonant, whereas ㅣ goes to the right." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yo3-nM-VrJ">
                                 <rect key="frame" x="8" y="569" width="358" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">ㅡ 는 항상 자음의 아래, 
-ㅣ는 항상 자음의 오른편에 위치해야 한다.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -873,24 +871,24 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="duT-kZ-9f3" firstAttribute="top" secondItem="MdL-uT-XHm" secondAttribute="bottom" constant="30" id="17l-yv-XOz"/>
-                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="Zdh-pY-fPL" secondAttribute="bottom" constant="68.333333333333314" id="2W3-Zh-2ZT"/>
+                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="Zdh-pY-fPL" secondAttribute="bottom" constant="38.333333333333371" id="2W3-Zh-2ZT"/>
                             <constraint firstItem="NnJ-wQ-C34" firstAttribute="top" secondItem="vt5-e2-K4Z" secondAttribute="top" constant="40" id="2dR-0U-gZo"/>
                             <constraint firstItem="cab-QC-60h" firstAttribute="top" secondItem="duT-kZ-9f3" secondAttribute="bottom" constant="25" id="3Oj-6n-Eua"/>
-                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="cab-QC-60h" secondAttribute="bottom" constant="68.333333333333314" id="676-y2-h4K"/>
+                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="cab-QC-60h" secondAttribute="bottom" constant="38.333333333333371" id="676-y2-h4K"/>
                             <constraint firstItem="Zdh-pY-fPL" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="6Uk-4C-Ofn"/>
-                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="Zdh-pY-fPL" secondAttribute="bottom" constant="76.333333333333314" id="6pa-I1-OgC"/>
-                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="QLV-gh-AtU" secondAttribute="bottom" constant="68.333333333333314" id="776-ls-NNi"/>
-                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="ZO6-Sr-Qkv" secondAttribute="bottom" constant="76.333333333333314" id="Aca-k0-rMC"/>
+                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="Zdh-pY-fPL" secondAttribute="bottom" constant="46.333333333333371" id="6pa-I1-OgC"/>
+                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="QLV-gh-AtU" secondAttribute="bottom" constant="38.333333333333371" id="776-ls-NNi"/>
+                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="ZO6-Sr-Qkv" secondAttribute="bottom" constant="46.333333333333371" id="Aca-k0-rMC"/>
                             <constraint firstItem="ZO6-Sr-Qkv" firstAttribute="top" secondItem="duT-kZ-9f3" secondAttribute="bottom" constant="25" id="BTI-VU-0Hb"/>
-                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="ZO6-Sr-Qkv" secondAttribute="bottom" constant="68.333333333333314" id="I7s-Sw-tPZ"/>
+                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="ZO6-Sr-Qkv" secondAttribute="bottom" constant="38.333333333333371" id="I7s-Sw-tPZ"/>
                             <constraint firstItem="MdL-uT-XHm" firstAttribute="top" secondItem="NnJ-wQ-C34" secondAttribute="bottom" constant="40" id="IET-HD-qiG"/>
                             <constraint firstItem="kzg-1a-8mn" firstAttribute="top" secondItem="duT-kZ-9f3" secondAttribute="bottom" constant="25" id="JJ5-V5-5VU"/>
                             <constraint firstItem="QLV-gh-AtU" firstAttribute="top" secondItem="duT-kZ-9f3" secondAttribute="bottom" constant="25" id="MPv-rX-Zqc"/>
-                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="QLV-gh-AtU" secondAttribute="bottom" constant="76.333333333333314" id="QTw-n1-GEz"/>
+                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="QLV-gh-AtU" secondAttribute="bottom" constant="46.333333333333371" id="QTw-n1-GEz"/>
                             <constraint firstItem="Cus-J0-RL8" firstAttribute="top" secondItem="vt5-e2-K4Z" secondAttribute="top" constant="40" id="SM7-Pk-Xs4"/>
                             <constraint firstItem="NnJ-wQ-C34" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="ThJ-cK-6WA"/>
                             <constraint firstItem="wq7-wT-BEo" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="XNm-63-ZzC"/>
-                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="kzg-1a-8mn" secondAttribute="bottom" constant="76.333333333333314" id="aSc-6Z-lLw"/>
+                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="kzg-1a-8mn" secondAttribute="bottom" constant="46.333333333333371" id="aSc-6Z-lLw"/>
                             <constraint firstItem="NnJ-wQ-C34" firstAttribute="leading" secondItem="vt5-e2-K4Z" secondAttribute="leading" constant="74" id="cfa-Aa-8v0"/>
                             <constraint firstItem="vt5-e2-K4Z" firstAttribute="bottom" secondItem="6t8-Ai-TNn" secondAttribute="bottom" constant="40" id="eol-rV-AHH"/>
                             <constraint firstItem="cab-QC-60h" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="fHp-V2-Q7Q"/>
@@ -898,13 +896,13 @@
                             <constraint firstItem="vt5-e2-K4Z" firstAttribute="bottom" secondItem="jvd-Sm-T7F" secondAttribute="bottom" constant="40" id="gs5-OQ-Ge5"/>
                             <constraint firstItem="kzg-1a-8mn" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="hIK-gL-WnR"/>
                             <constraint firstItem="vt5-e2-K4Z" firstAttribute="trailing" secondItem="aiU-Qw-OyN" secondAttribute="trailing" constant="30" id="hlK-nC-G7D"/>
-                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="cab-QC-60h" secondAttribute="bottom" constant="76.333333333333314" id="jNZ-4w-EvN"/>
+                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="cab-QC-60h" secondAttribute="bottom" constant="46.333333333333371" id="jNZ-4w-EvN"/>
                             <constraint firstItem="vt5-e2-K4Z" firstAttribute="trailing" secondItem="6t8-Ai-TNn" secondAttribute="trailing" constant="45" id="jrQ-R4-vdy"/>
                             <constraint firstItem="ZO6-Sr-Qkv" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="kOP-y9-dV3"/>
                             <constraint firstItem="QLV-gh-AtU" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="mjW-FD-3IM"/>
-                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="wq7-wT-BEo" secondAttribute="bottom" constant="76.333333333333314" id="mtI-yJ-y1L"/>
+                            <constraint firstItem="Yo3-nM-VrJ" firstAttribute="top" secondItem="wq7-wT-BEo" secondAttribute="bottom" constant="46.333333333333371" id="mtI-yJ-y1L"/>
                             <constraint firstItem="aiU-Qw-OyN" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="r0z-kq-Wr6"/>
-                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="kzg-1a-8mn" secondAttribute="bottom" constant="68.333333333333314" id="rHY-be-bxz"/>
+                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="kzg-1a-8mn" secondAttribute="bottom" constant="38.333333333333371" id="rHY-be-bxz"/>
                             <constraint firstItem="duT-kZ-9f3" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="s0S-SE-tgf"/>
                             <constraint firstItem="wq7-wT-BEo" firstAttribute="top" secondItem="duT-kZ-9f3" secondAttribute="bottom" constant="25" id="ssL-ZU-gHg"/>
                             <constraint firstItem="MdL-uT-XHm" firstAttribute="centerX" secondItem="z88-Pp-w9G" secondAttribute="centerX" id="uyt-uB-Iq3"/>
@@ -912,12 +910,10 @@
                             <constraint firstItem="jvd-Sm-T7F" firstAttribute="leading" secondItem="vt5-e2-K4Z" secondAttribute="leading" constant="45" id="wt3-Zx-TvK"/>
                             <constraint firstItem="vt5-e2-K4Z" firstAttribute="trailing" secondItem="NnJ-wQ-C34" secondAttribute="trailing" constant="74" id="z99-Ne-o33"/>
                             <constraint firstItem="aiU-Qw-OyN" firstAttribute="leading" secondItem="vt5-e2-K4Z" secondAttribute="leading" constant="30" id="zRa-pm-Vrs"/>
-                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="wq7-wT-BEo" secondAttribute="bottom" constant="68.333333333333314" id="zSJ-Fb-az0"/>
+                            <constraint firstItem="aiU-Qw-OyN" firstAttribute="top" secondItem="wq7-wT-BEo" secondAttribute="bottom" constant="38.333333333333371" id="zSJ-Fb-az0"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="button6" destination="pLO-0N-Yte" id="xev-HG-qV2"/>
-                        <outlet property="button7" destination="QvP-AX-agB" id="Dl1-9h-Y9V"/>
                         <outlet property="explanationView" destination="Yo3-nM-VrJ" id="oCw-RP-JSW"/>
                         <outlet property="infoButton" destination="Cus-J0-RL8" id="haR-dK-WBZ"/>
                         <outlet property="mainLetter" destination="MdL-uT-XHm" id="mu3-Fr-Iye"/>
@@ -931,39 +927,41 @@
                         <outletCollection property="pages" destination="pRA-6O-qyA" collectionClass="NSMutableArray" id="n3R-0b-Ese"/>
                         <outletCollection property="pages" destination="OfJ-8R-Y9i" collectionClass="NSMutableArray" id="Hn6-y5-CqS"/>
                         <outletCollection property="pages" destination="qrJ-4H-d05" collectionClass="NSMutableArray" id="EFL-S2-HsW"/>
-                        <outletCollection property="button1" destination="NMb-7S-9ZO" collectionClass="NSMutableArray" id="CIy-u4-FXy"/>
-                        <outletCollection property="button1" destination="l8k-86-NxA" collectionClass="NSMutableArray" id="ki3-HJ-Tfy"/>
-                        <outletCollection property="button1" destination="vCX-Gv-SNl" collectionClass="NSMutableArray" id="1q7-1g-z4u"/>
-                        <outletCollection property="button1" destination="Pvf-fX-nGJ" collectionClass="NSMutableArray" id="Ed9-Gu-T4e"/>
-                        <outletCollection property="button1" destination="uhA-eX-BcR" collectionClass="NSMutableArray" id="Nbg-zy-Ewd"/>
-                        <outletCollection property="button1" destination="1zD-Yz-Pfz" collectionClass="NSMutableArray" id="aO3-eU-NoI"/>
-                        <outletCollection property="button2" destination="aa5-f3-rp0" collectionClass="NSMutableArray" id="8H0-Z4-NY6"/>
-                        <outletCollection property="button2" destination="unt-Mh-5bC" collectionClass="NSMutableArray" id="X1t-uX-7qq"/>
-                        <outletCollection property="button2" destination="lct-pA-Ao9" collectionClass="NSMutableArray" id="VAl-K2-IUg"/>
-                        <outletCollection property="button2" destination="nLa-7A-7iL" collectionClass="NSMutableArray" id="lfX-Ve-YXb"/>
-                        <outletCollection property="button2" destination="fVP-sb-F6A" collectionClass="NSMutableArray" id="eqB-vN-SfU"/>
-                        <outletCollection property="button3" destination="1ij-QV-fNs" collectionClass="NSMutableArray" id="U2c-sH-i4C"/>
-                        <outletCollection property="button3" destination="gg7-LB-ImE" collectionClass="NSMutableArray" id="UYk-jb-NUz"/>
-                        <outletCollection property="button3" destination="6Dq-fr-YG9" collectionClass="NSMutableArray" id="FVK-gs-Ish"/>
-                        <outletCollection property="button3" destination="Zf8-cg-NvC" collectionClass="NSMutableArray" id="vzX-Qo-VJh"/>
-                        <outletCollection property="button4" destination="Cxl-Re-fh3" collectionClass="NSMutableArray" id="QTE-kg-R6D"/>
-                        <outletCollection property="button4" destination="Q0d-gg-om2" collectionClass="NSMutableArray" id="ICV-s4-d6b"/>
-                        <outletCollection property="button4" destination="AGv-21-Szv" collectionClass="NSMutableArray" id="e2a-cg-Ibw"/>
-                        <outletCollection property="button5" destination="G01-er-259" collectionClass="NSMutableArray" id="rmm-b6-ev0"/>
-                        <outletCollection property="button5" destination="dMt-Tg-n2b" collectionClass="NSMutableArray" id="Kc4-Oa-0yd"/>
                         <outletCollection property="buttonSets" destination="Zdh-pY-fPL" collectionClass="NSMutableArray" id="1Ym-aq-JiU"/>
                         <outletCollection property="buttonSets" destination="cab-QC-60h" collectionClass="NSMutableArray" id="fSU-Wf-dti"/>
                         <outletCollection property="buttonSets" destination="wq7-wT-BEo" collectionClass="NSMutableArray" id="d11-Bq-ZFU"/>
                         <outletCollection property="buttonSets" destination="QLV-gh-AtU" collectionClass="NSMutableArray" id="spR-Kf-JRj"/>
                         <outletCollection property="buttonSets" destination="ZO6-Sr-Qkv" collectionClass="NSMutableArray" id="gRM-QJ-4TK"/>
                         <outletCollection property="buttonSets" destination="kzg-1a-8mn" collectionClass="NSMutableArray" id="Sym-Kj-JcO"/>
+                        <outletCollection property="button1" destination="NMb-7S-9ZO" collectionClass="NSMutableArray" id="ZzK-uo-aAX"/>
+                        <outletCollection property="button2" destination="l8k-86-NxA" collectionClass="NSMutableArray" id="ONe-n2-Bpv"/>
+                        <outletCollection property="button2" destination="aa5-f3-rp0" collectionClass="NSMutableArray" id="4b8-05-DNg"/>
+                        <outletCollection property="button3" destination="vCX-Gv-SNl" collectionClass="NSMutableArray" id="JIz-Ze-DeQ"/>
+                        <outletCollection property="button3" destination="unt-Mh-5bC" collectionClass="NSMutableArray" id="lmB-dX-MJK"/>
+                        <outletCollection property="button3" destination="1ij-QV-fNs" collectionClass="NSMutableArray" id="ZfN-j4-cob"/>
+                        <outletCollection property="button4" destination="Pvf-fX-nGJ" collectionClass="NSMutableArray" id="sd9-Eq-DdN"/>
+                        <outletCollection property="button4" destination="lct-pA-Ao9" collectionClass="NSMutableArray" id="cZX-Ev-Bzt"/>
+                        <outletCollection property="button4" destination="gg7-LB-ImE" collectionClass="NSMutableArray" id="Fdc-za-hUo"/>
+                        <outletCollection property="button4" destination="Cxl-Re-fh3" collectionClass="NSMutableArray" id="cGY-1e-py3"/>
+                        <outletCollection property="button5" destination="uhA-eX-BcR" collectionClass="NSMutableArray" id="5R8-KA-hUq"/>
+                        <outletCollection property="button5" destination="nLa-7A-7iL" collectionClass="NSMutableArray" id="vuX-Yw-Iyq"/>
+                        <outletCollection property="button5" destination="6Dq-fr-YG9" collectionClass="NSMutableArray" id="0QT-ZL-hdD"/>
+                        <outletCollection property="button5" destination="Q0d-gg-om2" collectionClass="NSMutableArray" id="jqi-B6-Udz"/>
+                        <outletCollection property="button5" destination="G01-er-259" collectionClass="NSMutableArray" id="8D8-ox-hkA"/>
+                        <outletCollection property="button7" destination="1zD-Yz-Pfz" collectionClass="NSMutableArray" id="OAt-7Y-vkc"/>
+                        <outletCollection property="button7" destination="fVP-sb-F6A" collectionClass="NSMutableArray" id="Ld4-5z-tyf"/>
+                        <outletCollection property="button7" destination="Zf8-cg-NvC" collectionClass="NSMutableArray" id="Mwx-eV-ZWf"/>
+                        <outletCollection property="button7" destination="AGv-21-Szv" collectionClass="NSMutableArray" id="OIF-dP-vDp"/>
+                        <outletCollection property="button7" destination="dMt-Tg-n2b" collectionClass="NSMutableArray" id="5aV-J4-etn"/>
+                        <outletCollection property="button7" destination="pLO-0N-Yte" collectionClass="NSMutableArray" id="ift-K8-C8r"/>
+                        <outletCollection property="button7" destination="QvP-AX-agB" collectionClass="NSMutableArray" id="Egp-TA-mKE"/>
                         <segue destination="O5O-Nr-ODP" kind="show" identifier="finish_seg" id="wAM-hq-K8l"/>
                         <segue destination="DGe-ho-tv5" kind="presentation" identifier="InfoModal" id="fBD-zj-tvU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rwC-dp-35Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="892.75362318840587" y="77.678571428571431"/>
+            <point key="canvasLocation" x="892" y="77.58620689655173"/>
         </scene>
         <!--InformationModal-->
         <scene sceneID="ixB-qI-TS1">
@@ -1072,6 +1070,9 @@
         <image name="mic.fill" catalog="system" width="108" height="128"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="smiley.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="study-button">
+            <color red="0.43137254901960786" green="0.71372549019607845" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
