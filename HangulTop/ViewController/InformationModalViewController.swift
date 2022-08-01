@@ -19,9 +19,13 @@ class InformationModalViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let sheetController = self.presentationController as? UISheetPresentationController {
+        if #available(iOS 15.0, *) {
+            if let sheetController = self.presentationController as? UISheetPresentationController {
                 sheetController.detents = [.medium(), .large()]
             }
+        } else {
+            // Fallback on earlier versions
+        }
         
         titleLabel.text = informationModal.titleArray[pageCount]
         infoLabel.text = informationModal.infoArray[pageCount]
