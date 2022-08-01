@@ -23,20 +23,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="45k-RD-KtK">
-                                <rect key="frame" x="50" y="94" width="275" height="275"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="45k-RD-KtK" secondAttribute="height" multiplier="1:1" id="nZN-Uz-RN7"/>
-                                </constraints>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6zW-a1-xOB">
-                                <rect key="frame" x="30" y="606.66666666666663" width="315" height="75.333333333333371"/>
+                                <rect key="frame" x="30" y="595" width="315" height="75.666666666666629"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7jG-bs-4jv">
-                                        <rect key="frame" x="10" y="0.0" width="295" height="75.333333333333329"/>
+                                        <rect key="frame" x="10" y="0.0" width="295" height="75.666666666666671"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VpT-Kg-2A1">
-                                                <rect key="frame" x="0.0" y="-2.3333333333333357" width="20" height="80.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="-2.3333333333333357" width="20" height="81"/>
                                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="20" id="ySK-h5-ZkA"/>
@@ -44,7 +38,7 @@
                                                 <imageReference key="image" image="smiley.fill" catalog="system" symbolScale="large"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="모음은 단독으로 쓰이지 않기 때문에, 여기선 첫번째로 올 때 음가가 없는 자음’ㅇ'을 모음 앞의 공백을 표시하는 기호로 쓸 것입니다." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KAI-Vr-Ee5">
-                                                <rect key="frame" x="40" y="0.0" width="255" height="75.333333333333329"/>
+                                                <rect key="frame" x="40" y="0.0" width="255" height="75.666666666666671"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -68,19 +62,8 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyM-6y-Sdz">
-                                <rect key="frame" x="30" y="379" width="315" height="160"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="Doo-VY-dHY"/>
-                                </constraints>
-                                <string key="text">자음은 총 19개로, 기본자음 14개와 
-복합자음(ㄲ,ㄸ,ㅃ,ㅆ,ㅉ) 5개로 구성되어 있다.</string>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pae-bh-4q7">
-                                <rect key="frame" x="74.666666666666686" y="702" width="226" height="60"/>
+                                <rect key="frame" x="74.666666666666686" y="690.66666666666663" width="226" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="VHe-lC-UNJ"/>
                                     <constraint firstAttribute="width" secondItem="Pae-bh-4q7" secondAttribute="height" multiplier="113:30" id="puX-3W-Nit"/>
@@ -101,35 +84,89 @@
                                     <segue destination="09Y-7J-Xd8" kind="show" id="tYV-2p-Wzd"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Vd-st-bSF" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="75" y="89" width="225" height="225"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1Vd-st-bSF" secondAttribute="height" multiplier="1:1" id="Eid-wa-93m"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="vowel"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uPd-wb-DiX" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="75" y="89" width="225" height="225"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uPd-wb-DiX" secondAttribute="height" multiplier="1:1" id="ISi-Bo-frS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="consonant"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PK7-HP-lw7" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="75" y="89" width="225" height="225"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PK7-HP-lw7" secondAttribute="height" multiplier="1:1" id="j7V-al-9bQ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="batchim"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyM-6y-Sdz">
+                                <rect key="frame" x="30" y="324" width="315" height="251"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="251" id="Doo-VY-dHY"/>
+                                </constraints>
+                                <string key="text">자음은 총 19개로, 기본자음 14개와 
+복합자음(ㄲ,ㄸ,ㅃ,ㅆ,ㅉ) 5개로 구성되어 있다.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="DyM-6y-Sdz" firstAttribute="top" secondItem="uPd-wb-DiX" secondAttribute="bottom" constant="10" id="3nU-8r-cOz"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DyM-6y-Sdz" secondAttribute="trailing" constant="30" id="4gK-EE-qdo"/>
                             <constraint firstItem="Pae-bh-4q7" firstAttribute="top" secondItem="6zW-a1-xOB" secondAttribute="bottom" constant="20" id="7yE-SA-Ydh"/>
+                            <constraint firstItem="DyM-6y-Sdz" firstAttribute="top" secondItem="PK7-HP-lw7" secondAttribute="bottom" constant="10" id="8p4-Zk-1Vm"/>
                             <constraint firstItem="DyM-6y-Sdz" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="FB0-Vc-adO"/>
-                            <constraint firstItem="45k-RD-KtK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="GJZ-Uw-Axd"/>
+                            <constraint firstItem="1Vd-st-bSF" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="45" id="GvW-vv-C97"/>
                             <constraint firstItem="6zW-a1-xOB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="J9e-e1-C3G"/>
                             <constraint firstItem="6zW-a1-xOB" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="JQw-vT-et2"/>
-                            <constraint firstItem="45k-RD-KtK" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="50" id="LV3-3N-Ev1"/>
                             <constraint firstItem="Pae-bh-4q7" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="STF-I5-tsO"/>
+                            <constraint firstItem="PK7-HP-lw7" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="75" id="Sur-pg-MbE"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1Vd-st-bSF" secondAttribute="trailing" constant="75" id="Sww-YE-2CX"/>
+                            <constraint firstItem="uPd-wb-DiX" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="SyW-Gh-JHn"/>
                             <constraint firstItem="DyM-6y-Sdz" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="UAc-ue-Zjl"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="45k-RD-KtK" secondAttribute="trailing" constant="50" id="US1-2R-Zur"/>
-                            <constraint firstItem="DyM-6y-Sdz" firstAttribute="top" secondItem="45k-RD-KtK" secondAttribute="bottom" constant="10" id="VRO-rd-Yuc"/>
+                            <constraint firstItem="uPd-wb-DiX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="75" id="V2n-AT-Ryo"/>
+                            <constraint firstItem="PK7-HP-lw7" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="cSX-kK-vxq"/>
+                            <constraint firstItem="uPd-wb-DiX" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="45" id="dAa-n8-5wq"/>
+                            <constraint firstItem="DyM-6y-Sdz" firstAttribute="top" secondItem="1Vd-st-bSF" secondAttribute="bottom" constant="10" id="gdP-CU-vNh"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="PK7-HP-lw7" secondAttribute="trailing" constant="75" id="hrK-IO-4TR"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6zW-a1-xOB" secondAttribute="trailing" constant="30" id="jUH-0G-p7e"/>
+                            <constraint firstItem="6zW-a1-xOB" firstAttribute="top" secondItem="DyM-6y-Sdz" secondAttribute="bottom" constant="20" id="oOz-MW-qV0"/>
                             <constraint firstAttribute="bottom" secondItem="Pae-bh-4q7" secondAttribute="bottom" constant="50" id="ow5-1O-vxw"/>
-                            <constraint firstItem="45k-RD-KtK" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="wDu-Lq-tAZ"/>
+                            <constraint firstItem="1Vd-st-bSF" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="sJP-65-vDB"/>
+                            <constraint firstItem="PK7-HP-lw7" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="45" id="tSz-jf-SZp"/>
+                            <constraint firstItem="1Vd-st-bSF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="75" id="vS4-NA-4dA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="uPd-wb-DiX" secondAttribute="trailing" constant="75" id="veF-Zx-zmx"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="caption" destination="DyM-6y-Sdz" id="lZU-1O-tzt"/>
                         <outlet property="extraCaption" destination="KAI-Vr-Ee5" id="8nh-87-qMh"/>
-                        <outlet property="image" destination="45k-RD-KtK" id="caB-u4-ieY"/>
+                        <outletCollection property="animationViewArray" destination="1Vd-st-bSF" collectionClass="NSMutableArray" id="r3A-IX-1qP"/>
+                        <outletCollection property="animationViewArray" destination="uPd-wb-DiX" collectionClass="NSMutableArray" id="QDw-qR-vQU"/>
+                        <outletCollection property="animationViewArray" destination="PK7-HP-lw7" collectionClass="NSMutableArray" id="G5O-vr-QHm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="69.565217391304358" y="77.678571428571431"/>
+            <point key="canvasLocation" x="68" y="77.58620689655173"/>
         </scene>
         <!--Consonant View Controller-->
         <scene sceneID="tot-uc-I2N">
@@ -798,13 +835,6 @@
                                     <action selector="nextPage:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="06a-nd-dzC"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ㅡ always goes below the consonant, whereas ㅣ goes to the right." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yo3-nM-VrJ">
-                                <rect key="frame" x="8" y="569" width="358" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cus-J0-RL8">
                                 <rect key="frame" x="325" y="84" width="30" height="30"/>
                                 <constraints>
@@ -866,6 +896,13 @@
                                     <outlet property="delegate" destination="09Y-7J-Xd8" id="Kje-LI-RcC"/>
                                 </connections>
                             </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ㅡ always goes below the consonant, whereas ㅣ goes to the right." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yo3-nM-VrJ">
+                                <rect key="frame" x="8" y="569" width="358" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vt5-e2-K4Z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1033,21 +1070,23 @@
                                     <action selector="goToStudy:" destination="O5O-Nr-ODP" eventType="touchUpInside" id="3nc-Ew-cpB"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IzJ-yz-1go">
-                                <rect key="frame" x="22.666666666666657" y="184" width="330" height="360"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="360" id="Tbs-Sg-byG"/>
-                                    <constraint firstAttribute="width" secondItem="IzJ-yz-1go" secondAttribute="height" multiplier="11:12" id="dTc-9a-jwW"/>
-                                </constraints>
-                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pUv-rN-L8j" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="47" y="182" width="281" height="307"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="finish"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jAb-9o-ZQx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jAb-9o-ZQx" firstAttribute="bottom" secondItem="rEx-eD-HBx" secondAttribute="bottom" constant="65" id="4F9-hx-fDE"/>
-                            <constraint firstItem="IzJ-yz-1go" firstAttribute="centerX" secondItem="uui-Nb-Prl" secondAttribute="centerX" id="4uE-hg-lzl"/>
                             <constraint firstItem="VEV-vw-fiw" firstAttribute="centerX" secondItem="uui-Nb-Prl" secondAttribute="centerX" id="8aZ-rv-p5a"/>
-                            <constraint firstItem="IzJ-yz-1go" firstAttribute="top" secondItem="VEV-vw-fiw" secondAttribute="bottom" constant="10" id="Yuy-9q-euK"/>
+                            <constraint firstItem="pUv-rN-L8j" firstAttribute="top" secondItem="VEV-vw-fiw" secondAttribute="bottom" constant="8" symbolic="YES" id="BgI-K9-GlF"/>
+                            <constraint firstItem="pUv-rN-L8j" firstAttribute="leading" secondItem="jAb-9o-ZQx" secondAttribute="leading" constant="47" id="LYu-pl-5vN"/>
+                            <constraint firstItem="pUv-rN-L8j" firstAttribute="centerX" secondItem="VEV-vw-fiw" secondAttribute="centerX" id="dHi-yR-iju"/>
+                            <constraint firstItem="EDV-e4-OmA" firstAttribute="top" secondItem="pUv-rN-L8j" secondAttribute="bottom" constant="84" id="jsq-Xx-zq0"/>
                             <constraint firstItem="EDV-e4-OmA" firstAttribute="centerX" secondItem="uui-Nb-Prl" secondAttribute="centerX" id="v72-xe-drS"/>
                             <constraint firstItem="rEx-eD-HBx" firstAttribute="centerX" secondItem="uui-Nb-Prl" secondAttribute="centerX" id="xTa-v1-5De"/>
                             <constraint firstItem="VEV-vw-fiw" firstAttribute="top" secondItem="jAb-9o-ZQx" secondAttribute="top" constant="50" id="yBq-7Q-jX1"/>
@@ -1055,13 +1094,14 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="animationView" destination="pUv-rN-L8j" id="xHJ-oR-uCO"/>
                         <outlet property="goToStudy" destination="EDV-e4-OmA" id="GqN-ZQ-GJu"/>
                         <outlet property="message" destination="VEV-vw-fiw" id="Wd0-DW-2KN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aw9-cI-7hH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1784" y="78"/>
+            <point key="canvasLocation" x="1783.2" y="77.58620689655173"/>
         </scene>
     </scenes>
     <resources>
