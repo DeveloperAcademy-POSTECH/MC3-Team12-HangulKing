@@ -100,6 +100,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="lac-KA-DGi" kind="show" id="el4-Vs-6Iu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHQ-dK-aUX">
                                 <rect key="frame" x="260" y="385" width="100" height="130"/>
@@ -212,16 +215,6 @@
             </objects>
             <point key="canvasLocation" x="998.46153846153845" y="77.488151658767762"/>
         </scene>
-        <!--Vowel-->
-        <scene sceneID="i6l-RY-fTE">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="FirstVowel" storyboardName="Vowel" referencedIdentifier="Vowel" id="gXb-I8-Sof" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="KNw-EO-mZV"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="orP-xj-FMw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1780" y="7.8199052132701414"/>
-        </scene>
         <!--Consonant-->
         <scene sceneID="oac-Hz-jHp">
             <objects>
@@ -232,16 +225,6 @@
             </objects>
             <point key="canvasLocation" x="1630.7692307692307" y="77.488151658767762"/>
         </scene>
-        <!--Batchim-->
-        <scene sceneID="gfD-0x-ME4">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Batchim" id="sha-UZ-G8y" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="gJ0-lQ-UTu"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5oj-TY-4wN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1883.0769230769231" y="53.317535545023695"/>
-        </scene>
         <!--HangulView-->
         <scene sceneID="ee9-NZ-CZd">
             <objects>
@@ -250,7 +233,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CJK-JS-3aw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1600.7692307692307" y="204.739336492891"/>
+            <point key="canvasLocation" x="1636" y="203"/>
+        </scene>
+        <!--Quiz-->
+        <scene sceneID="1Az-op-V9M">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Quiz" storyboardName="Quiz" id="lac-KA-DGi" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8tH-7r-Ght"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ebs-9z-Vio" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1602" y="155"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SV5-Zs-ljt">
