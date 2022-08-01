@@ -392,12 +392,15 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
             audioRecorder.record()
             setRecordButton()
             Timer.scheduledTimer(withTimeInterval: 3.0, repeats: false) { [self] (timer) in
-                self.playButton.isHidden = false
-                self.audioRecorder.stop()
-                self.initplay()
-                self.audioPlayer.play()
-                isRecording = false
-                self.setRecordButton()
+                if(isRecording != false){
+                    self.playButton.isHidden = false
+                    self.audioRecorder.stop()
+                    self.initplay()
+                    self.audioPlayer.play()
+                    isRecording = false
+                    self.setRecordButton()
+                }
+                
             }
         } else { // 'Recording'이 거짓일 때 녹음을 중지하고 녹음된 소리를 출력
             setRecordButton()
