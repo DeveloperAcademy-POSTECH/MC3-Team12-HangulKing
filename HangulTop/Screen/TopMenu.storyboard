@@ -30,10 +30,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l40-oz-mUy">
-                                <rect key="frame" x="82" y="764" width="250" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoG-Br-ZFY">
+                                <rect key="frame" x="72" y="464.5" width="289" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l40-oz-mUy">
+                                <rect key="frame" x="82" y="593" width="250" height="70"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="KZB-D1-Cfk"/>
+                                    <constraint firstAttribute="width" constant="250" id="aHR-zC-ZeK"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Start">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -48,22 +58,20 @@
                                     <segue destination="jZz-aY-Who" kind="show" id="h5M-70-MBf"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoG-Br-ZFY">
-                                <rect key="frame" x="72" y="284" width="289" height="201"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="l40-oz-mUy" secondAttribute="bottom" constant="199" id="bEh-4w-GHX"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="l40-oz-mUy" secondAttribute="trailing" constant="82" id="tGp-Vv-T7O"/>
+                            <constraint firstItem="l40-oz-mUy" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="82" id="xER-tE-k8e"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ORm-NR-suA">
                         <barButtonItem key="backBarButtonItem" title="Menu" id="U6q-kg-62X"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="quizCount" destination="xoG-Br-ZFY" id="6n7-Pl-jZI"/>
+                        <outlet property="quizCount" destination="xoG-Br-ZFY" id="F2w-NW-q0b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
