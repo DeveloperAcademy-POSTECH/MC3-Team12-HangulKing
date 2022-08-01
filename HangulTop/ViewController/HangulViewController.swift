@@ -9,33 +9,51 @@ import UIKit
 import AVFoundation
 
 class HangulViewController: UIViewController{
-
+    
+    @IBOutlet weak var megaphoneLabel: UILabel!
     @IBOutlet var buttons: [UIButton]!
     @IBOutlet weak var mainLetter: UILabel!
+    @IBOutlet weak var captionView: UIStackView!
     var check: Int = 0
     var setLet = [[14, 20, 21, 22, 23, 24, 25, 26, 27],[14, 22, 23, 24, 25, 26, 27],[1]]
     var hangul: String = "앙"
     let letters = ["\u{1100}","\u{110f}","\u{1101}"]
     let syllableArray = [["\u{1100}","\u{1102}","\u{1103}","\u{1105}","\u{1106}","\u{1107}", "\u{1109}","\u{110b}", "\u{110c}", "\u{110e}","\u{110f}","\u{1110}", "\u{1111}","\u{1112}","\u{1101}","\u{1104}","\u{1108}", "\u{110a}","\u{110d}"], ["ㅏ", "ㅑ", "ㅓ", "ㅕ", "ㅗ", "ㅛ", "ㅜ", "ㅠ", "ㅡ", "ㅣ", "ㅐ", "ㅒ", "ㅔ", "ㅖ", "ㅘ", "ㅙ", "ㅚ", "ㅝ", "ㅞ", "ㅟ", "ㅢ"], ["\u{11a7}", "\u{11a8}", "\u{11ab}", "\u{11ae}", "\u{11af}", "\u{11b7}", "\u{11b8}", "\u{11ba}", "\u{11bc}", "\u{11bd}", "\u{11be}", "\u{11bf}", "\u{11c0}", "\u{11c1}", "\u{11c2}", "\u{11a9}", "\u{11bb}", "\u{11aa}", "\u{11ac}", "\u{11ad}", "\u{11b0}", "\u{11b1}", "\u{11b2}", "\u{11b3}", "\u{11b4}", "\u{11b5}", "\u{11b6}",  "\u{11b9}"]]
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         mainLetter.text = hangul
         setButton()
         importButton()
+        setLabel()
+        setCaption()
         // Do any additional setup after loading the view.
     }
     
-//    func setButton() {
-//        for i in 0..<syllableArray[0].count {
-//            buttons[i].setTitle(syllableArray[0][i], for: .normal)
-//        }
-//    }
-//    func setBatchim() {
-//        for i in 0..<syllableArray[2].count {
-//            batchims[i].setTitle(syllableArray[0][i], for: .normal)
-//        }
-//    }
+    //    func setButton() {
+    //        for i in 0..<syllableArray[0].count {
+    //            buttons[i].setTitle(syllableArray[0][i], for: .normal)
+    //        }
+    //    }
+    //    func setBatchim() {
+    //        for i in 0..<syllableArray[2].count {
+    //            batchims[i].setTitle(syllableArray[0][i], for: .normal)
+    //        }
+    //    }
+    func setLabel() {
+        let imageAttachment = NSTextAttachment()
+        imageAttachment.image = UIImage(systemName: "megaphone.fill")
+
+        let fullString = NSMutableAttributedString(string: "")
+        fullString.append(NSAttributedString(attachment: imageAttachment))
+        megaphoneLabel.attributedText = fullString
+    }
+    
+    func setCaption() {
+        captionView.layer.borderColor =  UIColor.black.cgColor
+        captionView.layer.borderWidth = 0.5
+        captionView.layer.cornerRadius = 10
+    }
     
     @IBAction func viewSelect(_ sender: UISegmentedControl) {
         if(sender.selectedSegmentIndex == 0) {
@@ -128,9 +146,9 @@ class HangulViewController: UIViewController{
                     j += 1
                 }else{
                     buttons[i].setTitle(syllableArray[check][j], for: .normal)
-//                    buttons[i].titleLabel?.shadowColor = UIColor.black.cgColor
+                    //                    buttons[i].titleLabel?.shadowColor = UIColor.black.cgColor
                     buttons[i].titleLabel?.shadowOffset = CGSize(width: 0, height: 4)
-//                   btn.layer.shadowColor = UIColor.black.cgColor // 색깔
+                    //                   btn.layer.shadowColor = UIColor.black.cgColor // 색깔
                     buttons[i].layer.masksToBounds = false  // 내부에 속한 요소들이 UIView 밖을 벗어날 때, 잘라낼 것인지. 그림자는 밖에 그려지는 것이므로 false 로 설정
                     buttons[i].layer.shadowOffset = CGSize(width: 0, height: 4) // 위치조정
                     buttons[i].layer.shadowRadius = 1 // 반경
@@ -146,5 +164,8 @@ class HangulViewController: UIViewController{
             }
         }
     }
-
+    
+    @IBAction func speakLetter(_ sender: Any) {
+        pronounce(hangul)
+    }
 }
