@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3Y-WB-fQo">
-                                <rect key="frame" x="30" y="393" width="100" height="130"/>
+                                <rect key="frame" x="30" y="355" width="100" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="lZS-qK-J2O"/>
                                     <constraint firstAttribute="height" constant="130" id="wuK-uh-b4u"/>
@@ -30,9 +30,9 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Vowel">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -41,17 +41,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUU-R5-0ue">
-                                <rect key="frame" x="145" y="393" width="100" height="130"/>
+                                <rect key="frame" x="145" y="355" width="100" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="0Kk-ya-HiC"/>
-                                    <constraint firstAttribute="width" constant="100" id="Iux-Gh-6rF"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Consonant">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -60,7 +59,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JtG-Tx-ie9">
-                                <rect key="frame" x="210" y="598" width="150" height="150"/>
+                                <rect key="frame" x="210" y="560" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="V3i-04-myq"/>
                                     <constraint firstAttribute="height" constant="150" id="YHY-hi-ABe"/>
@@ -68,18 +67,21 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Hangul">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="toBatchim:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Ayg-5N-jBX"/>
                                     <segue destination="UUh-US-ayC" kind="show" id="Oun-ZJ-532"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOH-WO-KYp">
-                                <rect key="frame" x="30" y="598" width="150" height="150"/>
+                                <rect key="frame" x="30" y="560" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="gAD-7v-S0x"/>
                                     <constraint firstAttribute="height" constant="150" id="u3q-Fl-07Z"/>
@@ -87,24 +89,26 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Quiz">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHQ-dK-aUX">
-                                <rect key="frame" x="260" y="393" width="100" height="130"/>
+                                <rect key="frame" x="260" y="355" width="100" height="130"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="89Z-pt-LSc"/>
                                     <constraint firstAttribute="height" constant="130" id="hnT-3K-9Tr"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Batchim">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleBody"/>
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleSubhead"/>
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -113,19 +117,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPg-u7-SlT">
-                                <rect key="frame" x="30" y="360" width="330" height="21"/>
+                                <rect key="frame" x="30" y="322" width="330" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Practice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAo-4h-kBf">
-                                <rect key="frame" x="30" y="565" width="330" height="21"/>
+                                <rect key="frame" x="30" y="527" width="330" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이름^^" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBI-2k-mQS">
-                                <rect key="frame" x="124.66666666666667" y="122" width="140.66666666666663" height="54"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한글킹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBI-2k-mQS">
+                                <rect key="frame" x="124.66666666666669" y="122" width="141" height="54"/>
                                 <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="48"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -134,7 +138,6 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="oUU-R5-0ue" firstAttribute="leading" secondItem="V3Y-WB-fQo" secondAttribute="trailing" constant="15" id="5K8-qG-XxL"/>
                             <constraint firstItem="GAo-4h-kBf" firstAttribute="top" secondItem="V3Y-WB-fQo" secondAttribute="bottom" constant="42" id="5g6-KU-6I0"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="fHQ-dK-aUX" secondAttribute="trailing" constant="30" id="7p2-jH-gAr"/>
                             <constraint firstItem="oUU-R5-0ue" firstAttribute="top" secondItem="PPg-u7-SlT" secondAttribute="bottom" constant="12" id="8T5-wQ-h9F"/>
@@ -142,12 +145,12 @@
                             <constraint firstItem="V3Y-WB-fQo" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="Ef5-tW-QlF"/>
                             <constraint firstItem="GAo-4h-kBf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="Eny-Wr-qNc"/>
                             <constraint firstItem="JtG-Tx-ie9" firstAttribute="leading" secondItem="LOH-WO-KYp" secondAttribute="trailing" constant="30" id="Ijo-w8-hqp"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="LOH-WO-KYp" secondAttribute="bottom" constant="100" id="KRE-xP-Bw1"/>
                             <constraint firstItem="LOH-WO-KYp" firstAttribute="top" secondItem="GAo-4h-kBf" secondAttribute="bottom" constant="12" id="KZu-Qa-WIQ"/>
-                            <constraint firstItem="PPg-u7-SlT" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="316" id="M78-0S-mqY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="JtG-Tx-ie9" secondAttribute="bottom" constant="100" id="NBS-QP-xey"/>
                             <constraint firstItem="PBI-2k-mQS" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="78" id="QY5-3p-GJX"/>
                             <constraint firstItem="JtG-Tx-ie9" firstAttribute="top" secondItem="GAo-4h-kBf" secondAttribute="bottom" constant="12" id="RiF-h1-Zb2"/>
                             <constraint firstItem="oUU-R5-0ue" firstAttribute="leading" secondItem="V3Y-WB-fQo" secondAttribute="trailing" constant="15" id="UUa-VB-woB"/>
-                            <constraint firstItem="fHQ-dK-aUX" firstAttribute="leading" secondItem="oUU-R5-0ue" secondAttribute="trailing" constant="15" id="Xfx-BQ-WhK"/>
                             <constraint firstItem="LOH-WO-KYp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="YSE-Ga-5ma"/>
                             <constraint firstItem="fHQ-dK-aUX" firstAttribute="leading" secondItem="oUU-R5-0ue" secondAttribute="trailing" constant="15" id="ZZ0-mc-Bu0"/>
                             <constraint firstItem="fHQ-dK-aUX" firstAttribute="top" secondItem="PPg-u7-SlT" secondAttribute="bottom" constant="12" id="hZG-cp-fJN"/>
@@ -157,6 +160,7 @@
                             <constraint firstItem="PPg-u7-SlT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="qaO-7L-LVp"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="GAo-4h-kBf" secondAttribute="trailing" constant="30" id="rsU-r3-Esi"/>
                             <constraint firstItem="GAo-4h-kBf" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="30" id="uNM-dH-a80"/>
+                            <constraint firstItem="oUU-R5-0ue" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="unJ-GN-6l4"/>
                             <constraint firstItem="JtG-Tx-ie9" firstAttribute="leading" secondItem="LOH-WO-KYp" secondAttribute="trailing" constant="30" id="v9Z-B1-5by"/>
                             <constraint firstItem="PBI-2k-mQS" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="yO6-hq-XQl"/>
                         </constraints>
