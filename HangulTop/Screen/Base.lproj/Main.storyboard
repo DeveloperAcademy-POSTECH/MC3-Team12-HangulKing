@@ -198,7 +198,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OCb-lt-xnW">
-                        <barButtonItem key="backBarButtonItem" title="Menu" id="tIG-nm-Ebk"/>
+                        <barButtonItem key="backBarButtonItem" title="Home" id="tIG-nm-Ebk"/>
                     </navigationItem>
                     <connections>
                         <outlet property="appTitle" destination="PBI-2k-mQS" id="Vhk-71-Nsq"/>
