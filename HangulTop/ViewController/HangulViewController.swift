@@ -27,23 +27,12 @@ class HangulViewController: UIViewController{
         importButton()
         setLabel()
         setCaption()
-        // Do any additional setup after loading the view.
     }
     
-    //    func setButton() {
-    //        for i in 0..<syllableArray[0].count {
-    //            buttons[i].setTitle(syllableArray[0][i], for: .normal)
-    //        }
-    //    }
-    //    func setBatchim() {
-    //        for i in 0..<syllableArray[2].count {
-    //            batchims[i].setTitle(syllableArray[0][i], for: .normal)
-    //        }
-    //    }
     func setLabel() {
         let imageAttachment = NSTextAttachment()
         imageAttachment.image = UIImage(systemName: "megaphone.fill")
-
+        
         let fullString = NSMutableAttributedString(string: "")
         fullString.append(NSAttributedString(attachment: imageAttachment))
         megaphoneLabel.attributedText = fullString
@@ -123,38 +112,35 @@ class HangulViewController: UIViewController{
         for i in 0..<buttons.count {
             buttons[i].isHidden = false
         }
-        if(check != 2){
-            for j in 0..<setLet[check].count{
+        if(check != 2) {
+            for j in 0..<setLet[check].count {
                 buttons[setLet[check][j]].isHidden = true
             }
         }
-        
     }
     
     func importButton(){
         var j = 0
         for i in 0..<buttons.count {
-            if(buttons[i].isHidden == false){
+            if(buttons[i].isHidden == false) {
                 if(UnicodeScalar(syllableArray[check][j])?.value == 0x11a7){
                     buttons[i].setTitle(syllableArray[check][j], for: .normal)
-                    buttons[i].layer.borderWidth = 1
-                    buttons[i].layer.borderColor = UIColor.black.cgColor
                     buttons[i].setTitleColor(UIColor.white, for: .normal)
                     buttons[i].layer.cornerRadius = 15
                     buttons[i].titleLabel?.font = UIFont(name: "EBS훈민정음R", size: 30) ?? .systemFont(ofSize: 30, weight: .regular)
                     buttons[i].backgroundColor = .white
+                    let font = UIFont.systemFont(ofSize: self.view.frame.width, weight: .thin)
+                    let config = UIImage.SymbolConfiguration(font: font)
+                    let image = UIImage(systemName: "line.diagonal", withConfiguration: config)?.withTintColor(.red, renderingMode: .alwaysOriginal)
+                    buttons[i].setImage(image, for: .normal)
                     j += 1
-                }else{
+                    
+                } else {
+                    buttons[i].setImage(nil, for: .normal)
                     buttons[i].setTitle(syllableArray[check][j], for: .normal)
-                    //                    buttons[i].titleLabel?.shadowColor = UIColor.black.cgColor
                     buttons[i].titleLabel?.shadowOffset = CGSize(width: 0, height: 4)
-                    //                   btn.layer.shadowColor = UIColor.black.cgColor // 색깔
                     buttons[i].layer.masksToBounds = false  // 내부에 속한 요소들이 UIView 밖을 벗어날 때, 잘라낼 것인지. 그림자는 밖에 그려지는 것이므로 false 로 설정
-                    buttons[i].layer.shadowOffset = CGSize(width: 0, height: 4) // 위치조정
-                    buttons[i].layer.shadowRadius = 1 // 반경
-                    buttons[i].layer.shadowOpacity = 0.3 // alpha값 buttons[i].titleLabel?.shadowOpacity = 0.5
-                    buttons[i].layer.borderWidth = 1
-                    buttons[i].layer.borderColor = UIColor.black.cgColor
+                    buttons[i].setShadow()
                     buttons[i].setTitleColor(UIColor.black, for: .normal)
                     buttons[i].layer.cornerRadius = 15
                     buttons[i].titleLabel?.font = UIFont(name: "EBSHunminjeongeumL", size: 30) ?? .systemFont(ofSize: 30, weight: .regular)
