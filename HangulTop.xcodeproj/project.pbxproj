@@ -495,7 +495,6 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HangulTop/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HangulKing;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Record";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -528,7 +527,6 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HangulTop/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = HangulKing;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Record";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
