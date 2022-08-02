@@ -27,6 +27,7 @@ class HangulViewController: UIViewController{
         importButton()
         setLabel()
         setCaption()
+//        paintButton()
     }
     
     func setLabel() {
@@ -92,6 +93,8 @@ class HangulViewController: UIViewController{
         mainLetter?.text = hangul
         print("\(hangul)")
         pronounce(hangul)
+        cleanButtonSet()
+        sender.backgroundColor = UIColor(named: "study-button")
     }
     
     func pronounce(_ letter: String) {
@@ -118,9 +121,25 @@ class HangulViewController: UIViewController{
             }
         }
     }
-    
+    func cleanButtonSet() {
+        for button in buttons {
+            button.backgroundColor = .white
+        }
+    }
     func importButton(){
         var j = 0
+        let mainUni = UnicodeScalar(hangul)?.value
+        var uni = ((mainUni ?? 0xac01) - 0xac00) / 28 / 21
+        switch check{
+        case 0:
+            uni = ((mainUni ?? 0xac01) - 0xac00) / 28 / 21
+        case 1:
+            uni = ((mainUni ?? 0xac01) - 0xac00) / 28 % 21
+        case 2:
+            uni = ((mainUni ?? 0xac01) - 0xac00) % 28
+        default:
+            break
+        }
         for i in 0..<buttons.count {
             if(buttons[i].isHidden == false) {
                 if(UnicodeScalar(syllableArray[check][j])?.value == 0x11a7){
@@ -128,7 +147,17 @@ class HangulViewController: UIViewController{
                     buttons[i].setTitleColor(UIColor.white, for: .normal)
                     buttons[i].layer.cornerRadius = 15
                     buttons[i].titleLabel?.font = UIFont(name: "EBS훈민정음R", size: 30) ?? .systemFont(ofSize: 30, weight: .regular)
-                    buttons[i].backgroundColor = .white
+                    var titleUni = UnicodeScalar(syllableArray[check][j])?.value
+                    if(titleUni! < 0x1113){ //자음일때
+                        titleUni = (titleUni ?? 0xac01) - 0x1100
+                    }
+                    else if(titleUni! < 0x11c3){ //받침일때
+                        titleUni = (titleUni ?? 0xac01) - 0x11a7
+                    }
+                    else{
+                        titleUni = (titleUni ?? 0xac01) - 0x314f
+                    }
+                    buttons[i].backgroundColor = (uni == titleUni) ? UIColor(named: "study-button") : .white
                     let font = UIFont.systemFont(ofSize: self.view.frame.width, weight: .thin)
                     let config = UIImage.SymbolConfiguration(font: font)
                     let image = UIImage(systemName: "line.diagonal", withConfiguration: config)?.withTintColor(.red, renderingMode: .alwaysOriginal)
@@ -144,14 +173,26 @@ class HangulViewController: UIViewController{
                     buttons[i].setTitleColor(UIColor.black, for: .normal)
                     buttons[i].layer.cornerRadius = 15
                     buttons[i].titleLabel?.font = UIFont(name: "EBSHunminjeongeumL", size: 30) ?? .systemFont(ofSize: 30, weight: .regular)
-                    buttons[i].backgroundColor = .white
+                    var titleUni = UnicodeScalar(syllableArray[check][j])?.value
+                    if(titleUni! < 0x1113){ //자음일때
+                        titleUni = (titleUni ?? 0xac01) - 0x1100
+                    }
+                    else if(titleUni! < 0x11c3){ //받침일때
+                        titleUni = (titleUni ?? 0xac01) - 0x11a7
+                    }
+                    else{
+                        titleUni = (titleUni ?? 0xac01) - 0x314f
+                    }
+                    buttons[i].backgroundColor = (uni == titleUni) ? UIColor(named: "study-button") : .white
                     j += 1
                 }
             }
+            
         }
     }
     
     @IBAction func speakLetter(_ sender: Any) {
         pronounce(hangul)
     }
+    
 }
