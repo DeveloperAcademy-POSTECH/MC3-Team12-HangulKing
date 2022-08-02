@@ -763,7 +763,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Prev">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
-                                    <color key="baseForegroundColor" name="study-button"/>
+                                    <color key="baseForegroundColor" name="next-button"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="prevPage:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="ete-Qf-KpT"/>
@@ -827,7 +827,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Next">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
-                                    <color key="baseForegroundColor" name="study-button"/>
+                                    <color key="baseForegroundColor" name="next-button"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextPage:" destination="09Y-7J-Xd8" eventType="touchUpInside" id="06a-nd-dzC"/>
@@ -1108,8 +1108,8 @@
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="smiley.fill" catalog="system" width="128" height="121"/>
-        <namedColor name="study-button">
-            <color red="0.43137254901960786" green="0.71372549019607845" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="next-button">
+            <color red="0.29411764705882354" green="0.47450980392156861" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
