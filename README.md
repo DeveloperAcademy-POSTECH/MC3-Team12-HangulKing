@@ -52,11 +52,11 @@ With HangulKing, anyone with passion will be able to read and write the Korean a
 ## :fireworks: Screenshots
 
 <p>
-  <img src="https://user-images.githubusercontent.com/76623853/182304011-05153d81-7061-499f-a6ff-4143b7ab8a51.png" width="185">
-  <img src="https://user-images.githubusercontent.com/76623853/182304104-977980de-aca1-4e6d-bf0f-e0e67d93d148.png" width="185">
-  <img src="https://user-images.githubusercontent.com/76623853/182304234-ba7c1351-6c06-4c58-acdd-219127d27106.png" width="185">
-  <img src="https://user-images.githubusercontent.com/76623853/182304270-a195f0fb-d454-4a72-99f2-4ff55443df67.png" width="185">
-  <img src="https://user-images.githubusercontent.com/76623853/182304307-5a8f4808-b34e-454a-986f-cead1692c2ef.png" width="185">
+  <img src="https://user-images.githubusercontent.com/76623853/182304011-05153d81-7061-499f-a6ff-4143b7ab8a51.png" width="175">
+  <img src="https://user-images.githubusercontent.com/76623853/182304104-977980de-aca1-4e6d-bf0f-e0e67d93d148.png" width="175">
+  <img src="https://user-images.githubusercontent.com/76623853/182304234-ba7c1351-6c06-4c58-acdd-219127d27106.png" width="175">
+  <img src="https://user-images.githubusercontent.com/76623853/182304270-a195f0fb-d454-4a72-99f2-4ff55443df67.png" width="175">
+  <img src="https://user-images.githubusercontent.com/76623853/182304307-5a8f4808-b34e-454a-986f-cead1692c2ef.png" width="175">
 </p>
 
 
