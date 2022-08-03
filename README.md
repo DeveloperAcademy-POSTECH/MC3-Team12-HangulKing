@@ -7,6 +7,8 @@
 HangulKing helps the users learn Hangul easily, providing multiple opportunities to listen to the sound, combine their own letter, and review with quizzes.
 With HangulKing, anyone with passion will be able to read and write the Korean alphabets easily in relatively a short period time.
 
+🔗App Store : <a href="https://apps.apple.com/kr/app/hangulking/id1637450662?l=en">HangulKing</a>
+
 ## :pushpin: Features
 
 - HangulKing introduces a step by step learning experience of the Korean alphabets, all the way from vowels to Batchim(final consonants)
