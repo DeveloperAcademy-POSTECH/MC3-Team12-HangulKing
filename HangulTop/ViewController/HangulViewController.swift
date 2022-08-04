@@ -108,6 +108,7 @@ class HangulViewController: UIViewController{
             options: AVAudioSession.CategoryOptions.mixWithOthers
         )
         utterance.rate = 0.4
+        utterance.volume = 30
         synthesizer.speak(utterance)
     }
     

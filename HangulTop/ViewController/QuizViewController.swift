@@ -225,7 +225,8 @@ class QuizViewController: UIViewController {
         let utterance = AVSpeechUtterance(string: answers[pageNum])
         utterance.voice = AVSpeechSynthesisVoice(language: "ko-KR")
     
-        utterance.rate = 0.45
+        utterance.rate = 0.35
+        utterance.volume = 30
         synthesizer.speak(utterance)
         
         quizLottie.play()

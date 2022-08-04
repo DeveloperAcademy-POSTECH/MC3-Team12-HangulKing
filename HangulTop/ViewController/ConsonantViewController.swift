@@ -316,6 +316,7 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
             AVAudioSession.Category.playback,
             options: AVAudioSession.CategoryOptions.mixWithOthers
         )
+        utterance.volume = 30
         utterance.rate = 0.4
         synthesizer.speak(utterance)
     }
@@ -345,7 +346,7 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
         audioRecorder.delegate = self
         audioRecorder.isMeteringEnabled =  true
         audioRecorder.prepareToRecord()
-        audioPlayer.volume = 10
+        audioPlayer.volume = 30
         
         let session = AVAudioSession.sharedInstance()
         do {
@@ -369,11 +370,13 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
         }
         audioPlayer.delegate = self // audioPlayer의 델리게이트는 self
         audioPlayer.prepareToPlay() // prepareToPlay() 실행
-        audioPlayer.volume = 10
+        audioPlayer.volume = 30
     }
     
     // 재생 버튼 클릭
     @IBAction func btnPlayAudio(_ sender: UIButton) {
+        initplay()
+        audioPlayer.volume = 30
         audioPlayer.play()
     }
     
