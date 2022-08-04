@@ -82,7 +82,9 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
         if indexCount == 2 {
             pageNum = sender.tag
         } else {
-            pageNum = sender.tag - 1
+            if sender.tag != 0 && sender.tag != 6 {
+                pageNum = sender.tag - 1
+            }
         }
         initPage()
     }
