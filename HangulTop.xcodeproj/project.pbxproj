@@ -13,6 +13,7 @@
 		11B165642886A5CE008D2456 /* PrincipleEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B165632886A5CE008D2456 /* PrincipleEndViewController.swift */; };
 		11B62AA5288E65BD00724875 /* PrincipleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B62AA4288E65BD00724875 /* PrincipleCollectionViewCell.swift */; };
 		11BA068A28C84BDD00E706AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11BA068C28C84BDD00E706AD /* Localizable.strings */; };
+		11BA069028C84D9400E706AD /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA068F28C84D9400E706AD /* StringExtension.swift */; };
 		11E03FE92893AE9F00240DCA /* InformationModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E03FE82893AE9F00240DCA /* InformationModal.storyboard */; };
 		11E03FEB2893AEDC00240DCA /* InformationModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E03FEA2893AEDC00240DCA /* InformationModalViewController.swift */; };
 		11E03FED2893B6F000240DCA /* InformationModalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E03FEC2893B6F000240DCA /* InformationModalModel.swift */; };
@@ -70,6 +71,7 @@
 		11BA068B28C84BDD00E706AD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11BA068D28C84BE000E706AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11BA068E28C84BE100E706AD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11BA068F28C84D9400E706AD /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		11E03FE82893AE9F00240DCA /* InformationModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InformationModal.storyboard; sourceTree = "<group>"; };
 		11E03FEA2893AEDC00240DCA /* InformationModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModalViewController.swift; sourceTree = "<group>"; };
 		11E03FEC2893B6F000240DCA /* InformationModalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModalModel.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				11BA068C28C84BDD00E706AD /* Localizable.strings */,
+				11BA068F28C84D9400E706AD /* StringExtension.swift */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				4D31D55D288D9DBC005E2F53 /* QuizViewController.swift in Sources */,
 				D57C319B2896F60F00DCBC68 /* LottieManage.swift in Sources */,
 				6761C8AA288550F4001A0D2C /* BatchimModel.swift in Sources */,
+				11BA069028C84D9400E706AD /* StringExtension.swift in Sources */,
 				D5CC950B287E9591005E8BF5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

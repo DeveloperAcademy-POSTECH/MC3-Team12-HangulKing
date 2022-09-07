@@ -9,9 +9,9 @@ import UIKit
 import Lottie
 
 class SyllableStartViewController: UIViewController{
-    let captionArray = ["Vowels were modeled after:\n•(sky), ㅡ(earth),ㅣ(human), also called “cheonjiin”, representing the basis of the universe.\n\n• is not solely used these days, as it does not have a sound on its own.", "Consonants were modeled after the shape of the human pronunciation organ.\n\nFive basic consonants ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ' were created, and by adding strokes to these letters, consonants with stronger sounds were created.", "Batchim is an additional consonant that comes after a consonant vowel combination.\n\nMost consonants can be batchim, but they are always pronounced as one of the 7 consonants, 'ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅇ’"]
+    let captionArray = ["vowelPrinciple".localized, "consonantPrinciple".localized, "batchimPrinciple".localized]
     let imageArray = ["vowel", "consonant", "batchim"]
-    let extraCaptionArray = ["Vowels are not used alone. 'ㅇ' here indicates a phonetic blank in front of each vowel.", "A double consonant is a form of writing the basic consonants ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ twice.", "There are double batchims that are not used as initial consonant, but they are rarely used, so don't worry!"]
+    let extraCaptionArray = ["vowelExplanation1".localized, "doubleConsonantExplanation".localized, "batchimExplanation".localized]
     var indexCount: Int?
     @IBOutlet weak var caption: UILabel!
     @IBOutlet weak var extraCaption: UILabel!
