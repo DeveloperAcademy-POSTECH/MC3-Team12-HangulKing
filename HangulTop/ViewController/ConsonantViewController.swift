@@ -24,7 +24,7 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
     //자음 공부시 보이는 모음 배열
     let vowelArray = ["ㅡ", "ㅣ", "ㅏ", "ㅓ", "ㅗ", "ㅜ", "ㅑ", "ㅕ", "ㅛ", "ㅠ", "ㅐ", "ㅔ", "ㅒ", "ㅖ", "ㅘ", "ㅚ", "ㅙ", "ㅝ", "ㅟ", "ㅞ", "ㅢ"]
     //설명 배열
-    var explanationArray = [["ㅡ always goes below the consonant,\nwhereas ㅣ goes to the right.", "One · is added to the basic vowel.", "Two · were added to the basic vowel.", "· and ㅣwere added to the basic vowel.", "Two vowels are combined into one!\nRead them quickly in order."],["","","","",""],["","","","","","",""]]
+    var explanationArray = [["vowelExplanation2".localized, "vowelExplanation3".localized, "vowelExplanation4".localized, "vowelExplanation5".localized, "vowelExplanation6".localized],["","","","",""],["","","","","","",""]]
     //페이지 컨트롤에 표시되는 배열
     var pageArray = [["", "ㅣ", "ㅏ", "ㅑ", "ㅐ", "ㅘ", ""], ["", "ㄱ", "ㄴ", "ㅁ", "ㅅ", "ㅇ", ""], ["ㄱ", "ㄴ", "ㄷ", "ㄹ", "ㅁ", "ㅂ", "ㅇ"]]
     var defaultLetter: [String] = ["으", "가", "악"]

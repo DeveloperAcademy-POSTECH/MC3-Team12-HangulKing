@@ -1,0 +1,99 @@
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "0iR-pm-SSF"; */
+"0iR-pm-SSF.normalTitle" = "ㄱ";
+
+/* Class = "UILabel"; text = "ㄱ"; ObjectID = "1Tm-dN-4ij"; */
+"1Tm-dN-4ij.text" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "3cD-9D-5pt"; */
+"3cD-9D-5pt.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "5XI-Si-gQH"; */
+"5XI-Si-gQH.normalTitle" = "ㄱ";
+
+/* Class = "UILabel"; text = "ㅇ"; ObjectID = "8bg-ef-qKQ"; */
+"8bg-ef-qKQ.text" = "ㅇ";
+
+/* Class = "UILabel"; text = "받침 학습을 마쳤습니다."; ObjectID = "A5c-uY-UWM"; */
+"A5c-uY-UWM.text" = "받침 학습을 마쳤습니다.";
+
+/* Class = "UIButton"; normalTitle = "ㅏ"; ObjectID = "DFd-0r-eOO"; */
+"DFd-0r-eOO.normalTitle" = "ㅏ";
+
+/* Class = "UIButton"; configuration.title = "메인 화면으로"; ObjectID = "MzW-HB-8OX"; */
+"MzW-HB-8OX.configuration.title" = "메인 화면으로";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MzW-HB-8OX"; */
+"MzW-HB-8OX.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UHk-ap-YX4"; */
+"UHk-ap-YX4.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "V3W-kh-YZh"; */
+"V3W-kh-YZh.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "V3W-kh-YZh"; */
+"V3W-kh-YZh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "자음 모음 결합 밑에 오는 또 다른 자음을 뜻 한다.\n\n받침 글자로는 홑받침 16개와 겹받침 11개가 사용되지만 실제 발음에서는 'ㄱ,ㄴ,ㄷ,ㄹ,ㅁ,ㅇ'의 7개 자음의 소리로만 발음한다.\n\n* 7개의 자음이 받침으로 가장 많이 쓰이고, 겹받침은 매우 드물게 쓰인다"; ObjectID = "VB2-c1-Qzt"; */
+"VB2-c1-Qzt.text" = "자음 모음 결합 밑에 오는 또 다른 자음을 뜻 한다.\n\n받침 글자로는 홑받침 16개와 겹받침 11개가 사용되지만 실제 발음에서는 'ㄱ,ㄴ,ㄷ,ㄹ,ㅁ,ㅇ'의 7개 자음의 소리로만 발음한다.\n\n* 7개의 자음이 받침으로 가장 많이 쓰이고, 겹받침은 매우 드물게 쓰인다";
+
+/* Class = "UIButton"; normalTitle = "ㅎ"; ObjectID = "Ww0-Mb-xsp"; */
+"Ww0-Mb-xsp.normalTitle" = "ㅎ";
+
+/* Class = "UILabel"; text = "ㅁ"; ObjectID = "eS3-zw-Z98"; */
+"eS3-zw-Z98.text" = "ㅁ";
+
+/* Class = "UILabel"; text = "ㄴ"; ObjectID = "ekn-0x-X06"; */
+"ekn-0x-X06.text" = "ㄴ";
+
+/* Class = "UILabel"; text = "ㄹ"; ObjectID = "gQ3-cb-9j3"; */
+"gQ3-cb-9j3.text" = "ㄹ";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "h6m-9p-6Z8"; */
+"h6m-9p-6Z8.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "h6m-9p-6Z8"; */
+"h6m-9p-6Z8.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "hb6-dI-LAo"; */
+"hb6-dI-LAo.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; configuration.title = "퀴즈 풀러 가기"; ObjectID = "i7S-Q1-aQX"; */
+"i7S-Q1-aQX.configuration.title" = "퀴즈 풀러 가기";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "i7S-Q1-aQX"; */
+"i7S-Q1-aQX.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "ㅡ"; ObjectID = "j5c-o1-a33"; */
+"j5c-o1-a33.normalTitle" = "ㅡ";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "oQi-o5-A5M"; */
+"oQi-o5-A5M.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "ogA-g3-Gr3"; */
+"ogA-g3-Gr3.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; configuration.title = "Prev"; ObjectID = "q82-et-pGg"; */
+"q82-et-pGg.configuration.title" = "Prev";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "q82-et-pGg"; */
+"q82-et-pGg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "ㅂ"; ObjectID = "toT-1j-DPf"; */
+"toT-1j-DPf.text" = "ㅂ";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "udw-YV-ftx"; */
+"udw-YV-ftx.normalTitle" = "ㄱ";
+
+/* Class = "UILabel"; text = "ㄷ"; ObjectID = "uup-Gy-ldb"; */
+"uup-Gy-ldb.text" = "ㄷ";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "vlb-7Z-kY0"; */
+"vlb-7Z-kY0.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "ㄴ"; ObjectID = "wjh-zw-BHh"; */
+"wjh-zw-BHh.normalTitle" = "ㄴ";
+
+/* Class = "UIButton"; normalTitle = "ㄹ"; ObjectID = "x4N-bK-oCT"; */
+"x4N-bK-oCT.normalTitle" = "ㄹ";

@@ -10,11 +10,11 @@ import UIKit
 struct InformationModalModel {
     
     let titleArray: [String] = [
-        "Velar sound", "Lingual sound", "Labial sound", " Dental sound", "Guttural sound"
+        "velarSound".localized, "lingualSound".localized, "labialSound".localized, "dentalSound".localized, "gutturalSound".localized
     ]
     
     let infoArray: [String] = [
-        "The shape of the tongue touching the soft palate", "The shape of the tip of the tongue touching the upper gum", "The shape of lips", "The shape of teeth", "The shape of the throat"
+        "velarSoundExplanation".localized, "lingualSoundExplanation".localized, "labialSoundExplanation".localized, "dentalSoundExplanation".localized, "gutturalSoundExplanation".localized
     ]
     
     let lettersArray: [[String]] = [

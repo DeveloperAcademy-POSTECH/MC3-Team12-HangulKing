@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7WT-AA-cC1"; */
+"7WT-AA-cC1.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Abv-lZ-RM7"; */
+"Abv-lZ-RM7.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "D9Y-8M-UxH"; */
+"D9Y-8M-UxH.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "JiW-Yi-NqO"; */
+"JiW-Yi-NqO.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JiW-Yi-NqO"; */
+"JiW-Yi-NqO.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "QPl-wU-NF3"; */
+"QPl-wU-NF3.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QPl-wU-NF3"; */
+"QPl-wU-NF3.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Prev"; ObjectID = "QsK-bQ-P3T"; */
+"QsK-bQ-P3T.configuration.title" = "Prev";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QsK-bQ-P3T"; */
+"QsK-bQ-P3T.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lRC-DU-hmP"; */
+"lRC-DU-hmP.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "y3o-be-2FS"; */
+"y3o-be-2FS.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "y3o-be-2FS"; */
+"y3o-be-2FS.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yOd-ag-aGJ"; */
+"yOd-ag-aGJ.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Back to Menu"; ObjectID = "yRd-1a-Xbq"; */
+"yRd-1a-Xbq.configuration.title" = "Back to Menu";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yRd-1a-Xbq"; */
+"yRd-1a-Xbq.normalTitle" = "Button";

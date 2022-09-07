@@ -14,7 +14,7 @@ struct Info {
 
 class ConsonantEndViewController: UIViewController {
     var data: Int? = 0
-    let messageArray = ["You have learned\nthe vowels of Hangul!", "You have learned\nthe consonants of Hangul!", "You have learned\nthe batchim of Hangul!"]
+    let messageArray = ["vowelDone".localized, "consonantDone".localized, "batchimDone".localized]
     
     @IBOutlet weak var message: UILabel!
     @IBOutlet var animationView: AnimationView!
@@ -53,11 +53,11 @@ class ConsonantEndViewController: UIViewController {
         super.viewDidLoad()
         message.text = messageArray[data ?? 0]
         if(data == 0){
-            goToStudy.setTitle("Learn Consonant", for: .normal)
+            goToStudy.setTitle("learnConsonant".localized, for: .normal)
         }else if(data == 1){
-            goToStudy.setTitle("Learn Batchim", for: .normal)
+            goToStudy.setTitle("learnBatchim".localized, for: .normal)
         }else{
-            goToStudy.setTitle("Go to Quiz", for: .normal)
+            goToStudy.setTitle("goToQuiz".localized, for: .normal)
         }
         animationView.contentMode = .scaleAspectFit
         animationView.loopMode = .loop

@@ -1,0 +1,66 @@
+
+/* Class = "UIButton"; normalTitle = "ㅡ"; ObjectID = "6Rt-eL-wFQ"; */
+"6Rt-eL-wFQ.normalTitle" = "ㅡ";
+
+/* Class = "UILabel"; text = "ㅡ 는 항상 자음의 아래, \nㅣ는 항상 자음의 오른편에 위치해야 한다."; ObjectID = "9G6-aT-i2V"; */
+"9G6-aT-i2V.text" = "ㅡ 는 항상 자음의 아래, \nㅣ는 항상 자음의 오른편에 위치해야 한다.";
+
+/* Class = "UILabel"; text = "ㅣ"; ObjectID = "BYV-mC-ncQ"; */
+"BYV-mC-ncQ.text" = "ㅣ";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "DEu-1l-MkZ"; */
+"DEu-1l-MkZ.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DEu-1l-MkZ"; */
+"DEu-1l-MkZ.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "ㅡ"; ObjectID = "GFO-vq-ej6"; */
+"GFO-vq-ej6.normalTitle" = "ㅡ";
+
+/* Class = "UILabel"; text = "ㅏ"; ObjectID = "Ij6-DO-If5"; */
+"Ij6-DO-If5.text" = "ㅏ";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "Ols-zs-C5b"; */
+"Ols-zs-C5b.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ols-zs-C5b"; */
+"Ols-zs-C5b.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Prev"; ObjectID = "PcM-Em-mwA"; */
+"PcM-Em-mwA.configuration.title" = "Prev";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PcM-Em-mwA"; */
+"PcM-Em-mwA.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "ㅐ"; ObjectID = "QiR-xF-PBQ"; */
+"QiR-xF-PBQ.text" = "ㅐ";
+
+/* Class = "UILabel"; text = "ㅘ"; ObjectID = "SM2-am-ndC"; */
+"SM2-am-ndC.text" = "ㅘ";
+
+/* Class = "UIButton"; normalTitle = "ㅡ"; ObjectID = "ViA-4I-Hhu"; */
+"ViA-4I-Hhu.normalTitle" = "ㅡ";
+
+/* Class = "UIButton"; normalTitle = "ㅡ"; ObjectID = "ZZD-SZ-e3x"; */
+"ZZD-SZ-e3x.normalTitle" = "ㅡ";
+
+/* Class = "UIButton"; normalTitle = "ㅡ"; ObjectID = "hfF-Tm-ZDc"; */
+"hfF-Tm-ZDc.normalTitle" = "ㅡ";
+
+/* Class = "UILabel"; text = "ㅑ"; ObjectID = "iX1-kz-ewe"; */
+"iX1-kz-ewe.text" = "ㅑ";
+
+/* Class = "UILabel"; text = "아"; ObjectID = "srv-uf-ZBV"; */
+"srv-uf-ZBV.text" = "아";
+
+/* Class = "UIButton"; normalTitle = "ㅡ"; ObjectID = "tVk-PO-qvv"; */
+"tVk-PO-qvv.normalTitle" = "ㅡ";
+
+/* Class = "UIButton"; normalTitle = "ㅡ"; ObjectID = "vRB-zk-40u"; */
+"vRB-zk-40u.normalTitle" = "ㅡ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wn2-Jz-KIC"; */
+"wn2-Jz-KIC.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zy2-pg-qUn"; */
+"zy2-pg-qUn.normalTitle" = "Button";

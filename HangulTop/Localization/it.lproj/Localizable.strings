@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  HangulTop
+
+  Created by Seulki Lee on 2022/09/07.
+  
+*/
+
+"hangulKing" = "HangulKing";
+"learn" = "Imparare";
+"vowel" = "Vocale";
+"consonant" = "Consonante";
+"batchim" = "Batchim";
+"practice" = "Praticare";
+"quiz" = "Quiz";
+"hangul" = "Hangul";
+"vowelPrinciple" = "Le vocali sono state modellate su:\n•(cielo), ㅡ(terra), ㅣ(umano), chiamato anche “cheonjiin”, che rappresenta la base dell’universo.\n\n• non è usato solo in questi giorni, in quanto non ha un suono da solo.";
+"consonantPrinciple" = "Le consonanti sono state modellate sulla forma dell’organo di pronuncia umano.\n\nSono state create cinque consonanti di base ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ e aggiungendo tratti a queste lettere, sono state create consonanti con suoni più forti.";
+"batchimPrinciple" = "Batchim è una consonante aggiuntiva che viene dopo una comvinazione di vocali consonantiche.\n\nLa maggior parte delle consonanti può essere batchim, ma sono sempre pronunciate come una delle 7 consonanti, ‘ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅇ’";
+"vowelExplanation1" = "Le vocali non si usano da sole. ‘ㅇ’ qui indica uno spazio fonetico davanti a ciascuna vocale.";
+"doubleConsonantExplanation" = "Una doppia consonante è una forma di scrittura delle consonanti di base ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ due volte.";
+"batchimExplanation" = "Ci sono doppi batchim che non vengono usati come consonanti iniziali, ma sono usati raramente, quindi non preoccuparti!";
+"vowelExplanation2" = "ㅡ va sempre sotto la consonante,\nmentre ㅣ va a destra.";
+"vowelExplanation3" = "Uno · viene aggiunto alla vocale di base.";
+"vowelExplanation4" = "Due · sono stati aggiunti alla vocale di base.";
+"vowelExplanation5" = "· e ㅣ sono stati aggiunti alla vocale di base.";
+"vowelExplanation6" = "Due vocali sono combinate in una!\nLeggile velocemente in ordine.";
+"vowelDone" = "Hai imparato\nle vocali di Hangul!";
+"consonantDone" = "Hai imparato\nle consonanti di Hangul!";
+"batchimDone" = "Hai imparato\nil batchim di Hangul!";
+"learnConsonant" = "Impara la consonante";
+"learnBatchim" = "Impara Batchim";
+"goToQuiz" = "Vai a Quiz";
+"correct" = "Corretta!";
+"tryAgain" = "Riprova...";
+"youHaveFinished" = "Hai finito";
+"questionsSoFar" = "domande finora.";
+"lv1" = "lv 1. Vocale";
+"lv3" = "lv 3. Batchim";
+"lv2" = "lv 2. Consonante";
+"check" = "Verificare";
+"velarSound" = "Suono velare";
+"lingualSound" = "Suono linguale";
+"labialSound" = "Suono labiale";
+"dentalSound" = "Suono dentale";
+"gutturalSound" = "Suono gutturale";
+"velarSoundExplanation" = "La forma della lingua che tocca il palato molle";
+"lingualSoundExplanation" = "La forma della punta della lingua che tocca la parte superiore della gengiva";
+"labialSoundExplanation" = "La forma delle labbra";
+"dentalSoundExplanation" = "La forma dei denti";
+"gutturalSoundExplanation" = "La forma della gola";
+"combine" = "Combina il tuo Hangul e ascolta come suona.";

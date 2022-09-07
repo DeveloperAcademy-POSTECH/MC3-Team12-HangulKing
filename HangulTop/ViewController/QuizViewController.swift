@@ -45,7 +45,7 @@ class QuizViewController: UIViewController {
             if selectedButton?.titleLabel?.text == answers[pageNum] {
                 selectedButton = nil
                 checkbutton.backgroundColor = UIColor(r: 107, g: 203, b: 159)
-                checkbutton.setTitle("Correct!", for: .normal)
+                checkbutton.setTitle("correct".localized, for: .normal)
                 selectedButton?.backgroundColor = UIColor(r: 107, g: 203, b: 159)
                 Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false) { (timer) in
                     self.pageNum += 1
@@ -57,7 +57,7 @@ class QuizViewController: UIViewController {
                 let generator = UINotificationFeedbackGenerator()
                 generator.notificationOccurred(.error)
                 checkbutton.backgroundColor = UIColor(r: 237, g: 123, b: 115)
-                checkbutton.setTitle("Try again...", for: .normal)
+                checkbutton.setTitle("tryAgain".localized, for: .normal)
                 selectedButton?.layer.borderColor = UIColor(r: 237, g: 123, b: 115).cgColor
                 selectedButton?.backgroundColor =  UIColor(r: 237, g: 123, b: 115)
                 Timer.scheduledTimer(withTimeInterval: 1.0, repeats: false) { (timer) in
@@ -88,17 +88,17 @@ class QuizViewController: UIViewController {
             }else{
                 count = UserDefaults.standard.value(forKey: "solCount") as! Int
             }
-            quizCount.text = "You have finished \(count * 10)questions so far."
+            quizCount.text = "youHaveFinished".localized + " \(count * 10) " + "questionsSoFar".localized
         } else {
             for i in 0..<4 {
                 buttons[i].setTitle(quizs[pageNum][i], for: .normal)
             }
             if pageNum == 0 || pageNum == 1 || pageNum == 2 {
-                level.text = "lv 1. Vowel"
+                level.text = "lv1".localized
             } else if pageNum == 7 || pageNum == 8 || pageNum == 9 {
-                level.text = "lv 3. Batchim"
+                level.text = "lv3".localized
             } else {
-                level.text = "lv 2. Consonant"
+                level.text = "lv2".localized
             }
             quizIndex.text = "\(pageNum+1) / 10"
         }
@@ -106,7 +106,7 @@ class QuizViewController: UIViewController {
     
     func buttonReset() {
         selectedButton = nil
-        checkbutton.setTitle("Check", for: .normal)
+        checkbutton.setTitle("check".localized, for: .normal)
         checkbutton.backgroundColor = UIColor(r: 209, g: 209, b: 209)
         checkbutton.setTitleColor(UIColor(r: 235, g: 235, b: 235), for: .normal)
         for button in buttons {
@@ -160,7 +160,7 @@ class QuizViewController: UIViewController {
         }else{
             count = UserDefaults.standard.value(forKey: "solCount") as! Int
         }
-        quizCount.text = "You have finished \(count * 10) questions so far."
+        quizCount.text = "youHaveFinished".localized + "\(count * 10)" + "questionsSoFar".localized
     }
     
     func quizGenerator(_ level: Int) -> [String] {
