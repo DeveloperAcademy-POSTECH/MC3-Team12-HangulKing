@@ -1,0 +1,78 @@
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "6t8-Ai-TNn"; */
+"6t8-Ai-TNn.configuration.title" = "Prossima";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6t8-Ai-TNn"; */
+"6t8-Ai-TNn.normalTitle" = "Prossima";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "7cz-qf-bsb"; */
+"7cz-qf-bsb.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Cus-J0-RL8"; */
+"Cus-J0-RL8.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "자음은 총 19개로, 기본자음 14개와 \n복합자음(ㄲ,ㄸ,ㅃ,ㅆ,ㅉ) 5개로 구성되어 있다."; ObjectID = "DyM-6y-Sdz"; */
+"DyM-6y-Sdz.text" = "자음은 총 19개로, 기본자음 14개와 \n복합자음(ㄲ,ㄸ,ㅃ,ㅆ,ㅉ) 5개로 구성되어 있다.";
+
+/* Class = "UIButton"; configuration.title = "Go to Consonant"; ObjectID = "EDV-e4-OmA"; */
+"EDV-e4-OmA.configuration.title" = "Impara la consonante";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "EDV-e4-OmA"; */
+"EDV-e4-OmA.normalTitle" = "Impara la consonante";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "GOZ-O0-pXg"; */
+"GOZ-O0-pXg.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HXp-N8-RyY"; */
+"HXp-N8-RyY.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "모음은 단독으로 쓰이지 않기 때문에, 여기선 첫번째로 올 때 음가가 없는 자음’ㅇ'을 모음 앞의 공백을 표시하는 기호로 쓸 것입니다."; ObjectID = "KAI-Vr-Ee5"; */
+"KAI-Vr-Ee5.text" = "모음은 단독으로 쓰이지 않기 때문에, 여기선 첫번째로 올 때 음가가 없는 자음’ㅇ'을 모음 앞의 공백을 표시하는 기호로 쓸 것입니다.";
+
+/* Class = "UILabel"; text = "가"; ObjectID = "MdL-uT-XHm"; */
+"MdL-uT-XHm.text" = "가";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "MeM-06-4Vz"; */
+"MeM-06-4Vz.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "OfJ-8R-Y9i"; */
+"OfJ-8R-Y9i.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; configuration.title = "  Start"; ObjectID = "Pae-bh-4q7"; */
+"Pae-bh-4q7.configuration.title" = "  Iniziare";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Pae-bh-4q7"; */
+"Pae-bh-4q7.normalTitle" = "  Iniziare";
+
+/* Class = "UILabel"; text = "You have learned the vowels of Hangul!"; ObjectID = "VEV-vw-fiw"; */
+"VEV-vw-fiw.text" = "You have learned the vowels of Hangul!";
+
+/* Class = "UILabel"; text = "ㅡ always goes below the consonant, whereas ㅣ goes to the right."; ObjectID = "Yo3-nM-VrJ"; */
+"Yo3-nM-VrJ.text" = "ㅡ va sempre sotto la consonante,\nmentre ㅣ va a destra.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Yxa-bS-iaj"; */
+"Yxa-bS-iaj.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = " "; ObjectID = "caH-XU-l8j"; */
+"caH-XU-l8j.normalTitle" = " ";
+
+/* Class = "UIButton"; configuration.title = "Prev"; ObjectID = "jvd-Sm-T7F"; */
+"jvd-Sm-T7F.configuration.title" = "Precedente";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jvd-Sm-T7F"; */
+"jvd-Sm-T7F.normalTitle" = "Precedente";
+
+/* Class = "UIButton"; configuration.title = "ㅡ"; ObjectID = "m65-9W-0AK"; */
+"m65-9W-0AK.configuration.title" = "ㅡ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "m65-9W-0AK"; */
+"m65-9W-0AK.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "pRA-6O-qyA"; */
+"pRA-6O-qyA.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "qrJ-4H-d05"; */
+"qrJ-4H-d05.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "rDk-Rj-lDF"; */
+"rDk-Rj-lDF.normalTitle" = "ㄱ";

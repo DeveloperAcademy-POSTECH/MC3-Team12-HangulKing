@@ -14,17 +14,19 @@
 		11B62AA5288E65BD00724875 /* PrincipleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B62AA4288E65BD00724875 /* PrincipleCollectionViewCell.swift */; };
 		11BA068A28C84BDD00E706AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11BA068C28C84BDD00E706AD /* Localizable.strings */; };
 		11BA069028C84D9400E706AD /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BA068F28C84D9400E706AD /* StringExtension.swift */; };
-		11E03FE92893AE9F00240DCA /* InformationModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E03FE82893AE9F00240DCA /* InformationModal.storyboard */; };
+		11BA069528C87F8700E706AD /* TopMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BA069728C87F8700E706AD /* TopMenu.storyboard */; };
+		11BA06A028C8802C00E706AD /* Principle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BA06A228C8802C00E706AD /* Principle.storyboard */; };
+		11BA06A928C8806A00E706AD /* Vowel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BA06AB28C8806A00E706AD /* Vowel.storyboard */; };
+		11BA06B228C880AE00E706AD /* LastVowel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BA06B428C880AE00E706AD /* LastVowel.storyboard */; };
+		11BA06BB28C8820800E706AD /* Consonant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BA06BD28C8820800E706AD /* Consonant.storyboard */; };
+		11BA06C428C8824500E706AD /* InformationModal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BA06C628C8824500E706AD /* InformationModal.storyboard */; };
+		11BA06CD28C8828A00E706AD /* Batchim.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BA06CF28C8828A00E706AD /* Batchim.storyboard */; };
+		11BA06D628C8831000E706AD /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BA06D828C8831000E706AD /* Quiz.storyboard */; };
+		11BA06DF28C883D700E706AD /* HangulView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11BA06E128C883D700E706AD /* HangulView.storyboard */; };
 		11E03FEB2893AEDC00240DCA /* InformationModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E03FEA2893AEDC00240DCA /* InformationModalViewController.swift */; };
 		11E03FED2893B6F000240DCA /* InformationModalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E03FEC2893B6F000240DCA /* InformationModalModel.swift */; };
-		4D31A7262882AB2700589672 /* TopMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31A7252882AB2700589672 /* TopMenu.storyboard */; };
-		4D31A7282882AB3500589672 /* Vowel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31A7272882AB3500589672 /* Vowel.storyboard */; };
-		4D31A72A2882AB3E00589672 /* Consonant.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31A7292882AB3E00589672 /* Consonant.storyboard */; };
-		4D31A72C2882AB4700589672 /* Batchim.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31A72B2882AB4700589672 /* Batchim.storyboard */; };
-		4D31A72E2882AE3200589672 /* Principle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31A72D2882AE3200589672 /* Principle.storyboard */; };
 		4D31A732288460D600589672 /* ConsonantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31A731288460D600589672 /* ConsonantViewController.swift */; };
 		4D31A7542886C9C900589672 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31A7532886C9C900589672 /* CollectionViewCell.swift */; };
-		4D31D55B288D9DAA005E2F53 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31D55A288D9DAA005E2F53 /* Quiz.storyboard */; };
 		4D31D55D288D9DBC005E2F53 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31D55C288D9DBC005E2F53 /* QuizViewController.swift */; };
 		4D4927FB2897B01A00FD0175 /* consonant.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D4927FA2897B01A00FD0175 /* consonant.json */; };
 		4D4928022898262E00FD0175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4928042898262E00FD0175 /* Main.storyboard */; };
@@ -37,7 +39,6 @@
 		A06C5ABF289301F2008CE8BF /* EBS훈민정음R.otf in Resources */ = {isa = PBXBuildFile; fileRef = A06C5ABC289301F2008CE8BF /* EBS훈민정음R.otf */; };
 		A082B9C42882B9FA006F29CC /* VowelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A082B9C32882B9FA006F29CC /* VowelViewController.swift */; };
 		A0AFCE8F28873A7400C51FEA /* LastVowelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AFCE8E28873A7300C51FEA /* LastVowelViewController.swift */; };
-		A0AFCE9128873AA300C51FEA /* LastVowel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0AFCE9028873AA300C51FEA /* LastVowel.storyboard */; };
 		D57C31982896F5A200DCBC68 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D57C31972896F5A200DCBC68 /* Lottie */; };
 		D57C319B2896F60F00DCBC68 /* LottieManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57C319A2896F60F00DCBC68 /* LottieManage.swift */; };
 		D57C31A02896F81900DCBC68 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = D57C319C2896F81800DCBC68 /* quiz.json */; };
@@ -54,7 +55,6 @@
 		D5E9EE41288F196E0068C47A /* StudyMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9EE40288F196E0068C47A /* StudyMenuViewController.swift */; };
 		D5E9EE43288F1AA20068C47A /* SyllableStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9EE42288F1AA20068C47A /* SyllableStartViewController.swift */; };
 		D5E9EE45288FC76C0068C47A /* TopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9EE44288FC76C0068C47A /* TopMenuViewController.swift */; };
-		D5E9EE50289270F30068C47A /* HangulView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E9EE4F289270F30068C47A /* HangulView.storyboard */; };
 		D5E9EE52289271050068C47A /* HangulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E9EE51289271050068C47A /* HangulViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,17 +72,29 @@
 		11BA068D28C84BE000E706AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11BA068E28C84BE100E706AD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		11BA068F28C84D9400E706AD /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		11E03FE82893AE9F00240DCA /* InformationModal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InformationModal.storyboard; sourceTree = "<group>"; };
+		11BA06A128C8802C00E706AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Principle.storyboard; sourceTree = "<group>"; };
+		11BA06AA28C8806A00E706AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Vowel.storyboard; sourceTree = "<group>"; };
+		11BA06B328C880AE00E706AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LastVowel.storyboard; sourceTree = "<group>"; };
+		11BA06BC28C8820800E706AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Consonant.storyboard; sourceTree = "<group>"; };
+		11BA06BF28C8820A00E706AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Consonant.strings; sourceTree = "<group>"; };
+		11BA06C128C8823800E706AD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Consonant.strings; sourceTree = "<group>"; };
+		11BA06C328C8823B00E706AD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Consonant.strings; sourceTree = "<group>"; };
+		11BA06C528C8824500E706AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/InformationModal.storyboard; sourceTree = "<group>"; };
+		11BA06CE28C8828A00E706AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Batchim.storyboard; sourceTree = "<group>"; };
+		11BA06D728C8831000E706AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Quiz.storyboard; sourceTree = "<group>"; };
+		11BA06DA28C8831200E706AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Quiz.strings; sourceTree = "<group>"; };
+		11BA06DC28C8834000E706AD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Quiz.strings; sourceTree = "<group>"; };
+		11BA06DE28C883CE00E706AD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Quiz.strings; sourceTree = "<group>"; };
+		11BA06E028C883D700E706AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HangulView.storyboard; sourceTree = "<group>"; };
+		11BA06E328C883DB00E706AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HangulView.strings; sourceTree = "<group>"; };
+		11BA06E528C8840900E706AD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/HangulView.strings; sourceTree = "<group>"; };
+		11BA06E728C8845A00E706AD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/HangulView.strings; sourceTree = "<group>"; };
+		11BA06EB28C885BB00E706AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TopMenu.storyboard; sourceTree = "<group>"; };
+		11BA06ED28C88FB600E706AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		11E03FEA2893AEDC00240DCA /* InformationModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModalViewController.swift; sourceTree = "<group>"; };
 		11E03FEC2893B6F000240DCA /* InformationModalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationModalModel.swift; sourceTree = "<group>"; };
-		4D31A7252882AB2700589672 /* TopMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TopMenu.storyboard; sourceTree = "<group>"; };
-		4D31A7272882AB3500589672 /* Vowel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vowel.storyboard; sourceTree = "<group>"; };
-		4D31A7292882AB3E00589672 /* Consonant.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Consonant.storyboard; sourceTree = "<group>"; };
-		4D31A72B2882AB4700589672 /* Batchim.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Batchim.storyboard; sourceTree = "<group>"; };
-		4D31A72D2882AE3200589672 /* Principle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Principle.storyboard; sourceTree = "<group>"; };
 		4D31A731288460D600589672 /* ConsonantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsonantViewController.swift; sourceTree = "<group>"; };
 		4D31A7532886C9C900589672 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		4D31D55A288D9DAA005E2F53 /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
 		4D31D55C288D9DBC005E2F53 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		4D4927FA2897B01A00FD0175 /* consonant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = consonant.json; sourceTree = "<group>"; };
 		4D4928032898262E00FD0175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,7 +107,6 @@
 		A06C5ABC289301F2008CE8BF /* EBS훈민정음R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBS훈민정음R.otf"; sourceTree = "<group>"; };
 		A082B9C32882B9FA006F29CC /* VowelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VowelViewController.swift; sourceTree = "<group>"; };
 		A0AFCE8E28873A7300C51FEA /* LastVowelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastVowelViewController.swift; sourceTree = "<group>"; };
-		A0AFCE9028873AA300C51FEA /* LastVowel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LastVowel.storyboard; sourceTree = "<group>"; };
 		D57C319A2896F60F00DCBC68 /* LottieManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieManage.swift; sourceTree = "<group>"; };
 		D57C319C2896F81800DCBC68 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
 		D57C319D2896F81800DCBC68 /* batchim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = batchim.json; sourceTree = "<group>"; };
@@ -113,7 +124,6 @@
 		D5E9EE40288F196E0068C47A /* StudyMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMenuViewController.swift; sourceTree = "<group>"; };
 		D5E9EE42288F1AA20068C47A /* SyllableStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllableStartViewController.swift; sourceTree = "<group>"; };
 		D5E9EE44288FC76C0068C47A /* TopMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenuViewController.swift; sourceTree = "<group>"; };
-		D5E9EE4F289270F30068C47A /* HangulView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HangulView.storyboard; sourceTree = "<group>"; };
 		D5E9EE51289271050068C47A /* HangulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangulViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,15 +179,15 @@
 			isa = PBXGroup;
 			children = (
 				4D4928042898262E00FD0175 /* Main.storyboard */,
-				4D31A7252882AB2700589672 /* TopMenu.storyboard */,
-				4D31A72D2882AE3200589672 /* Principle.storyboard */,
-				4D31A7272882AB3500589672 /* Vowel.storyboard */,
-				A0AFCE9028873AA300C51FEA /* LastVowel.storyboard */,
-				4D31A7292882AB3E00589672 /* Consonant.storyboard */,
-				11E03FE82893AE9F00240DCA /* InformationModal.storyboard */,
-				4D31A72B2882AB4700589672 /* Batchim.storyboard */,
-				4D31D55A288D9DAA005E2F53 /* Quiz.storyboard */,
-				D5E9EE4F289270F30068C47A /* HangulView.storyboard */,
+				11BA069728C87F8700E706AD /* TopMenu.storyboard */,
+				11BA06A228C8802C00E706AD /* Principle.storyboard */,
+				11BA06AB28C8806A00E706AD /* Vowel.storyboard */,
+				11BA06B428C880AE00E706AD /* LastVowel.storyboard */,
+				11BA06BD28C8820800E706AD /* Consonant.storyboard */,
+				11BA06C628C8824500E706AD /* InformationModal.storyboard */,
+				11BA06CF28C8828A00E706AD /* Batchim.storyboard */,
+				11BA06D828C8831000E706AD /* Quiz.storyboard */,
+				11BA06E128C883D700E706AD /* HangulView.storyboard */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -308,26 +318,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A06C5ABE289301F2008CE8BF /* EBS훈민정음SB.otf in Resources */,
-				4D31A7282882AB3500589672 /* Vowel.storyboard in Resources */,
+				11BA06A928C8806A00E706AD /* Vowel.storyboard in Resources */,
 				D57C31A32896F81900DCBC68 /* finish.json in Resources */,
 				A06C5ABF289301F2008CE8BF /* EBS훈민정음R.otf in Resources */,
-				4D31A72C2882AB4700589672 /* Batchim.storyboard in Resources */,
-				4D31A7262882AB2700589672 /* TopMenu.storyboard in Resources */,
-				A0AFCE9128873AA300C51FEA /* LastVowel.storyboard in Resources */,
-				4D31A72A2882AB3E00589672 /* Consonant.storyboard in Resources */,
+				11BA06CD28C8828A00E706AD /* Batchim.storyboard in Resources */,
+				11BA069528C87F8700E706AD /* TopMenu.storyboard in Resources */,
+				11BA06B228C880AE00E706AD /* LastVowel.storyboard in Resources */,
+				11BA06BB28C8820800E706AD /* Consonant.storyboard in Resources */,
 				D5CC9518287E9593005E8BF5 /* LaunchScreen.storyboard in Resources */,
 				4D4928022898262E00FD0175 /* Main.storyboard in Resources */,
 				A06C5ABD289301F2008CE8BF /* EBS훈민정음L.otf in Resources */,
 				D58FDEC0288D43EA00DBBE01 /* Sound.mp3 in Resources */,
-				4D31A72E2882AE3200589672 /* Principle.storyboard in Resources */,
+				11BA06A028C8802C00E706AD /* Principle.storyboard in Resources */,
 				11BA068A28C84BDD00E706AD /* Localizable.strings in Resources */,
-				11E03FE92893AE9F00240DCA /* InformationModal.storyboard in Resources */,
+				11BA06C428C8824500E706AD /* InformationModal.storyboard in Resources */,
 				D5CC9515287E9593005E8BF5 /* Assets.xcassets in Resources */,
 				D57C31A02896F81900DCBC68 /* quiz.json in Resources */,
-				D5E9EE50289270F30068C47A /* HangulView.storyboard in Resources */,
+				11BA06DF28C883D700E706AD /* HangulView.storyboard in Resources */,
 				D57C31A12896F81900DCBC68 /* batchim.json in Resources */,
 				4D4927FB2897B01A00FD0175 /* consonant.json in Resources */,
-				4D31D55B288D9DAA005E2F53 /* Quiz.storyboard in Resources */,
+				11BA06D628C8831000E706AD /* Quiz.storyboard in Resources */,
 				D57C31A22896F81900DCBC68 /* vowel.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,12 +391,94 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
+		11BA069728C87F8700E706AD /* TopMenu.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BA06EB28C885BB00E706AD /* Base */,
+			);
+			name = TopMenu.storyboard;
+			sourceTree = "<group>";
+		};
+		11BA06A228C8802C00E706AD /* Principle.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BA06A128C8802C00E706AD /* Base */,
+			);
+			name = Principle.storyboard;
+			sourceTree = "<group>";
+		};
+		11BA06AB28C8806A00E706AD /* Vowel.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BA06AA28C8806A00E706AD /* Base */,
+			);
+			name = Vowel.storyboard;
+			sourceTree = "<group>";
+		};
+		11BA06B428C880AE00E706AD /* LastVowel.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BA06B328C880AE00E706AD /* Base */,
+			);
+			name = LastVowel.storyboard;
+			sourceTree = "<group>";
+		};
+		11BA06BD28C8820800E706AD /* Consonant.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BA06BC28C8820800E706AD /* Base */,
+				11BA06BF28C8820A00E706AD /* en */,
+				11BA06C128C8823800E706AD /* de */,
+				11BA06C328C8823B00E706AD /* it */,
+			);
+			name = Consonant.storyboard;
+			sourceTree = "<group>";
+		};
+		11BA06C628C8824500E706AD /* InformationModal.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BA06C528C8824500E706AD /* Base */,
+			);
+			name = InformationModal.storyboard;
+			sourceTree = "<group>";
+		};
+		11BA06CF28C8828A00E706AD /* Batchim.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BA06CE28C8828A00E706AD /* Base */,
+			);
+			name = Batchim.storyboard;
+			sourceTree = "<group>";
+		};
+		11BA06D828C8831000E706AD /* Quiz.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BA06D728C8831000E706AD /* Base */,
+				11BA06DA28C8831200E706AD /* en */,
+				11BA06DC28C8834000E706AD /* de */,
+				11BA06DE28C883CE00E706AD /* it */,
+			);
+			name = Quiz.storyboard;
+			sourceTree = "<group>";
+		};
+		11BA06E128C883D700E706AD /* HangulView.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11BA06E028C883D700E706AD /* Base */,
+				11BA06E328C883DB00E706AD /* en */,
+				11BA06E528C8840900E706AD /* de */,
+				11BA06E728C8845A00E706AD /* it */,
+			);
+			name = HangulView.storyboard;
+			sourceTree = "<group>";
+		};
 		4D4928042898262E00FD0175 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4D4928032898262E00FD0175 /* Base */,
 				11BA068628C84B7100E706AD /* de */,
 				11BA068828C84B7C00E706AD /* it */,
+				11BA06ED28C88FB600E706AD /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

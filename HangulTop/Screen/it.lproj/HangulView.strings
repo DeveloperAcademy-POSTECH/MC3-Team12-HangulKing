@@ -1,0 +1,105 @@
+
+/* Class = "UIButton"; normalTitle = "아"; ObjectID = "5tu-eU-reG"; */
+"5tu-eU-reG.normalTitle" = "아";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "68f-SU-Ar2"; */
+"68f-SU-Ar2.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "하"; ObjectID = "7tz-vP-j2x"; */
+"7tz-vP-j2x.normalTitle" = "하";
+
+/* Class = "UILabel"; text = "가"; ObjectID = "8Pm-ag-fMg"; */
+"8Pm-ag-fMg.text" = "가";
+
+/* Class = "UIButton"; normalTitle = "나"; ObjectID = "9oC-uv-CM4"; */
+"9oC-uv-CM4.normalTitle" = "나";
+
+/* Class = "UIButton"; normalTitle = "차"; ObjectID = "9z1-PW-MkM"; */
+"9z1-PW-MkM.normalTitle" = "차";
+
+/* Class = "UIButton"; normalTitle = "다"; ObjectID = "AXt-vy-7sF"; */
+"AXt-vy-7sF.normalTitle" = "다";
+
+/* Class = "UIButton"; normalTitle = "ㄷ"; ObjectID = "Bge-nD-OPY"; */
+"Bge-nD-OPY.normalTitle" = "ㄷ";
+
+/* Class = "UIButton"; normalTitle = "사"; ObjectID = "CtY-Vk-nJb"; */
+"CtY-Vk-nJb.normalTitle" = "사";
+
+/* Class = "UINavigationItem"; title = "hangul"; ObjectID = "HrE-sl-dhQ"; */
+"HrE-sl-dhQ.title" = "Hangul";
+
+/* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "IJ2-cE-soa"; */
+"IJ2-cE-soa.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "타"; ObjectID = "ISi-VY-Fr1"; */
+"ISi-VY-Fr1.normalTitle" = "타";
+
+/* Class = "UIButton"; normalTitle = "ㅁ"; ObjectID = "LUI-cT-Tux"; */
+"LUI-cT-Tux.normalTitle" = "ㅁ";
+
+/* Class = "UIButton"; normalTitle = "ㅅ"; ObjectID = "OGY-gm-gys"; */
+"OGY-gm-gys.normalTitle" = "ㅅ";
+
+/* Class = "UIButton"; normalTitle = "ㅂ"; ObjectID = "ONE-0b-Fcb"; */
+"ONE-0b-Fcb.normalTitle" = "ㅂ";
+
+/* Class = "UISegmentedControl"; QCV-BQ-kcd.segmentTitles[0] = "Consonant"; ObjectID = "QCV-BQ-kcd"; */
+"QCV-BQ-kcd.segmentTitles[0]" = "Consonante";
+
+/* Class = "UISegmentedControl"; QCV-BQ-kcd.segmentTitles[1] = "Vowel"; ObjectID = "QCV-BQ-kcd"; */
+"QCV-BQ-kcd.segmentTitles[1]" = "Vocale";
+
+/* Class = "UISegmentedControl"; QCV-BQ-kcd.segmentTitles[2] = "Batchim"; ObjectID = "QCV-BQ-kcd"; */
+"QCV-BQ-kcd.segmentTitles[2]" = "Batchim";
+
+/* Class = "UIButton"; normalTitle = "마"; ObjectID = "U1p-li-0T7"; */
+"U1p-li-0T7.normalTitle" = "마";
+
+/* Class = "UIButton"; normalTitle = "ㅍ"; ObjectID = "Ued-5w-cxV"; */
+"Ued-5w-cxV.normalTitle" = "ㅍ";
+
+/* Class = "UIButton"; normalTitle = "ㅊ"; ObjectID = "XHh-l1-tHq"; */
+"XHh-l1-tHq.normalTitle" = "ㅊ";
+
+/* Class = "UIButton"; normalTitle = "ㅇ"; ObjectID = "XJe-bB-YU6"; */
+"XJe-bB-YU6.normalTitle" = "ㅇ";
+
+/* Class = "UIButton"; normalTitle = "ㅈ"; ObjectID = "YTh-Ls-Hat"; */
+"YTh-Ls-Hat.normalTitle" = "ㅈ";
+
+/* Class = "UIButton"; normalTitle = "카"; ObjectID = "cWe-ZU-RrG"; */
+"cWe-ZU-RrG.normalTitle" = "카";
+
+/* Class = "UIButton"; normalTitle = "라"; ObjectID = "eQY-jK-T1J"; */
+"eQY-jK-T1J.normalTitle" = "라";
+
+/* Class = "UILabel"; text = "Combine your own Hangul and listen  to how it sounds like."; ObjectID = "jqz-8B-yYt"; */
+"jqz-8B-yYt.text" = "Combina il tuo Hangul\ne ascolta come suona.";
+
+/* Class = "UIButton"; normalTitle = "가"; ObjectID = "k1H-nI-Net"; */
+"k1H-nI-Net.normalTitle" = "가";
+
+/* Class = "UIButton"; normalTitle = "ㄴ"; ObjectID = "kE1-Hh-keL"; */
+"kE1-Hh-keL.normalTitle" = "ㄴ";
+
+/* Class = "UIButton"; normalTitle = "ㅌ"; ObjectID = "kSu-yN-4Cu"; */
+"kSu-yN-4Cu.normalTitle" = "ㅌ";
+
+/* Class = "UIButton"; normalTitle = "ㅎ"; ObjectID = "kgj-Mz-Mdu"; */
+"kgj-Mz-Mdu.normalTitle" = "ㅎ";
+
+/* Class = "UIButton"; normalTitle = "바"; ObjectID = "rJQ-aa-D50"; */
+"rJQ-aa-D50.normalTitle" = "바";
+
+/* Class = "UIButton"; normalTitle = "ㄹ"; ObjectID = "reY-cd-0lF"; */
+"reY-cd-0lF.normalTitle" = "ㄹ";
+
+/* Class = "UIButton"; normalTitle = "파"; ObjectID = "tjz-aN-fvX"; */
+"tjz-aN-fvX.normalTitle" = "파";
+
+/* Class = "UIButton"; normalTitle = "ㅋ"; ObjectID = "tuC-tJ-wRg"; */
+"tuC-tJ-wRg.normalTitle" = "ㅋ";
+
+/* Class = "UIButton"; normalTitle = "자"; ObjectID = "yIs-WW-9eJ"; */
+"yIs-WW-9eJ.normalTitle" = "자";

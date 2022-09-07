@@ -1,42 +1,42 @@
 
 /* Class = "UILabel"; text = "Practice"; ObjectID = "GAo-4h-kBf"; */
-"GAo-4h-kBf.text" = "Practice";
+"GAo-4h-kBf.text" = "Praktizieren";
 
 /* Class = "UIButton"; configuration.title = "Hangul"; ObjectID = "JtG-Tx-ie9"; */
 "JtG-Tx-ie9.configuration.title" = "Hangul";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JtG-Tx-ie9"; */
-"JtG-Tx-ie9.normalTitle" = "Button";
+"JtG-Tx-ie9.normalTitle" = "Hangul";
 
 /* Class = "UIButton"; configuration.title = "Quiz"; ObjectID = "LOH-WO-KYp"; */
-"LOH-WO-KYp.configuration.title" = "Quiz";
+"LOH-WO-KYp.configuration.title" = "das Quiz";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LOH-WO-KYp"; */
-"LOH-WO-KYp.normalTitle" = "Button";
+"LOH-WO-KYp.normalTitle" = "das Quiz";
 
 /* Class = "UILabel"; text = "한글킹"; ObjectID = "PBI-2k-mQS"; */
 "PBI-2k-mQS.text" = "한글킹";
 
 /* Class = "UILabel"; text = "Learn"; ObjectID = "PPg-u7-SlT"; */
-"PPg-u7-SlT.text" = "Learn";
+"PPg-u7-SlT.text" = "Lernen";
 
 /* Class = "UIButton"; configuration.title = "Vowel"; ObjectID = "V3Y-WB-fQo"; */
-"V3Y-WB-fQo.configuration.title" = "Vowel";
+"V3Y-WB-fQo.configuration.title" = "das Vokal";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "V3Y-WB-fQo"; */
-"V3Y-WB-fQo.normalTitle" = "Button";
+"V3Y-WB-fQo.normalTitle" = "das Vokal";
 
 /* Class = "UIButton"; configuration.title = "Batchim"; ObjectID = "fHQ-dK-aUX"; */
 "fHQ-dK-aUX.configuration.title" = "Batchim";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fHQ-dK-aUX"; */
-"fHQ-dK-aUX.normalTitle" = "Button";
+"fHQ-dK-aUX.normalTitle" = "Batchim";
 
 /* Class = "UIButton"; configuration.title = "Consonant"; ObjectID = "oUU-R5-0ue"; */
-"oUU-R5-0ue.configuration.title" = "Consonant";
+"oUU-R5-0ue.configuration.title" = "der Konsonant";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oUU-R5-0ue"; */
-"oUU-R5-0ue.normalTitle" = "Button";
+"oUU-R5-0ue.normalTitle" = "der Konsonant";
 
 /* Class = "UIBarButtonItem"; title = "Home"; ObjectID = "tIG-nm-Ebk"; */
 "tIG-nm-Ebk.title" = "Home";

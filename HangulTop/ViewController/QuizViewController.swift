@@ -88,7 +88,7 @@ class QuizViewController: UIViewController {
             }else{
                 count = UserDefaults.standard.value(forKey: "solCount") as! Int
             }
-            quizCount.text = "youHaveFinished".localized + "\(count * 10)" + "questionsSoFar".localized
+            quizCount.text = "youHaveFinished".localized + " \(count * 10) " + "questionsSoFar".localized
         } else {
             for i in 0..<4 {
                 buttons[i].setTitle(quizs[pageNum][i], for: .normal)

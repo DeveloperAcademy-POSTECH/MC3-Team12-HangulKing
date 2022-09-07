@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AKD-Lp-1gJ"; */
+"AKD-Lp-1gJ.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "메인 화면으로"; ObjectID = "ITa-mK-0WP"; */
+"ITa-mK-0WP.configuration.title" = "메인 화면으로";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ITa-mK-0WP"; */
+"ITa-mK-0WP.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "자음 공부하러 가기"; ObjectID = "n1e-2l-0BP"; */
+"n1e-2l-0BP.configuration.title" = "자음 공부하러 가기";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "n1e-2l-0BP"; */
+"n1e-2l-0BP.normalTitle" = "Button";
