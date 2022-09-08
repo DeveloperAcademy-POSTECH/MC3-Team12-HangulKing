@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  HangulTop
+
+  Created by Seulki Lee on 2022/09/07.
+  
+*/
+
+"hangulKing" = "Le Roi Hangul";
+"learn" = "Apprendre";
+"vowel" = "Voyelle";
+"consonant" = "Consonne";
+"batchim" = "Batchim";
+"practice" = "Pratique";
+"quiz" = "Questionnaire";
+"hangul" = "Hangul";
+"vowelPrinciple" = "Les voyelles ont été modélisées d'après :\n•(ciel), ㅡ(terre),ㅣ(humain), également appelé “cheonjiin”, représentant la base de l'univers.\n\n• n'est pas uniquement utilisé de nos jours, car il n'a pas de son en soi.";
+"consonantPrinciple" = "Les consonnes ont été modélisées d'après la forme de l'organe de prononciation humaine.\n\nCinq consonnes de base ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ' ont été créées, et en ajoutant des traits à ces lettres, des consonnes avec des sons plus forts ont été créées.";
+"batchimPrinciple" = "Batchim est une consonne supplémentaire qui vient après une combinaison de voyelles de consonnes.\n\nLa plupart des consonnes peuvent être batchim, mais elles sont toujours prononcées comme l'une des 7 consonnes, 'ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅇ'";
+"vowelExplanation1" = "Les voyelles ne sont pas utilisées seules. 'ㅇ' indique ici un blanc phonétique devant chaque voyelle.";
+"doubleConsonantExplanation" = "Une double consonne est une forme d'écriture des consonnes de base 'ㄱ, ㄷ, ㅂ, ㅅ, ㅈ' deux fois.";
+"batchimExplanation" = "Il existe des batchims doubles qui ne sont pas utilisés comme consonne initiale, mais ils sont rarement utilisés, alors ne vous inquiétez pas !";
+"vowelExplanation2" = "ㅡ va toujours en dessous de la consonne,\ntandis que ㅣ va vers la droite.";
+"vowelExplanation3" = "Un · est ajouté à la voyelle de base.";
+"vowelExplanation4" = "Deux · ont été ajoutés à la voyelle de base.";
+"vowelExplanation5" = "· et ㅣ ont été ajoutés à la voyelle de base.";
+"vowelExplanation6" = "Deux voyelles sont combinées en une !\nLisez-les rapidement dans l'ordre.";
+"vowelDone" = "Vous avez appris\nles voyelles du Hangul !";
+"consonantDone" = "Vous avez appris\nles consonnes du Hangul !";
+"batchimDone" = "Vous avez appris\nle batchim du Hangul !";
+"learnConsonant" = "Apprendre la Consonne";
+"learnBatchim" = "Apprendre Batchim";
+"goToQuiz" = "Aller au Quiz";
+"correct" = "Corriger!";
+"tryAgain" = "Réessayer...";
+"youHaveFinished" = "Vous avez terminé";
+"questionsSoFar" = "questions jusqu'à présent.";
+"lv1" = "niveau 1. Voyelle";
+"lv3" = "niveau 3. Batchim";
+"lv2" = "niveau 2. Consonne";
+"check" = "Vérifier";
+"velarSound" = "Son Vélaire";
+"lingualSound" = "Son lingual";
+"labialSound" = "Son labial";
+"dentalSound" = "Son dentaire";
+"gutturalSound" = "Son guttural";
+"velarSoundExplanation" = "La forme de la langue touchant le palais mou";
+"lingualSoundExplanation" = "La forme du bout de la langue touchant la gencive supérieure";
+"labialSoundExplanation" = "La forme des lèvres";
+"dentalSoundExplanation" = "La forme des dents";
+"gutturalSoundExplanation" = "La forme de la gorge";
+"combine" = "Combinez votre propre Hangul et écoutez comment cela ressemble.";

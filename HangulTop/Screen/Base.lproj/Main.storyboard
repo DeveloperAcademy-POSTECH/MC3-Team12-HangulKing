@@ -139,7 +139,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="292"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한글킹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBI-2k-mQS">
-                                        <rect key="frame" x="132.66666666666666" y="98" width="124.66666666666666" height="56"/>
+                                        <rect key="frame" x="124.66666666666667" y="100" width="140.66666666666663" height="54"/>
                                         <fontDescription key="fontDescription" name="EBSHunminjeongeumL" family="EBS Hunminjeongeum L" pointSize="48"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
