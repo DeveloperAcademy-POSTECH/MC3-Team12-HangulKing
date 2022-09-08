@@ -15,7 +15,7 @@
 "GHK-X9-xSJ.normalTitle" = "ㅜ";
 
 /* Class = "UIButton"; normalTitle = "Check"; ObjectID = "IHm-1a-0Wj"; */
-"IHm-1a-0Wj.normalTitle" = "Revisar";
+"IHm-1a-0Wj.normalTitle" = "Memeriksa";
 
 /* Class = "UIButton"; normalTitle = "ㅏ"; ObjectID = "JxA-1v-Vw3"; */
 "JxA-1v-Vw3.normalTitle" = "ㅏ";
@@ -24,7 +24,7 @@
 "M39-aF-jJF.normalTitle" = "ㅏ";
 
 /* Class = "UINavigationItem"; title = "Quiz"; ObjectID = "Oik-0W-ppF"; */
-"Oik-0W-ppF.title" = "Quiz";
+"Oik-0W-ppF.title" = "Kuis";
 
 /* Class = "UILabel"; text = "_"; ObjectID = "QiO-j9-abg"; */
 "QiO-j9-abg.text" = "_";
@@ -45,22 +45,22 @@
 "eI0-bZ-ICS.normalTitle" = "ㅜ";
 
 /* Class = "UIButton"; configuration.title = "Finish"; ObjectID = "g9I-Kr-OD8"; */
-"g9I-Kr-OD8.configuration.title" = "Terminar";
+"g9I-Kr-OD8.configuration.title" = "Selesai";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "g9I-Kr-OD8"; */
-"g9I-Kr-OD8.normalTitle" = "Terminar";
+"g9I-Kr-OD8.normalTitle" = "Selesai";
 
 /* Class = "UILabel"; text = "Press the buttons to listen to the sound."; ObjectID = "ner-5t-LMf"; */
-"ner-5t-LMf.text" = "Presiona los botones para escuchar el sonido.";
+"ner-5t-LMf.text" = "Tekan tombol untuk mendengarkan suara.";
 
 /* Class = "UILabel"; text = "lv 1. Vowel"; ObjectID = "np5-bI-rRI"; */
-"np5-bI-rRI.text" = "lv 1. Vowel";
+"np5-bI-rRI.text" = "lv 1. Vokal";
 
 /* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "p1d-Sc-eXC"; */
 "p1d-Sc-eXC.normalTitle" = "ㅜ";
 
 /* Class = "UILabel"; text = "Latest quiz"; ObjectID = "s2D-fA-lrA"; */
-"s2D-fA-lrA.text" = "Ultimo quiz";
+"s2D-fA-lrA.text" = "kuis terbaru";
 
 /* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "sYb-VE-aI4"; */
 "sYb-VE-aI4.normalTitle" = "ㅜ";
@@ -69,10 +69,10 @@
 "smC-Ef-mcN.normalTitle" = "ㅏ";
 
 /* Class = "UILabel"; text = "Tap the bird to listen to the sound.\nChoose the letter that represents the sound."; ObjectID = "uhU-gJ-rA3"; */
-"uhU-gJ-rA3.text" = "Puedes oír el sonido tocando al pájaro.\nEscoge la letra que representa el sonido.";
+"uhU-gJ-rA3.text" = "Tap burung untuk mendengarkan suara.\nPilih huruf yang mewakili suara.";
 
 /* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "vri-So-7b5"; */
 "vri-So-7b5.normalTitle" = "ㅜ";
 
 /* Class = "UILabel"; text = "congratulations!"; ObjectID = "wW5-bp-yXJ"; */
-"wW5-bp-yXJ.text" = "¡Felicitaciones!";
+"wW5-bp-yXJ.text" = "Selamat!";
