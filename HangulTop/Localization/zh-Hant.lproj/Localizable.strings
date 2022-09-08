@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  HangulTop
+
+  Created by Seulki Lee on 2022/09/07.
+  
+*/
+
+"hangulKing" = "韓文王";
+"learn" = "學";
+"vowel" = "元音";
+"consonant" = "輔音";
+"batchim" = "巴奇姆";
+"practice" = "實踐";
+"quiz" = "測驗";
+"hangul" = "韓文";
+"vowelPrinciple" = "元音仿照：\n•(天)、ㅡ(地)、ㅣ(人)，也稱為“天地音”，代表宇宙的基礎。\n\n• 現在不僅使用它，因為它自己沒有聲音。";
+"consonantPrinciple" = "輔音是仿照人類發音器官的形狀製作的。\n\n創建了五個基本輔音“ㄱ、ㄷ、ㅂ、ㅅ、ㅈ”，並通過在這些字母中添加筆劃來創建發音更強烈的輔音。";
+"batchimPrinciple" = "巴奇姆 是輔音元音組合之後的附加輔音。\n\n大多數輔音可以是 巴奇姆，但它們總是發音為 7 個輔音之一，'ㄱ、ㄴ、ㄷ、ㄹ、ㅁ、ㅇ'";
+"vowelExplanation1" = "元音不單獨使用。這裡的'ㅇ'表示每個元音前面的語音空白。";
+"doubleConsonantExplanation" = "雙輔音是把基本輔音‘ㄱ、ㄷ、ㅂ、ㅅ、ㅈ’寫兩次的一種形式。";
+"batchimExplanation" = "有雙批不用作聲母，但很少使用，所以不用擔心！";
+"vowelExplanation2" = "ㅡ總是在輔音下面，\n而ㅣ在右邊。";
+"vowelExplanation3" = "一個·被添加到基本元音中。";
+"vowelExplanation4" = "兩個·被添加到基本元音中。";
+"vowelExplanation5" = "· 和ㅣ被添加到基本元音中。”";
+"vowelExplanation6" = "兩個元音合二為一！\n按順序快速閱讀。";
+"vowelDone" = "你已經學會了\n韓文的元音！";
+"consonantDone" = "你已經學會了\n韓文的輔音！";
+"batchimDone" = "你已經學會了\n韓文的批註！";
+"learnConsonant" = "學習輔音";
+"learnBatchim" = "學習批處理";
+"goToQuiz" = "去測驗";
+"correct" = "正確的！";
+"tryAgain" = "再試一次...";
+"youHaveFinished" = "到目前為止，您已經完成了";
+"questionsSoFar" = "個問題。";
+"lv1" = "第 1 級。元音";
+"lv3" = "第 3 級。巴奇姆";
+"lv2" = "第 2 級。輔音";
+"check" = "查看";
+"velarSound" = "軟齶音";
+"lingualSound" = "舌音";
+"labialSound" = "唇音";
+"dentalSound" = "齒音";
+"gutturalSound" = "喉音";
+"velarSoundExplanation" = "舌頭接觸軟齶的形狀";
+"lingualSoundExplanation" = "舌尖接觸上牙齦的形狀";
+"labialSoundExplanation" = "南京的形狀";
+"dentalSoundExplanation" = "牙齒的形狀";
+"gutturalSoundExplanation" = "喉嚨的形狀";
+"combine" = "結合你自己的韓文，聽聽它的聲音。";

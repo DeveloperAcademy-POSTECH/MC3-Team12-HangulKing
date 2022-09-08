@@ -122,6 +122,16 @@
 		A06C5ABC289301F2008CE8BF /* EBS훈민정음R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBS훈민정음R.otf"; sourceTree = "<group>"; };
 		A082B9C32882B9FA006F29CC /* VowelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VowelViewController.swift; sourceTree = "<group>"; };
 		A0AFCE8E28873A7300C51FEA /* LastVowelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastVowelViewController.swift; sourceTree = "<group>"; };
+		D53F61A028CA40F70017D756 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		D53F61A128CA40F70017D756 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Consonant.strings; sourceTree = "<group>"; };
+		D53F61A228CA40F70017D756 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Quiz.strings; sourceTree = "<group>"; };
+		D53F61A328CA40F80017D756 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/HangulView.strings; sourceTree = "<group>"; };
+		D53F61A428CA40F80017D756 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D53F61A528CA414F0017D756 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		D53F61A628CA414F0017D756 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Consonant.strings"; sourceTree = "<group>"; };
+		D53F61A728CA41500017D756 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Quiz.strings"; sourceTree = "<group>"; };
+		D53F61A828CA41500017D756 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/HangulView.strings"; sourceTree = "<group>"; };
+		D53F61A928CA41500017D756 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D57C319A2896F60F00DCBC68 /* LottieManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieManage.swift; sourceTree = "<group>"; };
 		D57C319C2896F81800DCBC68 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
 		D57C319D2896F81800DCBC68 /* batchim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = batchim.json; sourceTree = "<group>"; };
@@ -316,6 +326,8 @@
 				es,
 				id,
 				ms,
+				fr,
+				"zh-Hant",
 			);
 			mainGroup = D5CC94FC287E9591005E8BF5;
 			packageReferences = (
@@ -408,6 +420,8 @@
 				A0177A4928C9FC2C00E5B78E /* es */,
 				A0177A4E28CA2AAC00E5B78E /* id */,
 				A0177A5328CA2ABC00E5B78E /* ms */,
+				D53F61A428CA40F80017D756 /* fr */,
+				D53F61A928CA41500017D756 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -454,6 +468,8 @@
 				A0177A4628C9FC2B00E5B78E /* es */,
 				A0177A4B28CA2AAC00E5B78E /* id */,
 				A0177A5028CA2ABC00E5B78E /* ms */,
+				D53F61A128CA40F70017D756 /* fr */,
+				D53F61A628CA414F0017D756 /* zh-Hant */,
 			);
 			name = Consonant.storyboard;
 			sourceTree = "<group>";
@@ -484,6 +500,8 @@
 				A0177A4728C9FC2B00E5B78E /* es */,
 				A0177A4C28CA2AAC00E5B78E /* id */,
 				A0177A5128CA2ABC00E5B78E /* ms */,
+				D53F61A228CA40F70017D756 /* fr */,
+				D53F61A728CA41500017D756 /* zh-Hant */,
 			);
 			name = Quiz.storyboard;
 			sourceTree = "<group>";
@@ -498,6 +516,8 @@
 				A0177A4828C9FC2B00E5B78E /* es */,
 				A0177A4D28CA2AAC00E5B78E /* id */,
 				A0177A5228CA2ABC00E5B78E /* ms */,
+				D53F61A328CA40F80017D756 /* fr */,
+				D53F61A828CA41500017D756 /* zh-Hant */,
 			);
 			name = HangulView.storyboard;
 			sourceTree = "<group>";
@@ -512,6 +532,8 @@
 				A0177A4528C9FC2B00E5B78E /* es */,
 				A0177A4A28CA2AAC00E5B78E /* id */,
 				A0177A4F28CA2ABC00E5B78E /* ms */,
+				D53F61A028CA40F70017D756 /* fr */,
+				D53F61A528CA414F0017D756 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -653,7 +675,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HangulTop/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HangulKing;
@@ -686,7 +708,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5N5TS7Y4MA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HangulTop/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HangulKing;
