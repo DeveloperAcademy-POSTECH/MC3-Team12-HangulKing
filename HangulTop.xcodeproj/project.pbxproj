@@ -102,6 +102,11 @@
 		4D89B9D028891E9B00BD37F7 /* BatchimEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimEndViewController.swift; sourceTree = "<group>"; };
 		6761C8A9288550F4001A0D2C /* BatchimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimModel.swift; sourceTree = "<group>"; };
 		67E52E6C2882BA4300BC1205 /* BatchimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimViewController.swift; sourceTree = "<group>"; };
+		A0177A4528C9FC2B00E5B78E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		A0177A4628C9FC2B00E5B78E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Consonant.strings; sourceTree = "<group>"; };
+		A0177A4728C9FC2B00E5B78E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Quiz.strings; sourceTree = "<group>"; };
+		A0177A4828C9FC2B00E5B78E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HangulView.strings; sourceTree = "<group>"; };
+		A0177A4928C9FC2C00E5B78E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A06C5ABA289301F2008CE8BF /* EBS훈민정음L.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBS훈민정음L.otf"; sourceTree = "<group>"; };
 		A06C5ABB289301F2008CE8BF /* EBS훈민정음SB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBS훈민정음SB.otf"; sourceTree = "<group>"; };
 		A06C5ABC289301F2008CE8BF /* EBS훈민정음R.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBS훈민정음R.otf"; sourceTree = "<group>"; };
@@ -298,6 +303,7 @@
 				Base,
 				de,
 				it,
+				es,
 			);
 			mainGroup = D5CC94FC287E9591005E8BF5;
 			packageReferences = (
@@ -387,6 +393,7 @@
 				11BA068B28C84BDD00E706AD /* de */,
 				11BA068D28C84BE000E706AD /* en */,
 				11BA068E28C84BE100E706AD /* it */,
+				A0177A4928C9FC2C00E5B78E /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -430,6 +437,7 @@
 				11BA06BF28C8820A00E706AD /* en */,
 				11BA06C128C8823800E706AD /* de */,
 				11BA06C328C8823B00E706AD /* it */,
+				A0177A4628C9FC2B00E5B78E /* es */,
 			);
 			name = Consonant.storyboard;
 			sourceTree = "<group>";
@@ -457,6 +465,7 @@
 				11BA06DA28C8831200E706AD /* en */,
 				11BA06DC28C8834000E706AD /* de */,
 				11BA06DE28C883CE00E706AD /* it */,
+				A0177A4728C9FC2B00E5B78E /* es */,
 			);
 			name = Quiz.storyboard;
 			sourceTree = "<group>";
@@ -468,6 +477,7 @@
 				11BA06E328C883DB00E706AD /* en */,
 				11BA06E528C8840900E706AD /* de */,
 				11BA06E728C8845A00E706AD /* it */,
+				A0177A4828C9FC2B00E5B78E /* es */,
 			);
 			name = HangulView.storyboard;
 			sourceTree = "<group>";
@@ -479,6 +489,7 @@
 				11BA068628C84B7100E706AD /* de */,
 				11BA068828C84B7C00E706AD /* it */,
 				11BA06ED28C88FB600E706AD /* en */,
+				A0177A4528C9FC2B00E5B78E /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
