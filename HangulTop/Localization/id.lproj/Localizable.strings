@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  HangulTop
+
+  Created by Seulki Lee on 2022/09/07.
+  
+*/
+
+"hangulKing" = "HangulKing";
+"learn" = "Belajar";
+"vowel" = "Vokal";
+"consonant" = "Konsonan";
+"batchim" = "Batchim";
+"practice" = "Latihan";
+"quiz" = "Kuis";
+"hangul" = "Hangul";
+"vowelPrinciple" = "Vokal dimodelkan setelah:\n•(langit), ㅡ(bumi),ㅣ(manusia), juga disebut “cheonjiin”, mewakili dasar alam semesta.\n\n• tidak hanya digunakan akhir-akhir ini, karena tidak memiliki suaranya sendiri.";
+"consonantPrinciple" = "Konsonan dimodelkan mengikut bentuk organ sebutan manusia.\n\nLima konsonan asas ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ' telah dicipta, dan dengan menambahkan sebatan pada huruf-huruf ini, konsonan dengan bunyi yang lebih kuat dicipta.";
+"batchimPrinciple" = "Batchim adalah konsonan tambahan yang muncul setelah kombinasi vokal konsonan.\n\nKebanyakan konsonan dapat berupa batchim, tetapi mereka selalu diucapkan sebagai salah satu dari 7 konsonan, 'ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅇ’";
+"vowelExplanation1" = "Vokal tidak digunakan sendiri. 'ㅇ' di sini menunjukkan kekosongan fonetik di depan setiap vokal.";
+"doubleConsonantExplanation" = "Konsonan ganda adalah bentuk penulisan konsonan dasar ‘ㄱ, ㄷ, ㅂ, ㅅ, ㅈ’ dua kali.";
+"batchimExplanation" = "Ada double batchim yang tidak digunakan sebagai konsonan awal, tetapi jarang digunakan, jadi jangan khawatir!";
+"vowelExplanation2" = "ㅡ selalu berada di bawah konsonan,\nsedangkan ㅣ berada di kanan.";
+"vowelExplanation3" = "Satu · ditambahkan ke vokal dasar.";
+"vowelExplanation4" = "Dua · ditambahkan ke vokal dasar.";
+"vowelExplanation5" = "·· dan ㅣ ditambahkan ke vokal dasar.";
+"vowelExplanation6" = "Dua vokal digabungkan menjadi satu!\nBacalah dengan cepat secara berurutan.";
+"vowelDone" = "Anda telah mempelajari\nvokal Hangul!";
+"consonantDone" = "Anda telah mempelajari\nkonsonan Hangul!";
+"batchimDone" = "Anda telah mempelajari\nbatchim Hangul!";
+"learnConsonant" = "Pelajari Konsonan";
+"learnBatchim" = "Pelajari Batchim";
+"goToQuiz" = "Pergi ke Kuis";
+"correct" = "Benar!";
+"tryAgain" = "Coba lagi...";
+"youHaveFinished" = "Anda telah selesai";
+"questionsSoFar" = "pertanyaan sejauh ini";
+"lv1" = "lv 1. Vokal";
+"lv3" = "lv 3. Batchim";
+"lv2" = "lv 2. Konsonan";
+"check" = "Memeriksa";
+"velarSound" = "Suara Velar";
+"lingualSound" = "Suara lidah";
+"labialSound" = "Suara labial";
+"dentalSound" = "Suara gigi";
+"gutturalSound" = "Suara tenggorokan";
+"velarSoundExplanation" = "Bentuk lidah menyentuh langit-langit lunak";
+"lingualSoundExplanation" = "Bentuk ujung lidah menyentuh gusi atas";
+"labialSoundExplanation" = "Bentuk bibir";
+"dentalSoundExplanation" = "Bentuk gigi";
+"gutturalSoundExplanation" = "Bentuk tenggorokan";
+"combine" = "Gabungkan Hangul Anda sendiri dan dengarkan suaranya.";

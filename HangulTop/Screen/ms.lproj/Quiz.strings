@@ -1,0 +1,78 @@
+
+/* Class = "UIButton"; normalTitle = "ㅏ"; ObjectID = "8al-8R-cWf"; */
+"8al-8R-cWf.normalTitle" = "ㅏ";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "8dy-Ur-jqw"; */
+"8dy-Ur-jqw.normalTitle" = "ㅜ";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "CeC-7I-pKf"; */
+"CeC-7I-pKf.normalTitle" = "ㅜ";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "DnB-7k-GW9"; */
+"DnB-7k-GW9.normalTitle" = "ㅜ";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "GHK-X9-xSJ"; */
+"GHK-X9-xSJ.normalTitle" = "ㅜ";
+
+/* Class = "UIButton"; normalTitle = "Check"; ObjectID = "IHm-1a-0Wj"; */
+"IHm-1a-0Wj.normalTitle" = "Menyemak";
+
+/* Class = "UIButton"; normalTitle = "ㅏ"; ObjectID = "JxA-1v-Vw3"; */
+"JxA-1v-Vw3.normalTitle" = "ㅏ";
+
+/* Class = "UIButton"; normalTitle = "ㅏ"; ObjectID = "M39-aF-jJF"; */
+"M39-aF-jJF.normalTitle" = "ㅏ";
+
+/* Class = "UINavigationItem"; title = "Quiz"; ObjectID = "Oik-0W-ppF"; */
+"Oik-0W-ppF.title" = "Kuiz";
+
+/* Class = "UILabel"; text = "_"; ObjectID = "QiO-j9-abg"; */
+"QiO-j9-abg.text" = "_";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "SqX-e1-Kjg"; */
+"SqX-e1-Kjg.normalTitle" = "ㅜ";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "YPD-4U-nDO"; */
+"YPD-4U-nDO.normalTitle" = "ㅜ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "alj-4K-Geb"; */
+"alj-4K-Geb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "1 / 10"; ObjectID = "dvx-qa-5Uz"; */
+"dvx-qa-5Uz.text" = "1 / 10";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "eI0-bZ-ICS"; */
+"eI0-bZ-ICS.normalTitle" = "ㅜ";
+
+/* Class = "UIButton"; configuration.title = "Finish"; ObjectID = "g9I-Kr-OD8"; */
+"g9I-Kr-OD8.configuration.title" = "Selesai";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "g9I-Kr-OD8"; */
+"g9I-Kr-OD8.normalTitle" = "Selesai";
+
+/* Class = "UILabel"; text = "Press the buttons to listen to the sound."; ObjectID = "ner-5t-LMf"; */
+"ner-5t-LMf.text" = "Tekan tombol untuk mendengarkan suara.";
+
+/* Class = "UILabel"; text = "lv 1. Vowel"; ObjectID = "np5-bI-rRI"; */
+"np5-bI-rRI.text" = "lv 1. Vokal";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "p1d-Sc-eXC"; */
+"p1d-Sc-eXC.normalTitle" = "ㅜ";
+
+/* Class = "UILabel"; text = "Latest quiz"; ObjectID = "s2D-fA-lrA"; */
+"s2D-fA-lrA.text" = "kuiz terbaru";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "sYb-VE-aI4"; */
+"sYb-VE-aI4.normalTitle" = "ㅜ";
+
+/* Class = "UIButton"; normalTitle = "ㅏ"; ObjectID = "smC-Ef-mcN"; */
+"smC-Ef-mcN.normalTitle" = "ㅏ";
+
+/* Class = "UILabel"; text = "Tap the bird to listen to the sound.\nChoose the letter that represents the sound."; ObjectID = "uhU-gJ-rA3"; */
+"uhU-gJ-rA3.text" = "Tap burung untuk mendengarkan suara.\nPilih huruf yang mewakili suara.";
+
+/* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "vri-So-7b5"; */
+"vri-So-7b5.normalTitle" = "ㅜ";
+
+/* Class = "UILabel"; text = "congratulations!"; ObjectID = "wW5-bp-yXJ"; */
+"wW5-bp-yXJ.text" = "Selamat!";
