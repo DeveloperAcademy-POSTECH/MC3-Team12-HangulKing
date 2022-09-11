@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  HangulTop
+
+  Created by Seulki Lee on 2022/09/07.
+  
+*/
+
+"hangulKing" = "ハングルキング";
+"learn" = "学習";
+"vowel" = "母音";
+"consonant" = "子音";
+"batchim" = "バッチム";
+"practice" = "練習";
+"quiz" = "クイズ";
+"hangul" = "ハングル";
+"vowelPrinciple" = "母音は、\n•(空)、ㅡ(地)、ㅣ(人間) に基づいており、「天地人」とも呼ばれ、宇宙の基礎を表しています。\n\n• 最近では、このように単独で使用されるわけではありません。単体では音が出ません。";
+"consonantPrinciple" = "子音は、人間の発音器官の形状をモデルにしています。\n\n5 つの基本的な子音「ㄱ、ㄷ、ㅂ、ㅅ、ㅈ」を作成し、これらの文字にストロークを追加することで、より強い音の子音を作成しました。";
+"batchimPrinciple" = "パッチムは子音母音の組み合わせの後に来る追加の子音です。\n\nほとんどの子音はバッチィムですが、常に7つの子音の1つとして発音されます。「ㄱ、ㄴ、ㄷ、ㄹ、ㅁ、ㅇ」です。";
+"vowelExplanation1" = "母音は単独では使用されません。ここで「ㅇ」は、各母音の前の空白を表します。";
+"doubleConsonantExplanation" = "二重子音は、基本子音である「ㄱ、ㄷ、ㅂ、ㅅ、ㅈ」を2回書く形です。";
+"batchimExplanation" = "頭の子音として使わないダブルバッチムもありますが、ほとんど使わないので安心してください！";
+"vowelExplanation2" = "「ㅡ」 は常に子音の下に移動しますが、\n「ㅣ」 は右に移動します。";
+"vowelExplanation3" = "基本母音に「・」が1つ付きます。";
+"vowelExplanation4" = "基本母音に2「・」が追加されました。";
+"vowelExplanation5" = "「・」基礎母音にと「ㅣ」つけました。";
+"vowelExplanation6" = "二つの母音が一つに！\n順番に素早く読んでください。";
+"vowelDone" = "ハングルの母音を\n覚えたんですね！";
+"consonantDone" = "ハングルの子音を\n覚えたんですね！";
+"batchimDone" = "ハングルのバッチイムを\n覚えました!";
+"learnConsonant" = "子音学習";
+"learnBatchim" = "パッチム学習";
+"goToQuiz" = "クイズに行く";
+"correct" = "正しい！";
+"tryAgain" = "再試行...";
+"youHaveFinished" = "ここまでで";
+"questionsSoFar" = "つの質問が完了しました。";
+"lv1" = "lv 1。母音";
+"lv3" = "lv 3。パッチム";
+"lv2" = "lv 2。子音";
+"check" = "確認";
+"velarSound" = "口蓋音";
+"lingualSound" = "舌の音";
+"labialSound" = "唇の音";
+"dentalSound" = "歯の音";
+"gutturalSound" = "喉の音";
+"velarSoundExplanation" = "軟口蓋に触れる舌の形";
+"lingualSoundExplanation" = "上の歯ぐきに触れる舌先の形";
+"labialSoundExplanation" = "唇の形";
+"dentalSoundExplanation" = "歯の形";
+"gutturalSoundExplanation" = "喉の形";
+"combine" = "独自のハングルを組み合わせて、それがどのように聞こえるかを聞いてください。";

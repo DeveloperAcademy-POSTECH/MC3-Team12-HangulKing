@@ -3,7 +3,7 @@
 "5tu-eU-reG.normalTitle" = "아";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "68f-SU-Ar2"; */
-"68f-SU-Ar2.normalTitle" = "Bouton";
+"68f-SU-Ar2.normalTitle" = "Button";
 
 /* Class = "UIButton"; normalTitle = "하"; ObjectID = "7tz-vP-j2x"; */
 "7tz-vP-j2x.normalTitle" = "하";
@@ -26,8 +26,8 @@
 /* Class = "UIButton"; normalTitle = "사"; ObjectID = "CtY-Vk-nJb"; */
 "CtY-Vk-nJb.normalTitle" = "사";
 
-/* Class = "UINavigationItem"; title = "hangul"; ObjectID = "HrE-sl-dhQ"; */
-"HrE-sl-dhQ.title" = "Hangul";
+/* Class = "UINavigationItem"; title = "Hangul"; ObjectID = "HrE-sl-dhQ"; */
+"HrE-sl-dhQ.title" = "韩文";
 
 /* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "IJ2-cE-soa"; */
 "IJ2-cE-soa.normalTitle" = "ㄱ";
@@ -45,10 +45,10 @@
 "ONE-0b-Fcb.normalTitle" = "ㅂ";
 
 /* Class = "UISegmentedControl"; QCV-BQ-kcd.segmentTitles[0] = "Consonant"; ObjectID = "QCV-BQ-kcd"; */
-"QCV-BQ-kcd.segmentTitles[0]" = "Consonne";
+"QCV-BQ-kcd.segmentTitles[0]" = "辅音";
 
 /* Class = "UISegmentedControl"; QCV-BQ-kcd.segmentTitles[1] = "Vowel"; ObjectID = "QCV-BQ-kcd"; */
-"QCV-BQ-kcd.segmentTitles[1]" = "Voyelle";
+"QCV-BQ-kcd.segmentTitles[1]" = "元音";
 
 /* Class = "UISegmentedControl"; QCV-BQ-kcd.segmentTitles[2] = "Batchim"; ObjectID = "QCV-BQ-kcd"; */
 "QCV-BQ-kcd.segmentTitles[2]" = "Batchim";
@@ -75,7 +75,7 @@
 "eQY-jK-T1J.normalTitle" = "라";
 
 /* Class = "UILabel"; text = "Combine your own Hangul and listen  to how it sounds like."; ObjectID = "jqz-8B-yYt"; */
-"jqz-8B-yYt.text" = "Combinez votre propre Hangul et écoutez  comment cela ressemble.";
+"jqz-8B-yYt.text" = "结合你自己的韩文，听听它的声音。";
 
 /* Class = "UIButton"; normalTitle = "가"; ObjectID = "k1H-nI-Net"; */
 "k1H-nI-Net.normalTitle" = "가";

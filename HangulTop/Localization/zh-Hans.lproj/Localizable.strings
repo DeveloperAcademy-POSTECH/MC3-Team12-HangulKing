@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  HangulTop
+
+  Created by Seulki Lee on 2022/09/07.
+  
+*/
+
+"hangulKing" = "韩文王";
+"learn" = "学";
+"vowel" = "元音";
+"consonant" = "辅音";
+"batchim" = "Batchim";
+"practice" = "练习";
+"quiz" = "测验";
+"hangul" = "韩文";
+"vowelPrinciple" = "元音仿照：\n•（天空）、ㅡ（地球）、ㅣ（人类），也称为“天地人”，代表宇宙的基础。\n\n•现在不单独使用了，因为它本身没有声音。";
+"consonantPrinciple" = "辅音模仿人类发音器官的形状。\n\n创造了五个基本辅音 ‘ㄱ、ㄷ、ㅂ、ㅅ、ㅈ’，并通过在这些字母上添加笔画来创建发音更强烈的辅音。";
+"batchimPrinciple" = "Batchim 是一个附加的辅音，出现在辅音元音组合之后。\n\n大多数辅音可以是batchim，但它们总是发音为7个辅音之一，'ㄱ、ㄴ、ㄷ、ㄹ、ㅁ、ㅇ'。";
+"vowelExplanation1" = "元音不单独使用。这里的'ㅇ'表示每个元音前面的语音空白。";
+"doubleConsonantExplanation" = "双辅音是把基本辅音‘ㄱ、ㄷ、ㅂ、ㅅ、ㅈ’写两次的一种形式。";
+"batchimExplanation" = "有不用作声母的双 Batchims，但很少使用，所以不用担心！";
+"vowelExplanation2" = "'ㅡ'总是在辅音下面，\n而'ㅣ'在右边。";
+"vowelExplanation3" = "一个•被添加到基本元音中。";
+"vowelExplanation4" = "两个•被添加到基本元音中。";
+"vowelExplanation5" = "'•'和'ㅣ'被添加到基本元音中。";
+"vowelExplanation6" = "两个元音合二为一！\n按顺序快速阅读。";
+"vowelDone" = "你已经学会了韩文的元音！";
+"consonantDone" = "你已经学会了韩文的辅音！";
+"batchimDone" = "你已经学会了韩文的Batchim！";
+"learnConsonant" = "学习辅音";
+"learnBatchim" = "学习Batchim";
+"goToQuiz" = "去测验";
+"correct" = "正确的！";
+"tryAgain" = "再试一次...";
+"youHaveFinished" = "到目前为止，您已经完成了";
+"questionsSoFar" = "个问题";
+"lv1" = "lv 1。元音";
+"lv3" = "lv 3。Batchim";
+"lv2" = "lv 2。辅音";
+"check" = "确认";
+"velarSound" = "口盖音";
+"lingualSound" = "舌音";
+"labialSound" = "唇音";
+"dentalSound" = "齒音";
+"gutturalSound" = "喉音";
+"velarSoundExplanation" = "舌头接触软腭的形状";
+"lingualSoundExplanation" = "舌尖接触上牙龈的形状";
+"labialSoundExplanation" = "嘴唇的形状";
+"dentalSoundExplanation" = "牙齿的形状";
+"gutturalSoundExplanation" = "喉咙的形状";
+"combine" = "结合你自己的韩文，听听它的声音。";
