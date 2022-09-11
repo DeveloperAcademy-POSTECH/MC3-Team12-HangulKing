@@ -103,6 +103,11 @@
 		4D77D83C28CDF0780083F9A9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Quiz.strings; sourceTree = "<group>"; };
 		4D77D83D28CDF0780083F9A9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/HangulView.strings; sourceTree = "<group>"; };
 		4D77D83E28CDF0780083F9A9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4D77D83F28CE27920083F9A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		4D77D84028CE27920083F9A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Consonant.strings"; sourceTree = "<group>"; };
+		4D77D84128CE27920083F9A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Quiz.strings"; sourceTree = "<group>"; };
+		4D77D84228CE27920083F9A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/HangulView.strings"; sourceTree = "<group>"; };
+		4D77D84328CE27920083F9A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4D89B9CE28891CEA00BD37F7 /* ConsonantEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsonantEndViewController.swift; sourceTree = "<group>"; };
 		4D89B9D028891E9B00BD37F7 /* BatchimEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimEndViewController.swift; sourceTree = "<group>"; };
 		6761C8A9288550F4001A0D2C /* BatchimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimModel.swift; sourceTree = "<group>"; };
@@ -334,6 +339,7 @@
 				fr,
 				"zh-Hant",
 				ja,
+				"zh-Hans",
 			);
 			mainGroup = D5CC94FC287E9591005E8BF5;
 			packageReferences = (
@@ -429,6 +435,7 @@
 				D53F61A428CA40F80017D756 /* fr */,
 				D53F61A928CA41500017D756 /* zh-Hant */,
 				4D77D83E28CDF0780083F9A9 /* ja */,
+				4D77D84328CE27920083F9A9 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -478,6 +485,7 @@
 				D53F61A128CA40F70017D756 /* fr */,
 				D53F61A628CA414F0017D756 /* zh-Hant */,
 				4D77D83B28CDF0780083F9A9 /* ja */,
+				4D77D84028CE27920083F9A9 /* zh-Hans */,
 			);
 			name = Consonant.storyboard;
 			sourceTree = "<group>";
@@ -511,6 +519,7 @@
 				D53F61A228CA40F70017D756 /* fr */,
 				D53F61A728CA41500017D756 /* zh-Hant */,
 				4D77D83C28CDF0780083F9A9 /* ja */,
+				4D77D84128CE27920083F9A9 /* zh-Hans */,
 			);
 			name = Quiz.storyboard;
 			sourceTree = "<group>";
@@ -528,6 +537,7 @@
 				D53F61A328CA40F80017D756 /* fr */,
 				D53F61A828CA41500017D756 /* zh-Hant */,
 				4D77D83D28CDF0780083F9A9 /* ja */,
+				4D77D84228CE27920083F9A9 /* zh-Hans */,
 			);
 			name = HangulView.storyboard;
 			sourceTree = "<group>";
@@ -545,6 +555,7 @@
 				D53F61A028CA40F70017D756 /* fr */,
 				D53F61A528CA414F0017D756 /* zh-Hant */,
 				4D77D83A28CDF0780083F9A9 /* ja */,
+				4D77D83F28CE27920083F9A9 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Practice"; ObjectID = "GAo-4h-kBf"; */
+"GAo-4h-kBf.text" = "练习";
+
+/* Class = "UIButton"; configuration.title = "Hangul"; ObjectID = "JtG-Tx-ie9"; */
+"JtG-Tx-ie9.configuration.title" = "韩文";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JtG-Tx-ie9"; */
+"JtG-Tx-ie9.normalTitle" = "韩文";
+
+/* Class = "UIButton"; configuration.title = "Quiz"; ObjectID = "LOH-WO-KYp"; */
+"LOH-WO-KYp.configuration.title" = "测验";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LOH-WO-KYp"; */
+"LOH-WO-KYp.normalTitle" = "测验";
+
+/* Class = "UILabel"; text = "한글킹"; ObjectID = "PBI-2k-mQS"; */
+"PBI-2k-mQS.text" = "한글킹";
+
+/* Class = "UILabel"; text = "Learn"; ObjectID = "PPg-u7-SlT"; */
+"PPg-u7-SlT.text" = "学";
+
+/* Class = "UIButton"; configuration.title = "Vowel"; ObjectID = "V3Y-WB-fQo"; */
+"V3Y-WB-fQo.configuration.title" = "元音";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "V3Y-WB-fQo"; */
+"V3Y-WB-fQo.normalTitle" = "元音";
+
+/* Class = "UIButton"; configuration.title = "Batchim"; ObjectID = "fHQ-dK-aUX"; */
+"fHQ-dK-aUX.configuration.title" = "Batchim";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fHQ-dK-aUX"; */
+"fHQ-dK-aUX.normalTitle" = "Batchim";
+
+/* Class = "UIButton"; configuration.title = "Consonant"; ObjectID = "oUU-R5-0ue"; */
+"oUU-R5-0ue.configuration.title" = "辅音";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oUU-R5-0ue"; */
+"oUU-R5-0ue.normalTitle" = "辅音";
+
+/* Class = "UIBarButtonItem"; title = "Home"; ObjectID = "tIG-nm-Ebk"; */
+"tIG-nm-Ebk.title" = "Home";
