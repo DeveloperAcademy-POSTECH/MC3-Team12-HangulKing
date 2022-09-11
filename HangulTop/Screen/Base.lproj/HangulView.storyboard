@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--hangul-->
+        <!--Hangul-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
                 <viewController storyboardIdentifier="HangulView" id="Y6W-OH-hqX" customClass="HangulViewController" customModule="HangulTop" customModuleProvider="target" sceneMemberID="viewController">
@@ -479,7 +479,7 @@
                             <constraint firstItem="35F-vX-Tx4" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="wvc-yP-qW7"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="hangul" id="HrE-sl-dhQ"/>
+                    <navigationItem key="navigationItem" title="Hangul" id="HrE-sl-dhQ"/>
                     <connections>
                         <outlet property="captionView" destination="p57-m2-DvJ" id="WCB-2X-dV7"/>
                         <outlet property="mainLetter" destination="8Pm-ag-fMg" id="0Xw-11-Wsb"/>

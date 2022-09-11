@@ -19,7 +19,9 @@ class ConsonantEndViewController: UIViewController {
     @IBOutlet weak var message: UILabel!
     @IBOutlet var animationView: AnimationView!
     @IBOutlet weak var goToStudy: UIButton!
-    @IBAction func goToMenu(_ sender: Any) {
+    @IBOutlet weak var goToMain: UIButton!
+    
+    @IBAction func goToMain(_ sender: Any) {
         //네비게이션 스택 중 원하는 지점으로 보내줌
         let controllers = self.navigationController?.viewControllers
         for vc in controllers! {
@@ -51,6 +53,7 @@ class ConsonantEndViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        addBottomBorder()
         message.text = messageArray[data ?? 0]
         if(data == 0){
             goToStudy.setTitle("learnConsonant".localized, for: .normal)
@@ -63,5 +66,14 @@ class ConsonantEndViewController: UIViewController {
         animationView.loopMode = .loop
         animationView.animationSpeed = 1
         animationView.play()
+    }
+    
+    func addBottomBorder() {
+        let thickness: CGFloat = 1.0
+        let bottomBorder = CALayer()
+        
+        bottomBorder.frame = CGRect(x:0, y: self.goToMain.frame.size.height - thickness, width: self.goToMain.frame.size.width, height:thickness)
+        bottomBorder.backgroundColor = UIColor.black.cgColor
+        goToMain.layer.addSublayer(bottomBorder)
     }
 }
