@@ -75,7 +75,7 @@
 "eQY-jK-T1J.normalTitle" = "라";
 
 /* Class = "UILabel"; text = "Combine your own Hangul and listen  to how it sounds like."; ObjectID = "jqz-8B-yYt"; */
-"jqz-8B-yYt.text" = "Gabungkan sendiri Hangul dan dengarkan bagaimana kedengarannya.";
+"jqz-8B-yYt.text" = "Gabungkan sendiri Hangul dan\ndengarkan bagaimana kedengarannya.";
 
 /* Class = "UIButton"; normalTitle = "가"; ObjectID = "k1H-nI-Net"; */
 "k1H-nI-Net.normalTitle" = "가";

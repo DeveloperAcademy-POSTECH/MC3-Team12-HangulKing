@@ -27,7 +27,7 @@
 "HXp-N8-RyY.normalTitle" = "Button";
 
 /* Class = "UILabel"; text = "모음은 단독으로 쓰이지 않기 때문에, 여기선 첫번째로 올 때 음가가 없는 자음’ㅇ'을 모음 앞의 공백을 표시하는 기호로 쓸 것입니다."; ObjectID = "KAI-Vr-Ee5"; */
-"KAI-Vr-Ee5.text" = "모음은 단독으로 쓰이지 않기 때문에, 여기선 첫번째로 올 때 음가가 없는 자음’ㅇ'을 모음 앞의 공백을 표시하는 기호로 쓸 것입니다.";
+"KAI-Vr-Ee5.text" = "모음은 단독으로 쓰이지 않기 때문에, 여기선 첫번째로 올 때 음가가 없는 자음'ㅇ'을 모음 앞의 공백을 표시하는 기호로 쓸 것입니다.";
 
 /* Class = "UILabel"; text = "가"; ObjectID = "MdL-uT-XHm"; */
 "MdL-uT-XHm.text" = "가";
@@ -48,7 +48,7 @@
 "VEV-vw-fiw.text" = "You have learned the vowels of Hangul!";
 
 /* Class = "UILabel"; text = "ㅡ always goes below the consonant, whereas ㅣ goes to the right."; ObjectID = "Yo3-nM-VrJ"; */
-"Yo3-nM-VrJ.text" = "ㅡ selalu berjalan di bawah konsonan, sedangkan ㅣ berjalan ke kanan.";
+"Yo3-nM-VrJ.text" = "'ㅡ' selalu berjalan di bawah konsonan, sedangkan 'ㅣ' berjalan ke kanan.";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Yxa-bS-iaj"; */
 "Yxa-bS-iaj.normalTitle" = "Button";
