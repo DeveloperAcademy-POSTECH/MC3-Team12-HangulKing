@@ -54,7 +54,7 @@
 "ner-5t-LMf.text" = "Presiona los botones para escuchar el sonido.";
 
 /* Class = "UILabel"; text = "lv 1. Vowel"; ObjectID = "np5-bI-rRI"; */
-"np5-bI-rRI.text" = "lv 1. Vowel";
+"np5-bI-rRI.text" = "lv 1. Vocal";
 
 /* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "p1d-Sc-eXC"; */
 "p1d-Sc-eXC.normalTitle" = "ㅜ";

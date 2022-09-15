@@ -60,7 +60,7 @@
 "p1d-Sc-eXC.normalTitle" = "ㅜ";
 
 /* Class = "UILabel"; text = "Latest quiz"; ObjectID = "s2D-fA-lrA"; */
-"s2D-fA-lrA.text" = "Dernier questionnaire";
+"s2D-fA-lrA.text" = "Quiz";
 
 /* Class = "UIButton"; normalTitle = "ㅜ"; ObjectID = "sYb-VE-aI4"; */
 "sYb-VE-aI4.normalTitle" = "ㅜ";
@@ -75,4 +75,4 @@
 "vri-So-7b5.normalTitle" = "ㅜ";
 
 /* Class = "UILabel"; text = "congratulations!"; ObjectID = "wW5-bp-yXJ"; */
-"wW5-bp-yXJ.text" = "toutes nos félicitations!";
+"wW5-bp-yXJ.text" = "Félicitations!";
