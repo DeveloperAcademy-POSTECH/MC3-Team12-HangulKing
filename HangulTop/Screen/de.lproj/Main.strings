@@ -9,10 +9,10 @@
 "JtG-Tx-ie9.normalTitle" = "Hangul";
 
 /* Class = "UIButton"; configuration.title = "Quiz"; ObjectID = "LOH-WO-KYp"; */
-"LOH-WO-KYp.configuration.title" = "das Quiz";
+"LOH-WO-KYp.configuration.title" = "Quiz";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LOH-WO-KYp"; */
-"LOH-WO-KYp.normalTitle" = "das Quiz";
+"LOH-WO-KYp.normalTitle" = "Quiz";
 
 /* Class = "UILabel"; text = "한글킹"; ObjectID = "PBI-2k-mQS"; */
 "PBI-2k-mQS.text" = "한글킹";
@@ -21,10 +21,10 @@
 "PPg-u7-SlT.text" = "Lernen";
 
 /* Class = "UIButton"; configuration.title = "Vowel"; ObjectID = "V3Y-WB-fQo"; */
-"V3Y-WB-fQo.configuration.title" = "das Vokal";
+"V3Y-WB-fQo.configuration.title" = "Vokal";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "V3Y-WB-fQo"; */
-"V3Y-WB-fQo.normalTitle" = "das Vokal";
+"V3Y-WB-fQo.normalTitle" = "Vokal";
 
 /* Class = "UIButton"; configuration.title = "Batchim"; ObjectID = "fHQ-dK-aUX"; */
 "fHQ-dK-aUX.configuration.title" = "Batchim";
@@ -33,10 +33,10 @@
 "fHQ-dK-aUX.normalTitle" = "Batchim";
 
 /* Class = "UIButton"; configuration.title = "Consonant"; ObjectID = "oUU-R5-0ue"; */
-"oUU-R5-0ue.configuration.title" = "der Konsonant";
+"oUU-R5-0ue.configuration.title" = "Konsonant";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oUU-R5-0ue"; */
-"oUU-R5-0ue.normalTitle" = "der Konsonant";
+"oUU-R5-0ue.normalTitle" = "Konsonant";
 
 /* Class = "UIBarButtonItem"; title = "Home"; ObjectID = "tIG-nm-Ebk"; */
 "tIG-nm-Ebk.title" = "Home";

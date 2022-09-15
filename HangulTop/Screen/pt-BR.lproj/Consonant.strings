@@ -1,9 +1,9 @@
 
 /* Class = "UIButton"; configuration.title = "Next"; ObjectID = "6t8-Ai-TNn"; */
-"6t8-Ai-TNn.configuration.title" = "Berikutnya";
+"6t8-Ai-TNn.configuration.title" = "Próximo";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6t8-Ai-TNn"; */
-"6t8-Ai-TNn.normalTitle" = "Berikutnya";
+"6t8-Ai-TNn.normalTitle" = "Próximo";
 
 /* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "7cz-qf-bsb"; */
 "7cz-qf-bsb.normalTitle" = "ㄱ";
@@ -15,10 +15,10 @@
 "DyM-6y-Sdz.text" = "자음은 총 19개로, 기본자음 14개와 \n복합자음(ㄲ,ㄸ,ㅃ,ㅆ,ㅉ) 5개로 구성되어 있다.";
 
 /* Class = "UIButton"; configuration.title = "Go to Consonant"; ObjectID = "EDV-e4-OmA"; */
-"EDV-e4-OmA.configuration.title" = "pergi ke Konsonan";
+"EDV-e4-OmA.configuration.title" = "Ir para a consoante";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "EDV-e4-OmA"; */
-"EDV-e4-OmA.normalTitle" = "pergi ke Konsonan";
+"EDV-e4-OmA.normalTitle" = "Ir para a consoante";
 
 /* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "GOZ-O0-pXg"; */
 "GOZ-O0-pXg.normalTitle" = "ㄱ";
@@ -39,16 +39,16 @@
 "OfJ-8R-Y9i.normalTitle" = "ㄱ";
 
 /* Class = "UIButton"; configuration.title = "  Start"; ObjectID = "Pae-bh-4q7"; */
-"Pae-bh-4q7.configuration.title" = "  Mulai";
+"Pae-bh-4q7.configuration.title" = "  Começar";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Pae-bh-4q7"; */
-"Pae-bh-4q7.normalTitle" = "  Mulai";
+"Pae-bh-4q7.normalTitle" = "Começar";
 
 /* Class = "UILabel"; text = "You have learned the vowels of Hangul!"; ObjectID = "VEV-vw-fiw"; */
 "VEV-vw-fiw.text" = "You have learned the vowels of Hangul!";
 
 /* Class = "UILabel"; text = "ㅡ always goes below the consonant, whereas ㅣ goes to the right."; ObjectID = "Yo3-nM-VrJ"; */
-"Yo3-nM-VrJ.text" = "ㅡ selalu berjalan di bawah konsonan, sedangkan ㅣ berjalan ke kanan.";
+"Yo3-nM-VrJ.text" = "‘ㅡ’ sempre vai abaixo da consoante,\n e ‘ㅣ’ vai para a direita.";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Yxa-bS-iaj"; */
 "Yxa-bS-iaj.normalTitle" = "Button";
@@ -57,10 +57,10 @@
 "caH-XU-l8j.normalTitle" = " ";
 
 /* Class = "UIButton"; configuration.title = "Prev"; ObjectID = "jvd-Sm-T7F"; */
-"jvd-Sm-T7F.configuration.title" = "Sebelumnya";
+"jvd-Sm-T7F.configuration.title" = "Prev";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jvd-Sm-T7F"; */
-"jvd-Sm-T7F.normalTitle" = "Sebelumnya";
+"jvd-Sm-T7F.normalTitle" = "Prev";
 
 /* Class = "UIButton"; configuration.title = "ㅡ"; ObjectID = "m65-9W-0AK"; */
 "m65-9W-0AK.configuration.title" = "ㅡ";
@@ -78,4 +78,4 @@
 "rDk-Rj-lDF.normalTitle" = "ㄱ";
 
 /* Class = "UIButton"; normalTitle = "Back to Main"; ObjectID = "rEx-eD-HBx"; */
-"rEx-eD-HBx.normalTitle" = "Kembali ke Utama";
+"rEx-eD-HBx.normalTitle" = "Voltar";

@@ -76,3 +76,6 @@
 
 /* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "rDk-Rj-lDF"; */
 "rDk-Rj-lDF.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "Back to Main"; ObjectID = "rEx-eD-HBx"; */
+"rEx-eD-HBx.normalTitle" = "Zurück zum Main";

@@ -42,13 +42,13 @@
 "Pae-bh-4q7.configuration.title" = "  Comienzo";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Pae-bh-4q7"; */
-"Pae-bh-4q7.normalTitle" = "  comienzo";
+"Pae-bh-4q7.normalTitle" = "  Comienzo";
 
 /* Class = "UILabel"; text = "You have learned the vowels of Hangul!"; ObjectID = "VEV-vw-fiw"; */
 "VEV-vw-fiw.text" = "¡Has aprendido\nlas vocales de Hangul!";
 
 /* Class = "UILabel"; text = "ㅡ always goes below the consonant, whereas ㅣ goes to the right."; ObjectID = "Yo3-nM-VrJ"; */
-"Yo3-nM-VrJ.text" = "ㅡ siempre va debajo de la consonante,\nmientras que ㅣ  va a la derecha.";
+"Yo3-nM-VrJ.text" = "'ㅡ' siempre va debajo de la consonante,\nmientras que 'ㅣ'  va a la derecha.";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Yxa-bS-iaj"; */
 "Yxa-bS-iaj.normalTitle" = "Button";
@@ -76,3 +76,6 @@
 
 /* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "rDk-Rj-lDF"; */
 "rDk-Rj-lDF.normalTitle" = "ㄱ";
+
+/* Class = "UIButton"; normalTitle = "Back to Main"; ObjectID = "rEx-eD-HBx"; */
+"rEx-eD-HBx.normalTitle" = "Regresar";

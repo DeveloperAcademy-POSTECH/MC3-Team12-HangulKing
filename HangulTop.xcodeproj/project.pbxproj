@@ -111,6 +111,11 @@
 		4D89B9CE28891CEA00BD37F7 /* ConsonantEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsonantEndViewController.swift; sourceTree = "<group>"; };
 		4D89B9D028891E9B00BD37F7 /* BatchimEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimEndViewController.swift; sourceTree = "<group>"; };
 		6761C8A9288550F4001A0D2C /* BatchimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimModel.swift; sourceTree = "<group>"; };
+		678F122D28D0E96A00B569D4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		678F122E28D0E96A00B569D4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Consonant.strings"; sourceTree = "<group>"; };
+		678F122F28D0E96A00B569D4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Quiz.strings"; sourceTree = "<group>"; };
+		678F123028D0E96A00B569D4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/HangulView.strings"; sourceTree = "<group>"; };
+		678F123128D0E96A00B569D4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		67E52E6C2882BA4300BC1205 /* BatchimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchimViewController.swift; sourceTree = "<group>"; };
 		A0177A4528C9FC2B00E5B78E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		A0177A4628C9FC2B00E5B78E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Consonant.strings; sourceTree = "<group>"; };
@@ -340,6 +345,7 @@
 				"zh-Hant",
 				ja,
 				"zh-Hans",
+				"pt-BR",
 			);
 			mainGroup = D5CC94FC287E9591005E8BF5;
 			packageReferences = (
@@ -436,6 +442,7 @@
 				D53F61A928CA41500017D756 /* zh-Hant */,
 				4D77D83E28CDF0780083F9A9 /* ja */,
 				4D77D84328CE27920083F9A9 /* zh-Hans */,
+				678F123128D0E96A00B569D4 /* pt-BR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -486,6 +493,7 @@
 				D53F61A628CA414F0017D756 /* zh-Hant */,
 				4D77D83B28CDF0780083F9A9 /* ja */,
 				4D77D84028CE27920083F9A9 /* zh-Hans */,
+				678F122E28D0E96A00B569D4 /* pt-BR */,
 			);
 			name = Consonant.storyboard;
 			sourceTree = "<group>";
@@ -520,6 +528,7 @@
 				D53F61A728CA41500017D756 /* zh-Hant */,
 				4D77D83C28CDF0780083F9A9 /* ja */,
 				4D77D84128CE27920083F9A9 /* zh-Hans */,
+				678F122F28D0E96A00B569D4 /* pt-BR */,
 			);
 			name = Quiz.storyboard;
 			sourceTree = "<group>";
@@ -538,6 +547,7 @@
 				D53F61A828CA41500017D756 /* zh-Hant */,
 				4D77D83D28CDF0780083F9A9 /* ja */,
 				4D77D84228CE27920083F9A9 /* zh-Hans */,
+				678F123028D0E96A00B569D4 /* pt-BR */,
 			);
 			name = HangulView.storyboard;
 			sourceTree = "<group>";
@@ -556,6 +566,7 @@
 				D53F61A528CA414F0017D756 /* zh-Hant */,
 				4D77D83A28CDF0780083F9A9 /* ja */,
 				4D77D83F28CE27920083F9A9 /* zh-Hans */,
+				678F122D28D0E96A00B569D4 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
