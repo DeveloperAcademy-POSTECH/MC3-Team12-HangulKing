@@ -3,7 +3,7 @@
 "6t8-Ai-TNn.configuration.title" = "Suivant";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6t8-Ai-TNn"; */
-"6t8-Ai-TNn.normalTitle" = "Bouton";
+"6t8-Ai-TNn.normalTitle" = "Suivant";
 
 /* Class = "UIButton"; normalTitle = "ㄱ"; ObjectID = "7cz-qf-bsb"; */
 "7cz-qf-bsb.normalTitle" = "ㄱ";
@@ -43,7 +43,7 @@
 "Pae-bh-4q7.configuration.title" = "  Début";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Pae-bh-4q7"; */
-"Pae-bh-4q7.normalTitle" = "Bouton";
+"Pae-bh-4q7.normalTitle" = "Début";
 
 /* Class = "UILabel"; text = "You have learned the vowels of Hangul!"; ObjectID = "VEV-vw-fiw"; */
 "VEV-vw-fiw.text" = "Vous avez appris les voyelles du Hangul !";
