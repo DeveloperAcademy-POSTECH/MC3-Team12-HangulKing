@@ -46,6 +46,7 @@
 		D57C31A22896F81900DCBC68 /* vowel.json in Resources */ = {isa = PBXBuildFile; fileRef = D57C319E2896F81800DCBC68 /* vowel.json */; };
 		D57C31A32896F81900DCBC68 /* finish.json in Resources */ = {isa = PBXBuildFile; fileRef = D57C319F2896F81900DCBC68 /* finish.json */; };
 		D58FDEC0288D43EA00DBBE01 /* Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D58FDEBF288D43EA00DBBE01 /* Sound.mp3 */; };
+		D593992C28EDDE570082A3F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D593992E28EDDE570082A3F9 /* InfoPlist.strings */; };
 		D5CC9509287E9591005E8BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC9508287E9591005E8BF5 /* AppDelegate.swift */; };
 		D5CC950B287E9591005E8BF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC950A287E9591005E8BF5 /* SceneDelegate.swift */; };
 		D5CC950D287E9591005E8BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC950C287E9591005E8BF5 /* ViewController.swift */; };
@@ -153,6 +154,17 @@
 		D57C319E2896F81800DCBC68 /* vowel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vowel.json; sourceTree = "<group>"; };
 		D57C319F2896F81900DCBC68 /* finish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = finish.json; sourceTree = "<group>"; };
 		D58FDEBF288D43EA00DBBE01 /* Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound.mp3; sourceTree = "<group>"; };
+		D593992D28EDDE570082A3F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D593992F28EDDE5A0082A3F9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D593993028EDDE5B0082A3F9 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D593993128EDDE5B0082A3F9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D593993228EDDE5C0082A3F9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D593993328EDDE5D0082A3F9 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D593993428EDDE5E0082A3F9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D593993528EDDE5E0082A3F9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D593993628EDDE5F0082A3F9 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = ms.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D593993728EDDE600082A3F9 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D593993828EDDE600082A3F9 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5CC9505287E9591005E8BF5 /* HangulTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangulTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CC9508287E9591005E8BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5CC950A287E9591005E8BF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +196,7 @@
 			children = (
 				11BA068C28C84BDD00E706AD /* Localizable.strings */,
 				11BA068F28C84D9400E706AD /* StringExtension.swift */,
+				D593992E28EDDE570082A3F9 /* InfoPlist.strings */,
 			);
 			path = Localization;
 			sourceTree = "<group>";
@@ -374,6 +387,7 @@
 				11BA06B228C880AE00E706AD /* LastVowel.storyboard in Resources */,
 				11BA06BB28C8820800E706AD /* Consonant.storyboard in Resources */,
 				D5CC9518287E9593005E8BF5 /* LaunchScreen.storyboard in Resources */,
+				D593992C28EDDE570082A3F9 /* InfoPlist.strings in Resources */,
 				4D4928022898262E00FD0175 /* Main.storyboard in Resources */,
 				A06C5ABD289301F2008CE8BF /* EBS훈민정음L.otf in Resources */,
 				D58FDEC0288D43EA00DBBE01 /* Sound.mp3 in Resources */,
@@ -571,6 +585,24 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		D593992E28EDDE570082A3F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D593992D28EDDE570082A3F9 /* en */,
+				D593992F28EDDE5A0082A3F9 /* zh-Hans */,
+				D593993028EDDE5B0082A3F9 /* zh-Hant */,
+				D593993128EDDE5B0082A3F9 /* fr */,
+				D593993228EDDE5C0082A3F9 /* de */,
+				D593993328EDDE5D0082A3F9 /* id */,
+				D593993428EDDE5E0082A3F9 /* it */,
+				D593993528EDDE5E0082A3F9 /* ja */,
+				D593993628EDDE5F0082A3F9 /* ms */,
+				D593993728EDDE600082A3F9 /* pt-BR */,
+				D593993828EDDE600082A3F9 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		D5CC9516287E9593005E8BF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -712,7 +744,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HangulTop/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HangulKing;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Record";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = NSMicrophoneUsageDescription;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -745,7 +777,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HangulTop/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HangulKing;
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Record";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = NSMicrophoneUsageDescription;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

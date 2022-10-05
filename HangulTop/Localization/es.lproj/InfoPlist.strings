@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  HangulTop
+
+  Created by 이주화 on 2022/10/06.
+  
+*/
+
+"NSMicrophoneUsageDescription" = "La voz grabada se utiliza para corregir la pronunciación del usuario.";
