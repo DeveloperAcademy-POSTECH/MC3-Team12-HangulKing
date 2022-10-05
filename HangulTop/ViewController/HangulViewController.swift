@@ -14,6 +14,7 @@ class HangulViewController: UIViewController{
     @IBOutlet var buttons: [UIButton]!
     @IBOutlet weak var mainLetter: UILabel!
     @IBOutlet weak var captionView: UIStackView!
+    let synthesizer = AVSpeechSynthesizer()
     var check: Int = 0
     var setLet = [[14, 20, 21, 22, 23, 24, 25, 26, 27],[14, 22, 23, 24, 25, 26, 27],[1]]
     var hangul: String = "앙"
@@ -98,7 +99,7 @@ class HangulViewController: UIViewController{
     }
     
     func pronounce(_ letter: String) {
-        let synthesizer = AVSpeechSynthesizer()
+        
         let utterance = AVSpeechUtterance(string: letter)
         utterance.voice = AVSpeechSynthesisVoice(language: "ko-KR")
         

@@ -15,7 +15,7 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
     var audioFile : URL!
     var audioRecorder : AVAudioRecorder!
     var isRecording = false
-    
+    let synthesizer = AVSpeechSynthesizer()
     //페이지 카운트 변수
     var pageNum = 0
     var indexCount: Int = 0
@@ -309,7 +309,7 @@ class ConsonantViewController: UIViewController, UICollectionViewDataSource,UICo
     
     // 발음 듣기
     func pronounce(_ letter: String) {
-        let synthesizer = AVSpeechSynthesizer()
+        
         let utterance = AVSpeechUtterance(string: letter)
         utterance.voice = AVSpeechSynthesisVoice(language: "ko-KR")
         
