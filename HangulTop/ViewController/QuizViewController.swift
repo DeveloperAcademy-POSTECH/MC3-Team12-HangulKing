@@ -25,6 +25,7 @@ class QuizViewController: UIViewController {
     @IBOutlet var buttons: [UIButton]!
     @IBOutlet weak var checkbutton: UIButton!
     @IBOutlet weak var quizCount: UILabel!
+    let synthesizer = AVSpeechSynthesizer()
     var count: Int = 0
     //MARK: - 버튼액션
     @IBAction func buttonAction(_ sender: UIButton) {
@@ -221,7 +222,7 @@ class QuizViewController: UIViewController {
         return resultStr
     }
     @IBAction func speakAnswer(_ sender: Any) {
-        let synthesizer = AVSpeechSynthesizer()
+        
         let utterance = AVSpeechUtterance(string: answers[pageNum])
         utterance.voice = AVSpeechSynthesisVoice(language: "ko-KR")
     
