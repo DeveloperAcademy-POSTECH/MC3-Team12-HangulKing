@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  HangulTop
+
+  Created by 이주화 on 2022/10/06.
+  
+*/
+
+"NSMicrophoneUsageDescription" = "録音された音声は、ユーザーの発音を修正するために使用されます。";
