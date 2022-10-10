@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -19,14 +19,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QCV-BQ-kcd">
-                                <rect key="frame" x="30" y="278" width="354" height="32"/>
+                                <rect key="frame" x="30" y="278" width="354" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="P0E-Z9-DKW"/>
+                                </constraints>
                                 <segments>
                                     <segment title="Consonant"/>
                                     <segment title="Vowel"/>
                                     <segment title="Batchim"/>
                                 </segments>
                                 <connections>
-                                    <action selector="viewSelect:" destination="Y6W-OH-hqX" eventType="valueChanged" id="AWq-v5-plr"/>
+                                    <action selector="selectView:" destination="Y6W-OH-hqX" eventType="valueChanged" id="yo2-gD-1oB"/>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pm-ag-fMg">
@@ -39,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="left" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oTz-TM-USB">
-                                <rect key="frame" x="40" y="319" width="334" height="50"/>
+                                <rect key="frame" x="40" y="323" width="334" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJ2-cE-soa">
                                         <rect key="frame" x="0.0" y="0.0" width="58.666666666666664" height="50"/>
@@ -102,7 +105,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3x6-f5-BVl">
-                                <rect key="frame" x="40" y="379" width="334" height="50"/>
+                                <rect key="frame" x="40" y="383" width="334" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONE-0b-Fcb">
                                         <rect key="frame" x="0.0" y="0.0" width="58.666666666666664" height="50"/>
@@ -165,7 +168,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="left" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="35F-vX-Tx4">
-                                <rect key="frame" x="40" y="439" width="334" height="50"/>
+                                <rect key="frame" x="40" y="443" width="334" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuC-tJ-wRg">
                                         <rect key="frame" x="0.0" y="0.0" width="58.666666666666664" height="50"/>
@@ -228,7 +231,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Tdi-jE-1NQ">
-                                <rect key="frame" x="40" y="499" width="334" height="50"/>
+                                <rect key="frame" x="40" y="503" width="334" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oC-uv-CM4">
                                         <rect key="frame" x="0.0" y="0.0" width="58.666666666666664" height="50"/>
@@ -291,7 +294,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MvY-YA-aFD">
-                                <rect key="frame" x="40" y="559" width="334" height="50"/>
+                                <rect key="frame" x="40" y="563" width="334" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtY-Vk-nJb">
                                         <rect key="frame" x="0.0" y="0.0" width="58.666666666666664" height="50"/>
@@ -354,7 +357,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qzB-64-J7f">
-                                <rect key="frame" x="40" y="619" width="334" height="50"/>
+                                <rect key="frame" x="40" y="623" width="334" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISi-VY-Fr1">
                                         <rect key="frame" x="0.0" y="0.0" width="104.66666666666667" height="50"/>
@@ -483,7 +486,9 @@
                     <connections>
                         <outlet property="captionView" destination="p57-m2-DvJ" id="WCB-2X-dV7"/>
                         <outlet property="mainLetter" destination="8Pm-ag-fMg" id="0Xw-11-Wsb"/>
+                        <outlet property="megaphone" destination="68f-SU-Ar2" id="Dgg-8N-hHH"/>
                         <outlet property="megaphoneLabel" destination="VuA-qL-e7k" id="B4B-F0-nik"/>
+                        <outlet property="viewSelect" destination="QCV-BQ-kcd" id="Gm0-vf-uxP"/>
                         <outletCollection property="buttons" destination="IJ2-cE-soa" collectionClass="NSMutableArray" id="y5d-M9-zpc"/>
                         <outletCollection property="buttons" destination="kE1-Hh-keL" collectionClass="NSMutableArray" id="4je-Is-rHW"/>
                         <outletCollection property="buttons" destination="Bge-nD-OPY" collectionClass="NSMutableArray" id="358-mf-IlN"/>
@@ -520,7 +525,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="speaker.wave.2.fill" catalog="system" width="128" height="90"/>
+        <image name="speaker.wave.2.fill" catalog="system" width="128" height="88"/>
         <systemColor name="quaternarySystemFillColor">
             <color red="0.45490196078431372" green="0.45490196078431372" blue="0.50196078431372548" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

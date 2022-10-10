@@ -10,6 +10,8 @@ import AVFoundation
 
 class HangulViewController: UIViewController{
     
+    @IBOutlet weak var megaphone: UIButton!
+    @IBOutlet weak var viewSelect: UISegmentedControl!
     @IBOutlet weak var megaphoneLabel: UILabel!
     @IBOutlet var buttons: [UIButton]!
     @IBOutlet weak var mainLetter: UILabel!
@@ -20,6 +22,7 @@ class HangulViewController: UIViewController{
     var hangul: String = "앙"
     let letters = ["\u{1100}","\u{110f}","\u{1101}"]
     let syllableArray = [["\u{1100}","\u{1102}","\u{1103}","\u{1105}","\u{1106}","\u{1107}", "\u{1109}","\u{110b}", "\u{110c}", "\u{110e}","\u{110f}","\u{1110}", "\u{1111}","\u{1112}","\u{1101}","\u{1104}","\u{1108}", "\u{110a}","\u{110d}"], ["ㅏ", "ㅑ", "ㅓ", "ㅕ", "ㅗ", "ㅛ", "ㅜ", "ㅠ", "ㅡ", "ㅣ", "ㅐ", "ㅒ", "ㅔ", "ㅖ", "ㅘ", "ㅙ", "ㅚ", "ㅝ", "ㅞ", "ㅟ", "ㅢ"], ["\u{11a7}", "\u{11a8}", "\u{11ab}", "\u{11ae}", "\u{11af}", "\u{11b7}", "\u{11b8}", "\u{11ba}", "\u{11bc}", "\u{11bd}", "\u{11be}", "\u{11bf}", "\u{11c0}", "\u{11c1}", "\u{11c2}", "\u{11a9}", "\u{11bb}", "\u{11aa}", "\u{11ac}", "\u{11ad}", "\u{11b0}", "\u{11b1}", "\u{11b2}", "\u{11b3}", "\u{11b4}", "\u{11b5}", "\u{11b6}",  "\u{11b9}"]]
+    let bounds = UIScreen.main.bounds
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +31,7 @@ class HangulViewController: UIViewController{
         importButton()
         setLabel()
         setCaption()
+        setAutoLayout()
 //        paintButton()
     }
     
@@ -46,7 +50,7 @@ class HangulViewController: UIViewController{
         captionView.layer.cornerRadius = 10
     }
     
-    @IBAction func viewSelect(_ sender: UISegmentedControl) {
+    @IBAction func selectView(_ sender: UISegmentedControl) {
         if(sender.selectedSegmentIndex == 0) {
             check = 0
             setButton()
@@ -113,6 +117,19 @@ class HangulViewController: UIViewController{
         synthesizer.speak(utterance)
     }
     
+    func setAutoLayout() {
+        if ((bounds.width / bounds.height) >= 9/19) {
+            mainLetter.translatesAutoresizingMaskIntoConstraints = false
+            mainLetter.heightAnchor.constraint(equalToConstant: 120).isActive = true
+            mainLetter.font = .systemFont(ofSize: 80, weight: .bold)
+            mainLetter.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 50).isActive = true
+            viewSelect.translatesAutoresizingMaskIntoConstraints = false
+            viewSelect.heightAnchor.constraint(equalToConstant: 30).isActive = true
+            megaphone.translatesAutoresizingMaskIntoConstraints = false
+            megaphone.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 120).isActive = true
+        }
+    }
+    
     func setButton() {
         for i in 0..<buttons.count {
             buttons[i].isHidden = false
@@ -123,11 +140,13 @@ class HangulViewController: UIViewController{
             }
         }
     }
+    
     func cleanButtonSet() {
         for button in buttons {
             button.backgroundColor = .white
         }
     }
+    
     func importButton(){
         var j = 0
         let mainUni = UnicodeScalar(hangul)?.value
